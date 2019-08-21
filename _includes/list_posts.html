@@ -1,0 +1,13 @@
+
+<ul id="list_posts">
+    <hr>
+    {% assign my_posts = site.posts | where:"category","field_museum_blog" %}
+    {% for post in site.posts %}
+        {% if post.categories contains 'field_museum_blog' %}
+            <li class="list_item">
+                <a href = "{{ post.url}}" id="post_link">{{post.title}}</a>
+            </li>
+            <hr>
+            {% endif %}
+    {% endfor %}
+</ul>

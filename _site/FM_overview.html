@@ -1,0 +1,150 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Allison Chen</title>
+    	<link rel="stylesheet" type="text/css" href="\css/main.css">
+    	<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+    	<script src="https://use.fontawesome.com/a8517c4d4c.js"></script>
+	</head>
+
+	<body>
+		<!--Navigation Bar-->
+<div id="Navigation">
+    <ul id="Navigation_UL">
+        <div id="links">
+            <li class="hover_parent"><a class="hover_child" href="../../index.html">Allison Chen</a></li>
+            <li class="hover_parent"><a class="hover_child" href="#education">Education</a></li>
+            <li class="hover_parent"><a class="hover_child" href="#experience">Experience</a></li>
+            <li class="hover_parent"><a class="hover_child" href="arts.html">Arts</a></li>
+            <li class="hover_parent active"><a class="hover_child active_child" href="\index.html">Blog</a></li>
+        </div>
+    </ul>
+    <a href="javascript:void(0)" class="icon" onclick="expandContract()">
+        <i class="fa fa-bars fa-3x"></i>
+    </a>
+</div>
+<script>
+    function expandContract()
+    {
+        var x=document.getElementById("links");
+        if (x.style.display=="block")
+        {
+            x.style.display="none";
+        }
+        else
+        {
+            x.style.display="block";
+            x.style.width="100%";
+            x.style.height="100%";
+        }
+    }
+</script>
+        <div id="notNavigation">
+            <div id="intro">
+				<h2 class="blogpost title standOut">Field Museum Internship Overview</h2>
+			</div>
+			<p>This past week I started my internship at the Field Museum in downtown Chicago. Two years ago, the summer after my junior year of high school, I did the Digital Learning Internship at the Field Museum where I collaborated with five other high school students to create a game, Seeds for Survival, in the museum’s Plant Hall. This summer, I’ll be working with Dr. Matt von Konrat and his team studying bryophytes in the Botany Department with some machine learning projects.</p>
+
+<p>In this first week, I mostly helped reorganize the specimen collection. I’ve never seen so many different types of plants in one place ever, and honestly it’s a bit overwhelming. Towards the end, I sat down with Matt and we talked about my project for the summer which is essentially broken down into three parts:</p>
+
+<p><strong>1. Data Analysis with Microplants</strong></p>
+
+<p>An ongoing project right now uses a Zooniverse project on microplants (really <i>really</i> small plants measured in microns (10e-6 meters)). The project can be done on a computer or a kiosk, and it gives the user a picture of part of a microplant under a microscope and the user uses their mouse or finger to measure out the length and width of the leaves. Although the task doesn’t seem mind blowing, the project’s advocacy of citizen science expedites the data collection process for scientists, and the data is then used to help determine speciation of various microplants. My role here will be to work with another undergraduate student to devise a way to convert the pixel measurements Zooniverse takes into microns and to create a Python script to clean the data to be usable.</p>
+
+<p><strong>2. Plant Measurements with Morphosnake</strong></p>
+
+<p>The second part of the project utilizes Morphosnake, a software for plant image analysis which takes in a skeletonized image of a plant then takes measurements of each branch, outputting the statistical summary. These measurements again will be used to distinguish various species that may be similar. The department has been struggling to get the software up and running, so that’s step 1. After that, we want to look into having a script to automate to process of skeletonizing the images.</p>
+
+<p><strong>3. Machine Learning to Automate the Species Determination</strong></p>
+
+<p>The last part of the project is what I’m most excited for! There was a paper published from the Smithsonian that used a convolutional neural network (CNN) to classify two families of of specimen that look very similar to each other. We want to be able to accomplish this with our specimen collection at the Field Musuem, so the first step is almost trying to replicate the steps they took and then being able to apply a similar model on different family/specimen/etc. This will be a really good way for me to get some experience in machine learning and hopefully understand what’s happening as well, not just mimicking the steps.</p>
+
+<p>I’m genuinely really excited for this summer! I love the idea of applying computer science into a field that hasn’t really been exposed to it yet and seeing how much of an impact technology will be able to make. In addition to working at the Field Museum, I’ll also be collaborating with CS professors and graduate students from North Eastern Illinois University (NEIU) for guidance! (which we all know I’ll need a lot of)</p>
+
+			
+<ul id="list_posts">
+    <hr>
+    
+        
+            <li class="list_item">
+                <a href = "/FM-week-8/" id="post_link">Week 8: Implementing Cross Validation</a>
+            </li>
+            <hr>
+            
+    
+        
+            <li class="list_item">
+                <a href = "/FM-week-7/" id="post_link">Week 7: Improving CNN Training</a>
+            </li>
+            <hr>
+            
+    
+        
+            <li class="list_item">
+                <a href = "/FM-week-6/" id="post_link">Week 6: Continuing Machine Learning Project</a>
+            </li>
+            <hr>
+            
+    
+        
+            <li class="list_item">
+                <a href = "/FM-week-5/" id="post_link">Week 5: Machine Learning Ramps Up</a>
+            </li>
+            <hr>
+            
+    
+        
+            <li class="list_item">
+                <a href = "/FM-week-4/" id="post_link">Week 4: Microplants Never Ends, Prep for ML Classification</a>
+            </li>
+            <hr>
+            
+    
+        
+            <li class="list_item">
+                <a href = "/FM-week-3/" id="post_link">Week 3: Statistical Analysis for Microplants, Image Editing, and Basic Machine Learning</a>
+            </li>
+            <hr>
+            
+    
+        
+            <li class="list_item">
+                <a href = "/FM-week-2/" id="post_link">Week 2: Microplants Data Cleansing & Starting MorphoSnake</a>
+            </li>
+            <hr>
+            
+    
+        
+            <li class="list_item">
+                <a href = "/FM-week-1/" id="post_link">Week 1: Microplants Data Cleansing</a>
+            </li>
+            <hr>
+            
+    
+</ul>
+		</div>
+		<section id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="icon_list_div">
+                <ul class="social">
+                    <li class="list-inline-item"><a href="https://www.linkedin.com/in/allison-chen-576136147"><i class="fa fa-linkedin-square"></i></a></li>
+                    <li class="list-inline-item"><a href="https://github.com/allisonchen23"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                    <li class="list-inline-item"><a href="mailto:allisonchen23@gmail.com" target="_self"><i class="fa fa-envelope"></i></a></li>
+                    <!--
+                    <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-facebook"></i></a></li>
+                    <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-instagram"></i></a></li>
+                -->
+                </ul>
+            </div>
+            </hr>
+        </div>	
+        <div class="row">
+            <p class="closing"> Thanks for checking out my website! Feel free to contact me or take a look at my work.</p>
+            </hr>
+        </div>	
+    </div> <!--container-->
+</section> <!--footer-->
+	</body>
+</html>

@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Allison Chen</title>
+    	<link rel="stylesheet" type="text/css" href="\css/main.css">
+    	<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+    	<script src="https://use.fontawesome.com/a8517c4d4c.js"></script>
+	</head>
+
+	<body>
+		<!--Navigation Bar-->
+<div id="Navigation">
+    <ul id="Navigation_UL">
+        <div id="links">
+            <li class="hover_parent"><a class="hover_child" href="../../index.html">Allison Chen</a></li>
+            <li class="hover_parent"><a class="hover_child" href="#education">Education</a></li>
+            <li class="hover_parent"><a class="hover_child" href="#experience">Experience</a></li>
+            <li class="hover_parent"><a class="hover_child" href="arts.html">Arts</a></li>
+            <li class="hover_parent active"><a class="hover_child active_child" href="\index.html">Blog</a></li>
+        </div>
+    </ul>
+    <a href="javascript:void(0)" class="icon" onclick="expandContract()">
+        <i class="fa fa-bars fa-3x"></i>
+    </a>
+</div>
+<script>
+    function expandContract()
+    {
+        var x=document.getElementById("links");
+        if (x.style.display=="block")
+        {
+            x.style.display="none";
+        }
+        else
+        {
+            x.style.display="block";
+            x.style.width="100%";
+            x.style.height="100%";
+        }
+    }
+</script>
+        <div id="notNavigation">
+            <div id="intro">
+				<h2 class="blogpost title standOut">Welcome to Thoughts for Food!</h2>
+			</div>
+			<p>Welcome to my blog! Currently, I’m just writing about the projects I’ve been working on for the summer of 2019 at the Field Museum in Chicago, IL. I hope it’s coherent enough for people to follow, but in the future, I’d like to blog more about other topics I enjoy such as art, exercise, and nutrition! Enjoy!</p>
+
+<h2 id="my-blogs">My Blogs</h2>
+
+<h3 id="the-food-in-food-for-thought"><a href="food_in_food_for_thought/index.html" class="standOut">The Food in Food for Thought</a></h3>
+
+<hr />
+
+<h3 id="field-museum-blog"><a href="field_museum_blog/index.html" class="standOut">Field Museum Blog</a></h3>
+
+		</div>
+		<section id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="icon_list_div">
+                <ul class="social">
+                    <li class="list-inline-item"><a href="https://www.linkedin.com/in/allison-chen-576136147"><i class="fa fa-linkedin-square"></i></a></li>
+                    <li class="list-inline-item"><a href="https://github.com/allisonchen23"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                    <li class="list-inline-item"><a href="mailto:allisonchen23@gmail.com" target="_self"><i class="fa fa-envelope"></i></a></li>
+                    <!--
+                    <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-facebook"></i></a></li>
+                    <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-instagram"></i></a></li>
+                -->
+                </ul>
+            </div>
+            </hr>
+        </div>	
+        <div class="row">
+            <p class="closing"> Thanks for checking out my website! Feel free to contact me or take a look at my work.</p>
+            </hr>
+        </div>	
+    </div> <!--container-->
+</section> <!--footer-->
+	</body>
+</html>
