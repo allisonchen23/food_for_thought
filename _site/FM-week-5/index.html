@@ -1,0 +1,174 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Week 5: Machine Learning Ramps Up</title>
+		<link rel="stylesheet" type="text/css" href="\css/main.css">
+		<link rel="stylesheet" type="text/css" href="\css/blog_posts.css">
+    	<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+    	<script src="https://use.fontawesome.com/a8517c4d4c.js"></script>
+	</head>
+
+	<body>
+		<!--Navigation Bar-->
+<div id="Navigation">
+    <ul id="Navigation_UL">
+        <div id="links">
+            <li class="hover_parent"><a class="hover_child" href="../../index.html">Allison Chen</a></li>
+            <li class="hover_parent"><a class="hover_child" href="#education">Education</a></li>
+            <li class="hover_parent"><a class="hover_child" href="#experience">Experience</a></li>
+            <li class="hover_parent"><a class="hover_child" href="arts.html">Arts</a></li>
+            <li class="hover_parent active"><a class="hover_child active_child" href="\index.html">Blog</a></li>
+        </div>
+    </ul>
+    <a href="javascript:void(0)" class="icon" onclick="expandContract()">
+        <i class="fa fa-bars fa-3x"></i>
+    </a>
+</div>
+<script>
+    function expandContract()
+    {
+        var x=document.getElementById("links");
+        if (x.style.display=="block")
+        {
+            x.style.display="none";
+        }
+        else
+        {
+            x.style.display="block";
+            x.style.width="100%";
+            x.style.height="100%";
+        }
+    }
+</script>
+        <div id="notNavigation">
+            <div id="intro">
+				<h2 class="blogpost title">Week 5: Machine Learning Ramps Up</h2>
+			</div>
+			<h3 id="monday-july-22-2019">Monday July 22, 2019</h3>
+
+<p>Hi everyone! I can’t believe we’re already nearing the end of July! Is it just me or is this summer seriously flying by?? Anyways, today was major progress on the third part of my project: classification using machine learning! So just a quick recap, there’s an article by the Smithsonian explaining how they were able to use a ML algorithm to sort two plant families that are morphologically similar <span class="standOut">(Lycopodiaceae and Selaginellaceae)</span>. Check it out <a href="https://bdj.pensoft.net/article/21139/element/5/3811021/" target="_blank" class="standOut">here</a>! They also used an algorithm to find stained specimen sheets, but for now, we’re only focused on the family part. My current goal is to understand machine learning enough to essentially replicate what they did in the article. Then after that, we would like to apply a similar concepts to other species or categories. For example, with the staining example done in the article, there’s a really practical purpose to conduct that. Essentially, in the past, specimen were treated with mercury to preserve them longer, but over time, we’ve learned that this is actually bad for the specimen and it causes staining on the specimen sheets. Eventually, we’d like to find the specimen that have been treated and are now stained so we can remount them, allowing them to last longer.</p>
+
+<p>Last week, I created scripts to do a lot of the initial image processing so all the pictures are the same size (256 pixels by 256 pixels) and have the same resolution (96 ppi). Today, I started creating my own ML model using tensorflow and keras to train a model, following the tutorial <a href="https://towardsdatascience.com/all-the-steps-to-build-your-first-image-classifier-with-code-cf244b015799" target="_blank" class="standOut">here</a> (bless the people who make easy to follow tutorials like this one!) Before I started attempting to recreate the model from the Smithsonian paper, I just wanted to get something working with the model in the tutorial and I did! I only used 100 images from each family and 10 epochs (epoch = essentially a cycle) and the accuracy is pretty trash, as you can see below.</p>
+
+<p><img src="/assets/images/blog/initial_model_accuracy.png" alt="Graph of accuracy of training model from tutorial. It's pretty trash" class="images half" /></p>
+
+<p>Now that I have that, I plan to follow these steps:</p>
+
+<ol>
+  <li>Change the layers to recreate the model from the Smithsonian Paper</li>
+  <li>Increase my training size</li>
+  <li>Test the model on a test batch!</li>
+</ol>
+
+<p>Starting on step 1, I was almost able to finish replicating the paper’s model in Python. Although the Smithsonian used Mathematica, with the help of Google (honestly, I don’t know what I’d do on this project without Google) I think I’m able to figure out what the paper’s layers are doing then finding the relative equivalent in Python. I’ve almost finished that and hope tomorrow I’ll be able to get a small batch tested with hopefully higher accuracy than the random one I used today. Something I would like to investigate further is how do we know how many layers or filters to use? What filter size should we use for the convolution layer? How did they figure out what combination of layers worked best? It seems that creating a model is not that difficult, it’s the <i>why</i> you choose certain characteristics of the model that I’d like to further explore.</p>
+
+<p>Well today was a very satisfying day and tomorrow we have our Python workshop! Can’t wait :D</p>
+
+<p>-Al</p>
+
+<hr />
+
+<h3 id="tuesday-july-23-2019">Tuesday July 23, 2019</h3>
+
+<p>Hello! First thing I would like to talk about today is that I co-hosted my first Python workshop! It was for the other interns in the botany department as well as paleobotany and some high school interns. I think as a self reflection, overall it went pretty well! I think there was just a lot of information at once, especially for people who never used Python before. So in the future, if I were to do it again, I would be more careful about tailoring the workshop to the audience because of course everyone is at a different stage of learning! I sent out a feedback form, so hopefully that will help me become a better teacher in the future!</p>
+
+<p>More related to my project, I think I got a model that’s pretty similar to the one described in the Smithsonian paper. At least by what the layers are called/what I think they do. The difficult part in this was because the paper was done in Mathematica while I’m using TensorFlow in Python, so the types of layers/how to use them don’t carry over exactly. I’ve been doing a lot of research into what certain layers are intended to do in Mathematica and trying to find the Keras/TensorFlow equivalent for Python.</p>
+
+<p>With my first test, I used 100 images from each family (Lycopodiaceae and Selaginellaceae) to train/validate the model (10% of this batch are used for validation). The results of the accuracy are below:</p>
+
+<p><img src="/assets/images/blog/training_100.png" alt="Graphs of accuracy over epochs for model with training sample of 200 total images" class="images half" /></p>
+
+<p>Although the training accuracy increased over time, we see that by the second epoch, the validation accuracy plateaued, which is not a good sign. Additionally, when tested on the same test data as above, all the images were labeled as Selaginellaceae, leading me to believe overfitting is happening, but I can look into this more tomorrow.</p>
+
+<p>Exciting things are happening and I’m definitely kept busy!</p>
+
+<p>-Al</p>
+
+<hr />
+
+<h3 id="wednesday-july-24-2019">Wednesday July 24, 2019</h3>
+
+<p>Today I took a bit of a break from the machine learning classification project. In the morning, a teacher from Northside College Prep came in and worked with us to create our own ozone detection strips! These strips can be used as indicators to see whether there are high levels of ozone in our area or not! They’re actually really easy to make; it was essentially mixing some cornstarch and water, add some sodium iodide, and painting them onto strips. Then we have to let them sit overnight.</p>
+
+<p>The majority of the afternoon was spent helping out some scientists and the high school Digital Learning Interns, but I did get to work on the CNN model a little bit. To combat the issues I faced yesterday, I decreased the learning rate of the model from the standard for Adam (0.001) to 0.0001 and that improved our accuracy for training and validation (see below).</p>
+
+<p><img src="/assets/images/blog/decreased_lr.png" alt="Graph of accuracy over epochs with learning rate at 0.0001" class="images half" /></p>
+
+<p>It looks nice, but I believe the model is still overfitting to the training data. This hypothesis was supported when I tested the model on some test data with 10 images from each family and all of them were labeled as Lycopodiaceae (the opposite from last time). Online says this may be due to imbalance of input data in training, but I don’t think that’s the case because we have 800 of each family. Maybe not enough data? I still believe overfitting is an issue here, so we need to see how we can reduce that. It may be time to consult some experts.</p>
+
+<p>Although they’re tough, roadblocks are good! This means we’re learning :)</p>
+
+<p>-Al</p>
+
+<hr />
+
+<h3 id="thursday-july-25-2019">Thursday July 25, 2019</h3>
+
+<p>Happy Thursday! In the morning, we did a bit work with the ozone strips we prepped yesterday. We took them outside for a bit and tomorrow morning we can scan them to see the ozone levels found. It was nice to just walk outside around the museum and appreciate the gardens and all, like this nice picture below!</p>
+
+<p><img src="/assets/images/blog/flower.jpg" alt="Nice flower by museum" class="images half" /></p>
+
+<p>With the machine learning project, I noticed that overfitting was still occurring with our training model. Looking online, I found that Regularization could help. I did see <span class="standOut">L2 Regularization</span> in the Smithsonian paper, but didn’t quite understand what was happening and didn’t implement it yet. The Smithsonian paper set the L2 Regularization to 5 which I found very odd because doing some research online, it seemed that regularization values were generally very small, less than 1. Additionally, in Mathematica, L2 Regularization is something set for the model as a whole, but in Keras, it’s done layer by layer. Keras also gives options for regularization in bias, activity, and kernel, so for now, I just created a new layer after the first Dense layer and set all the regularizers to 0.01.</p>
+
+<p>There is no better way to describe my experience right now than research, guess, and check.</p>
+
+<p>Additionally, I found you can add custom functions which would help match my dropout layer to the Smithsonian one. I found that the Mathematica dropout layer not only drops half the values, but also multiplies the remaining ones by 2, but dropout in Keras only drops a certain percent of the values. Creating a custom function, I used the basis of the relu activation function with two changes:</p>
+
+<ol>
+  <li>I made the slope for negative values still 1, essentially making it an identity function</li>
+  <li>I multiplied the function by 2</li>
+</ol>
+
+<p>The model is running and saves, but when we want to load the model to test it, it’s unable to recognize my custom function which is something I’m still trying to figure out. In the end, I eventually took out the custom part because at this point, I’m not even able to test the model. Also, at the end of the day, I was training the model, but unfortunately left in a rush to catch my train. I’m not sure if this is normal, but I noticed that training the model takes up a LARGE majority of the computer’s memory and CPU, so that’s something I plan to look into tomorrow. I think before I continue tweaking and testing, it will be a good idea to update everyone from NEIU with what I’ve done (which may end up being completely useless) and just trying to learn more instead of just trying random things I find because that method is proving to be expensive (in matters of time)</p>
+
+<p>Stay tuned!</p>
+
+<p>-Al</p>
+
+<hr />
+
+<h3 id="friday-july-26-2019">Friday July 26, 2019</h3>
+
+<p>First, I’d just like to say we need to make more of an effort as a community to create a better world. To use less resources, less energy, and think every day how wecan make a positive environmental impact on this world. It’s all about give and take, not just always taking. I for one am going to look into making even just small daily habit changes that can add up to make a much larger impact. Anyways, regarding my machine learning project, today I made a break through! I was struggling for the last few days because although the training and validation accuracies would be okay, when it came to the testing data, basically the model just associated one class with all the data, even when I shuffled the data before testing. Well, after spending hours and hours researching, today I finally realized why, and it’s actually quite a dumb reason, so drumroll please!</p>
+
+<p>…</p>
+
+<p>…</p>
+
+<p>…</p>
+
+<p>It’s because I didn’t scale the RGB values of the pixels in the testing data!!! Basically, for the training model, we scaled all the RGB values for each pixel (usually between 0 and 255) to be between 0 and 1, but I forgot to do the same for the training data! So <i>of course</i> we wouldn’t be getting correct predictions!</p>
+
+<p>After making that change, things began working again and I was actually able to make predictions! Initially, without making changes to the initial model, I was able to get about 93% accuracy with my test data, and now I’m working on changing my model to have it more closely match the Smithsonian paper and seeing the effects. I started to see a little overfitting, so I’ve been increasing drop out and decreasing learning rate, for example, to combat that. I’ve also been keeping a <a href="https://docs.google.com/spreadsheets/d/15972K_rdv3zpnvnV--wSaTpiK0jnVDkBzhUWjre5BLg/edit?usp=sharing&quot;" target="_blank" class="standOut">record of my changes and results</a>. Check it out for an always up to date record!</p>
+
+<p>I won’t be in at all next week because I’m going to Pittsburgh, but this has been a great place to stop for myself!</p>
+
+<p>-Al</p>
+
+			
+		</div>
+		<section id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="icon_list_div">
+                <ul class="social">
+                    <li class="list-inline-item"><a href="https://www.linkedin.com/in/allison-chen-576136147"><i class="fa fa-linkedin-square"></i></a></li>
+                    <li class="list-inline-item"><a href="https://github.com/allisonchen23"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                    <li class="list-inline-item"><a href="mailto:allisonchen23@gmail.com" target="_self"><i class="fa fa-envelope"></i></a></li>
+                    <!--
+                    <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-facebook"></i></a></li>
+                    <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-instagram"></i></a></li>
+                -->
+                </ul>
+            </div>
+            </hr>
+        </div>	
+        <div class="row">
+            <p class="closing"> Thanks for checking out my website! Feel free to contact me or take a look at my work.</p>
+            </hr>
+        </div>	
+    </div> <!--container-->
+</section> <!--footer-->
+	</body>
+</html>

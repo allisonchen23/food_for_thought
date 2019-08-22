@@ -1,0 +1,146 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Week 1: Microplants Data Cleansing</title>
+		<link rel="stylesheet" type="text/css" href="\css/main.css">
+		<link rel="stylesheet" type="text/css" href="\css/blog_posts.css">
+    	<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+    	<script src="https://use.fontawesome.com/a8517c4d4c.js"></script>
+	</head>
+
+	<body>
+		<!--Navigation Bar-->
+<div id="Navigation">
+    <ul id="Navigation_UL">
+        <div id="links">
+            <li class="hover_parent"><a class="hover_child" href="../../index.html">Allison Chen</a></li>
+            <li class="hover_parent"><a class="hover_child" href="#education">Education</a></li>
+            <li class="hover_parent"><a class="hover_child" href="#experience">Experience</a></li>
+            <li class="hover_parent"><a class="hover_child" href="arts.html">Arts</a></li>
+            <li class="hover_parent active"><a class="hover_child active_child" href="\index.html">Blog</a></li>
+        </div>
+    </ul>
+    <a href="javascript:void(0)" class="icon" onclick="expandContract()">
+        <i class="fa fa-bars fa-3x"></i>
+    </a>
+</div>
+<script>
+    function expandContract()
+    {
+        var x=document.getElementById("links");
+        if (x.style.display=="block")
+        {
+            x.style.display="none";
+        }
+        else
+        {
+            x.style.display="block";
+            x.style.width="100%";
+            x.style.height="100%";
+        }
+    }
+</script>
+        <div id="notNavigation">
+            <div id="intro">
+				<h2 class="blogpost title">Week 1: Microplants Data Cleansing</h2>
+			</div>
+			<h3 id="monday-june-24-2019">Monday June 24, 2019</h3>
+<p>Today was the start of working on my project! Using the code from a fellow Field Museum employee, Victoria, that cleans some data to be usable, we will create a more thorough script that cleans data, converts measurements of pixels into microns, and pairs the raw data from kiosks with results of the age groups of the responders to make a connection between age and validity of data. (For example, if the measurements of the major and minor axes don’t cross, go off screen, or intersect too far from perpendicular, the data is unusable.)</p>
+
+<p>The issue that we have to firstly solve is that the measurements from the Microplants kiosk is just that: measurements with a time stamp in UTC along with serial IDs. The surveys of what age group made the measurements is on a different CSV and it’s our task to match up the entries from the two sheets together. For clarity, I’ll call the former <span class="standOut">measurement data</span> and the latter <strong>age data</strong>. This doesn’t sound too bad, but we found that the measurement data contains more entries than the age data; after looking at the first few entries in age data, we found corresponding entries in measurement data (by matching up the timestamps manually which was a whole other process) and our next step is to write a python script that will match up the rest of entries (about a thousand).</p>
+
+<p>Briefly going back to the timestamp matching, the timestamp in the two sheets are presented in a format different from each other. For the current purposes, we manually edited them (using Excel’s beautiful functions) so our script will be able to easily compare them and see if there are matches. In the future, we would like to have the script do this for us so a user would only need to press one button and <em>everything</em> would be done for them.</p>
+
+<p>Stay tuned for more updates!</p>
+
+<p>-Al</p>
+
+<hr />
+
+<h3 id="tuesday-june-25-2019">Tuesday June 25, 2019</h3>
+<p>Today was spent adjusting the script from Victoria so that it would export a new sheet with the matches and with new columns that quantifies the data as useable or not and that specify the age demographic of that data reporter. This will allow us to see if there are any trends between certain age groups and the validity of the data they record.</p>
+
+<p>A lot of the nitty gritty work was already implemented (such as syntax to create data frames using panda and reading CSV files), but we still ran into a few issues that may or may not be common; below I’ll go through them.</p>
+
+<p>First, our script wasn’t recognizing the name of our first column when we imported the data frame as a CSV. When we printed out, the first row of the CSV, we would get some garbage characters in front of the first column (shown below)</p>
+
+<p><img src="/assets/images/blog/EncodingError.png" alt="Encoding Error" class="images half" /></p>
+
+<p>We tried renaming the first column using various functions from the pandas package, but nothing work. After some research, we found the error was most likely caused by an encoding issue. The CSV we were reading in was encoded as UTF-8, but we had to make that clear to the compiler (because as we all learned in any intro CS class, computers are stupid and will only do exactly what you tell it to :D ). In order to clarify to the compiler that the CSV’s are UTF-8, we added a little segment to the line that opens the file.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="n">measurements_data</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s">r'[path].csv'</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s">'utf-8'</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Our second main error dealt with the formatting of our age data in Excel. CSV’s can be conveniently opened in Excel and edited, but in order to match our age data to entries of the measurement data, we wanted to timestamp to be of a certain format. However, Excel has a mind of its own and would rearrange our timestamps to the default when we would open the age data in Notepad then again in Excel. Lesson? Don’t open in Excel! Or figure out a way to avoid the default date format first because this caused some issues that we didn’t realize.</p>
+
+<p>Additionally, from Victoria’s code, we still had problems importing the python file that does the calculations, so for now, we copy pasted that code at the top of our current file and hardcoded the import of the age data. Once this is working, we want to make ALL of these variables so the user can simply upload the raw data for both the ages and measurements and the script will do the rest. Our current next steps will be exporting the data into a CSV and seeing how good (or unsuccessful) our script is!</p>
+
+<p>Thanks for reading, see you next time!</p>
+
+<p>-Al</p>
+
+<hr />
+
+<h3 id="wednesday-june-26-2019">Wednesday June 26, 2019</h3>
+
+<p>After I left yesterday, Jose continued working on our script and added a feature that exports our resultant data frame as a CSV file. From our first attempt, our output data can be found <a href="https://drive.google.com/file/d/16teWUY5v29x06UAZQ8bME6A7WJJQIhiD/view?usp=sharing" target="blank" class="standOut">here</a>. After a quick glance, we can see this output has over 200 lines of data and most of the entries are labeled as bad, which reasonably doesn’t sounds right. After looking into it more, I realized the root of this issue was due to Jose and I not understanding how the function cleaned the data, specifically this line down here:</p>
+
+<p><img src="/assets/images/blog/comboLine.png" alt="Combo Line" class="images full" /></p>
+
+<p>In short, <span class="standOut">listed_vals</span> contains lists of the segments drawn. Then the code above creates any and all combinations of two segments from each data entry in the measurement data (which very well could contain more than 2 segments since there could be multiple lobes in one picture for the user to measure) to then perform the calculations on. Thus, our current code appends every combination of 2 segments from each picture onto our exported CSV, causing the CSV to be hundreds of lines long. To fix it, we moved the if statements around to only append data if the combination of 2 segments intersected.</p>
+
+<p>Additionally, we found that while the age data had completely unique timestamps, the measurement data sometimes had two entries with the same timestamp (down to the minute). Although they varied by the second, since the age data’s timestamps only included up to the nearest minute, we had to truncate the timestamps in measurement data. Thus sometimes we had one entry in age data potentially correspond with multiple entries in measurement data (based on the time stamps) as seen below:</p>
+
+<p><img src="/assets/images/blog/twoForOne.PNG" alt="Image showing two entries in measurement data corresponding with one enry in age data" class="images three_fourths" /></p>
+
+<p>We can assume that since the timestamps are very close together, that this data is probably from the same user and thus can use the age demographic entry for both the highlighted measurement entries. To reflect this in our code, we simply did not increment the row counter for the age data whenever we ran into two rows in measurement data that corresponded with the current row in age data.</p>
+
+<p>We ended the day with a meeting at Northeastern Illinois University where I talked with Francisco, a professor in computer science, as well as Beth, a graduate student. Beth will be working with using machine learning to classify ferns (which is part of my third project of the summer) and I’ll be shadowing her project to learn about machine learning, both theoretically and practically, as well as learn how to apply it for my own uses.</p>
+
+<p>Happy hump day! We’re over halfway through!</p>
+
+<p>-Al</p>
+
+<hr />
+
+<h3 id="thursday-june-27-2019">Thursday June 27, 2019</h3>
+
+<p>Today started off with debugging! (Yay… my favorite) When we last left off, the cleaning script worked with a snippet of data from the kiosk measurements, but when we used the CSV with measurement data that corresponded with the date range from the age data sheet, we kept getting a JSON error. I personally had no idea what a JSON error, but after reading through a few Github threads and analyzing the problem, everything pointed to it being an issue with our data file. But this file was over 1000 lines long…luckily, using Excel’s CTRL + ‘down key’ we found a few blank rows. After removing them, the first issue of the day was solved and we were able to export the data for all of the measurements that matched with a timestamp on age data! Success!</p>
+
+<p>But of course, we can’t ride on our successes for long. Currently, if there is an entry in measurement data whose timestamp does <em>not</em> correspond with an entry from age data, it’s ignored. But after talking with Matt we realized this was wrong. Here’s why:</p>
+
+<p>When people come up to use the kiosk, they’re first asked what age group they are. That’s where the time stamp for age data comes from. Then they’re shown pictures of the microplants where they make the measurements. Maybe they just do measurements on one image, maybe they do it on ten. Recall that each time they change images, an entry in measurement data is made. Thus all these measurements are associated with that one age data time stamp. Then when the user is done, they hit ‘Quit’ which resets the kiosk, allowing the next person to repeat the entire process.</p>
+
+<p>For now, we need to treat all the entries in measurement data that do <i>not</i> directly correspond to a timestamp in age data to correspond with the last occurring timestamp in age data. Although there will be cases where no one hit exit and an entry in measurement data will correspond with a timestamp that was perhaps a few hours ago, we need not worry about that yet. In the future, we will get to putting less weights on these entries, since they are less likely to actually be associated with the entry in age data. This change in the code is not difficult, but to do it most efficiently we decided not to change anything regarding the appending of the data frame, but changing how the algorithm loops through the data.</p>
+
+<p>Thanks for reading!</p>
+
+<p>-Al</p>
+
+			
+		</div>
+		<section id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="icon_list_div">
+                <ul class="social">
+                    <li class="list-inline-item"><a href="https://www.linkedin.com/in/allison-chen-576136147"><i class="fa fa-linkedin-square"></i></a></li>
+                    <li class="list-inline-item"><a href="https://github.com/allisonchen23"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                    <li class="list-inline-item"><a href="mailto:allisonchen23@gmail.com" target="_self"><i class="fa fa-envelope"></i></a></li>
+                    <!--
+                    <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-facebook"></i></a></li>
+                    <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-instagram"></i></a></li>
+                -->
+                </ul>
+            </div>
+            </hr>
+        </div>	
+        <div class="row">
+            <p class="closing"> Thanks for checking out my website! Feel free to contact me or take a look at my work.</p>
+            </hr>
+        </div>	
+    </div> <!--container-->
+</section> <!--footer-->
+	</body>
+</html>
