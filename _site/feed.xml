@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-08-20T16:26:30-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Thoughts for Food</title><subtitle>Welcome to my blog! I'll be posting basically random thoughts and updates on any current projects/work I'll be doing.</subtitle><entry><title type="html">Week 8: Implementing Cross Validation</title><link href="http://localhost:4000/FM-week-8/" rel="alternate" type="text/html" title="Week 8: Implementing Cross Validation" /><published>2019-08-19T08:25:40-05:00</published><updated>2019-08-19T08:25:40-05:00</updated><id>http://localhost:4000/week-8</id><content type="html" xml:base="http://localhost:4000/FM-week-8/">&lt;h3 id=&quot;monday-august-19-2019&quot;&gt;Monday August 19, 2019&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-08-25T15:02:38-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Thoughts for Food</title><subtitle>Welcome to my blog! I'll be posting basically random thoughts and updates on any current projects/work I'll be doing.</subtitle><entry><title type="html">All About Quinoa</title><link href="http://localhost:4000/food_in_food_for_thought/nutrition/2019/08/20/quinoa.html" rel="alternate" type="text/html" title="All About Quinoa" /><published>2019-08-20T00:00:00-05:00</published><updated>2019-08-20T00:00:00-05:00</updated><id>http://localhost:4000/food_in_food_for_thought/nutrition/2019/08/20/quinoa</id><content type="html" xml:base="http://localhost:4000/food_in_food_for_thought/nutrition/2019/08/20/quinoa.html">&lt;p&gt;Hi!&lt;/p&gt;</content><author><name></name></author><category term="nutrition" /><summary type="html">Hi!</summary></entry><entry><title type="html">Week 8: Implementing Cross Validation</title><link href="http://localhost:4000/FM-week-8/" rel="alternate" type="text/html" title="Week 8: Implementing Cross Validation" /><published>2019-08-19T08:25:40-05:00</published><updated>2019-08-19T08:25:40-05:00</updated><id>http://localhost:4000/week-8</id><content type="html" xml:base="http://localhost:4000/FM-week-8/">&lt;h3 id=&quot;monday-august-19-2019&quot;&gt;Monday August 19, 2019&lt;/h3&gt;
 
 &lt;p&gt;This morning, Beth came to the Field Museum to work with me on implementing stratified cross validation and ROC testing. Stratified cross validation essentially partitions the data into groups of approximately equal distributions of each class. ROC (stand for Receiving Operator Curve) is a type of graph that can help us quantify how “good” our model is. It uses the percentage of true positives and false positives and the closer the curve hugs the y-axis, the more confident it is. Take a look at the image below:&lt;/p&gt;
 
@@ -26,7 +26,53 @@
 
 &lt;p&gt;-Al&lt;/p&gt;
 
-&lt;hr /&gt;</content><author><name></name></author><summary type="html">Monday August 19, 2019</summary></entry><entry><title type="html">Week 7: Improving CNN Training</title><link href="http://localhost:4000/FM-week-7/" rel="alternate" type="text/html" title="Week 7: Improving CNN Training" /><published>2019-08-12T08:25:40-05:00</published><updated>2019-08-12T08:25:40-05:00</updated><id>http://localhost:4000/week-7</id><content type="html" xml:base="http://localhost:4000/FM-week-7/">&lt;h3 id=&quot;monday-august-12-2019&quot;&gt;Monday August 12, 2019&lt;/h3&gt;
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;wednesday-august-21-2019&quot;&gt;Wednesday August 21, 2019&lt;/h3&gt;
+
+&lt;p&gt;Today was a &lt;strong&gt;long&lt;/strong&gt; day, oof. To start out, Matt and I talked about the project and thought about why our results weren’t exactly matching that of the Smithsonian. First, and foremost, it’s most likely because of our data that we’re using. The Smithsonian is using images from their own herbarium while we’re using images from the Field Museum herbarium and obviously those will produce different results. Within the family of Lycopodiaceae, the distribution of images across genera are different between their herbarium and ours. Additionally, they were able to use a lot more images due to processing power. I found out today, that using around 4000 images is a lot for the computers we have (i5 Intel Cores with 8 GB RAM). Sometimes the computer just freezes entirely and you have to hard restart it. Thus, I decreased my number of images to around 3300 and it seems to be running okay!&lt;/p&gt;
+
+&lt;p&gt;Additionally, instead of comparing families of plants (Lycopodiaceae and Selaginellaceae), we decided to simplify the inputs to two genera of plants (Lycopodium and Selaginella). Selaginella is the only genus in the family Selaginellaceae (as a reminder the hierarchy goes family &amp;gt; genus &amp;gt; species) and Lycopodium is one of around 8 or so genera in the family Lycopodiaceae. Hopefully this will provide less noise in the first class and make it easier for the machine to detect prominent differences.&lt;/p&gt;
+
+&lt;p&gt;Additionally, just for kicks, Matt wanted me to run the model to compare two new and different genera: adiantum and blechnum. This is because these two families look VERY different to the eye, so the model should do a relatively good job with this. I spent most of today preparing the images to be run on a different computer and started running the model before I left.&lt;/p&gt;
+
+&lt;p&gt;I got in around 8:15 this morning and didn’t leave till around 5:30, I’m going to go sleep a lot now!&lt;/p&gt;
+
+&lt;p&gt;-Al&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;thursday-august-22-2019&quot;&gt;Thursday August 22, 2019&lt;/h3&gt;
+
+&lt;p&gt;I came in this morning and good news, nothing crashed! The models are still chugging along doing their own thing. Something I noticed and continue to notice is that while training accuracy will rise somewhat consistently with each epoch, validation accuracy fluctuates a LOT more, like in the graph below:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/blog/8.14.19_12.30.png&quot; alt=&quot;Fluctuating Validation Accuracy&quot; class=&quot;images half&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I’m going to look into this more, but after a quick Google search, it seems one issue may be too much dropout. So after this model is finished training, I’m going to look into making that change (which might end up having to be done tomorrow)!&lt;/p&gt;
+
+&lt;p&gt;The program I started running yesterday with Lycopodium and Selaginella was taking forever… after 18 hours, it only completed 5 folds of the 10 fold cross validation and Beth and I decided that it was too long to realistically experiment. Thus, we decreased the images from 256 x 256 pixels down to 128 x 128 and it seems to be going much faster! Each epoch now takes a little over a minute instead of around 10 minutes.&lt;/p&gt;
+
+&lt;p&gt;Additionally, I’m running a baseline test with the model and images of Frullania rostrata and Frullania coastal. As a reminder, these are two possibly distinct species that we want to gather further evidence that they are different. Although the model isn’t “tuned” to picking up the differences in the Frullania, it’ll be nice to have a baseline essentially and see how to go from there. Beth had also mentioned that there’s a way to see what features each layer of the model is picking up, which would be helpful in our case to see what layers are working for our purpose and what should be changed.&lt;/p&gt;
+
+&lt;p&gt;Take it easy!&lt;/p&gt;
+
+&lt;p&gt;-Al&lt;/p&gt;
+
+&lt;h3 id=&quot;friday-august-23-2019&quot;&gt;Friday August 23, 2019&lt;/h3&gt;
+
+&lt;p&gt;Happy Friday! When I came in this morning, all three of my models finished running and here’s a brief summary of the results:&lt;/p&gt;
+
+&lt;p&gt;The Lycopodium/Selaginella results: The validation accuracy followed the training accuracy, but there was still a lot of fluctuation. In my next training, I increased batch size from 32 to 64 and increased epochs to 100. May as well since we have the weekend to run it. Before I left for the day, it finished training 2/10 folds and I noticed in the second fold, by the end neither training nor validation accuracy increased from 50%. This leads me to believe we shouldn’t increase batch size much above 32.&lt;/p&gt;
+
+&lt;p&gt;The Adiantum/Blechnum results: This run was mostly as a baseline to see whichout changing the model, what results did we get. Again, they were pretty similar to before: validation accuracy seemed to follow training accuracy but with a LOT more and larger fluctuations. In this next training session, I decreased the initial dropout layer from 50% to 40% to see if perhaps less measures against overfitting would help.&lt;/p&gt;
+
+&lt;p&gt;The Frullania (coastal/rostrata) results: awful. I really didn’t expect much but what we saw here in all the folds was a classic case of overfitting. The training accuracy kept increasing while validation accuracy remained fluctuating around 50%. To make this work, we would need to reconfigure the layers of the model to “detect” these certain features.&lt;/p&gt;
+
+&lt;p&gt;On a more fun note, today our department had a large rpotluck! There were all sorts of food from Malaysian, Latin American, to Chinese! I brought carrots and hummus and a Chinese Eight Treasures Cake which got really good feedback! I ate literally so much food but it was absolutely amazing :)&lt;/p&gt;
+
+&lt;p&gt;Have a great weekend in this beautiful weather!&lt;/p&gt;
+
+&lt;p&gt;-Al&lt;/p&gt;</content><author><name></name></author><summary type="html">Monday August 19, 2019</summary></entry><entry><title type="html">Week 7: Improving CNN Training</title><link href="http://localhost:4000/FM-week-7/" rel="alternate" type="text/html" title="Week 7: Improving CNN Training" /><published>2019-08-12T08:25:40-05:00</published><updated>2019-08-12T08:25:40-05:00</updated><id>http://localhost:4000/week-7</id><content type="html" xml:base="http://localhost:4000/FM-week-7/">&lt;h3 id=&quot;monday-august-12-2019&quot;&gt;Monday August 12, 2019&lt;/h3&gt;
 &lt;p&gt;Today was essentially spent just making changes to the architecture/regularizers of my model and training it to hopefully get better results. The main issues I’m facing now is that validation accuracy fluctuates a lot. It’ll grow steadily for a little then drop down to almost 50% and grow a little more (such as in the image below).
 &lt;img src=&quot;/assets/images/blog/8.13.19_13.47.png&quot; alt=&quot;Accuracy Graph&quot; class=&quot;images half&quot; /&gt;&lt;/p&gt;
 
@@ -556,4 +602,93 @@
 
 &lt;p&gt;Thanks for reading!&lt;/p&gt;
 
-&lt;p&gt;-Al&lt;/p&gt;</content><author><name></name></author><summary type="html">Monday June 24, 2019 Today was the start of working on my project! Using the code from a fellow Field Museum employee, Victoria, that cleans some data to be usable, we will create a more thorough script that cleans data, converts measurements of pixels into microns, and pairs the raw data from kiosks with results of the age groups of the responders to make a connection between age and validity of data. (For example, if the measurements of the major and minor axes don’t cross, go off screen, or intersect too far from perpendicular, the data is unusable.)</summary></entry></feed>
+&lt;p&gt;-Al&lt;/p&gt;</content><author><name></name></author><summary type="html">Monday June 24, 2019 Today was the start of working on my project! Using the code from a fellow Field Museum employee, Victoria, that cleans some data to be usable, we will create a more thorough script that cleans data, converts measurements of pixels into microns, and pairs the raw data from kiosks with results of the age groups of the responders to make a connection between age and validity of data. (For example, if the measurements of the major and minor axes don’t cross, go off screen, or intersect too far from perpendicular, the data is unusable.)</summary></entry><entry><title type="html">Chia Seed Pudding</title><link href="http://localhost:4000/chia_seed_pudding/" rel="alternate" type="text/html" title="Chia Seed Pudding" /><published>2019-06-24T08:25:40-05:00</published><updated>2019-06-24T08:25:40-05:00</updated><id>http://localhost:4000/chia_seed_pudding</id><content type="html" xml:base="http://localhost:4000/chia_seed_pudding/">&lt;p&gt;Time: &amp;lt;5 minutes&lt;/p&gt;
+
+&lt;p&gt;Serves: 2-4&lt;/p&gt;
+
+&lt;p&gt;Difficulty: Mario Circuit from Mario Kart&lt;/p&gt;
+
+&lt;h3 id=&quot;ingredients&quot;&gt;Ingredients&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Remember, these are all relative ish! Adapt as you wish!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;3 TBSP chia seeds&lt;/li&gt;
+  &lt;li&gt;3/4-1 cup almond milk (you can also use regular milk, soy milk, coconut milk, etc. and even water if you want!)&lt;/li&gt;
+  &lt;li&gt;1 tsp honey (opt)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;instructions&quot;&gt;Instructions&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Scoop chia seeds into a cup and pour almond milk&lt;/li&gt;
+  &lt;li&gt;Stir well for about 1-2 minutes or until all chia seeds are coated and dispersed in milk&lt;/li&gt;
+  &lt;li&gt;Cover and refrigerate overnight (at least a few hours)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Okay but that’s kinda boring, here are some &lt;span class=&quot;standOut&quot;&gt;variations&lt;/span&gt; to add some flavor! Add these before refrigerating&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;coconut-spice&quot;&gt;Coconut Spice&lt;/h4&gt;
+
+&lt;p&gt;Maybe an unconventional combination, but it’s really good!&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Mix in &lt;strong&gt;1 TBSP cinnamon, 1/2 TBSP nutmeg, and as much shredded coconut as you want&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;Stir again, ensuring everything is mixed well&lt;/li&gt;
+  &lt;li&gt;Before eating, top with raspberries and almond butter&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;chocolate-strawberry&quot;&gt;Chocolate Strawberry&lt;/h4&gt;
+
+&lt;p&gt;Who &lt;em&gt;doesn’t&lt;/em&gt; love chocolate?!&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Mix in &lt;strong&gt;1/2 to 1 TBSP of cocoa powder&lt;/strong&gt; and &lt;strong&gt;sliced strawberries&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Stir well!&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;make-your-own-combination&quot;&gt;Make your own combination!&lt;/h4&gt;
+
+&lt;p&gt;Experiment with the following “formulas”:&lt;/p&gt;
+
+&lt;p&gt;Before refrigerating, stir in some of the following:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;cocoa powder&lt;/li&gt;
+  &lt;li&gt;cinnamon &amp;amp; nutmeg&lt;/li&gt;
+  &lt;li&gt;vanilla exract&lt;/li&gt;
+  &lt;li&gt;shredded coconut&lt;/li&gt;
+  &lt;li&gt;nuts (almonds/pecans,etc)&lt;/li&gt;
+  &lt;li&gt;berries&lt;/li&gt;
+  &lt;li&gt;sliced bananas (if you put bananas, eat within 1-2 days of making it)&lt;/li&gt;
+  &lt;li&gt;flax seeds&lt;/li&gt;
+  &lt;li&gt;dark chocolate chips&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Right before eating, try topping it off with some of the following:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;nut butter&lt;/li&gt;
+  &lt;li&gt;more berries&lt;/li&gt;
+  &lt;li&gt;bananas&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;health-benefits&quot;&gt;Health benefits:&lt;/h4&gt;
+
+&lt;p&gt;Chia seeds are an &lt;em&gt;excellent&lt;/em&gt; source of fiber! They’re pretty low in calories, but adding a little bit to your breakfast can help keep you full for longer, especially useful if you’re working towards being in a calorie deficit without always feeling so hungry!&lt;/p&gt;
+
+&lt;p&gt;But sometimes the texture is unappealing; to be honest, the first time I had chia seed pudding, I did not like it at all but it’s grown on me, especially when you add in other ingredients. By itself, chia seed pudding tastes like almost nothing, but in a way that’s good becuase you get to start with a blank slate and flavor it any way you want!&lt;/p&gt;
+
+&lt;p&gt;Thanks for reading, and I’ll &lt;em&gt;chia&lt;/em&gt; later!&lt;/p&gt;
+
+&lt;p&gt;(Get it? Like &lt;em&gt;see ya&lt;/em&gt; later?)&lt;/p&gt;
+
+&lt;p&gt;Okay, I get it, I get it, I’m leaving now.&lt;/p&gt;
+
+&lt;p&gt;-Al&lt;/p&gt;</content><author><name></name></author><summary type="html">Time: &amp;lt;5 minutes</summary></entry></feed>

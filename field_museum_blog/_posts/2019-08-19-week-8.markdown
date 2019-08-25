@@ -38,7 +38,7 @@ Have a great day!
 
 ### Wednesday August 21, 2019
 
-Today was a **long** day, oof. To start out, Matt and I talked about the project and thought about why our results weren't exactly matching that of the Smithsonian. First, and foremost, it's most likely because of our data that we're using. The Smithsonian is using images from their own herbarium while we're using images from the Field Museum herbarium and obviously those will produce different results. Within the family of Lycopodiaceae, the distribution of images across genera are different between their herbarium and ours. Additionally, they were able to use a lot more images due to processing power. I found out today, that using around 4000 images is a lot for the computers we have (i5 or i7 Intel Cores with 8 GB RAM). Sometimes the computer just freezes entirely and you have to hard restart it. Thus, I decreased my number of images to around 3300 and it seems to be running okay!
+Today was a **long** day, oof. To start out, Matt and I talked about the project and thought about why our results weren't exactly matching that of the Smithsonian. First, and foremost, it's most likely because of our data that we're using. The Smithsonian is using images from their own herbarium while we're using images from the Field Museum herbarium and obviously those will produce different results. Within the family of Lycopodiaceae, the distribution of images across genera are different between their herbarium and ours. Additionally, they were able to use a lot more images due to processing power. I found out today, that using around 4000 images is a lot for the computers we have (i5 Intel Cores with 8 GB RAM). Sometimes the computer just freezes entirely and you have to hard restart it. Thus, I decreased my number of images to around 3300 and it seems to be running okay!
 
 Additionally, instead of comparing families of plants (Lycopodiaceae and Selaginellaceae), we decided to simplify the inputs to two genera of plants (Lycopodium and Selaginella). Selaginella is the only genus in the family Selaginellaceae (as a reminder the hierarchy goes family > genus > species) and Lycopodium is one of around 8 or so genera in the family Lycopodiaceae. Hopefully this will provide less noise in the first class and make it easier for the machine to detect prominent differences.
 
@@ -57,3 +57,27 @@ I came in this morning and good news, nothing crashed! The models are still chug
 ![Fluctuating Validation Accuracy](/assets/images/blog/8.14.19_12.30.png){:class="images half"}
 
 I'm going to look into this more, but after a quick Google search, it seems one issue may be too much dropout. So after this model is finished training, I'm going to look into making that change (which might end up having to be done tomorrow)!
+
+The program I started running yesterday with Lycopodium and Selaginella was taking forever... after 18 hours, it only completed 5 folds of the 10 fold cross validation and Beth and I decided that it was too long to realistically experiment. Thus, we decreased the images from 256 x 256 pixels down to 128 x 128 and it seems to be going much faster! Each epoch now takes a little over a minute instead of around 10 minutes. 
+
+Additionally, I'm running a baseline test with the model and images of Frullania rostrata and Frullania coastal. As a reminder, these are two possibly distinct species that we want to gather further evidence that they are different. Although the model isn't "tuned" to picking up the differences in the Frullania, it'll be nice to have a baseline essentially and see how to go from there. Beth had also mentioned that there's a way to see what features each layer of the model is picking up, which would be helpful in our case to see what layers are working for our purpose and what should be changed.
+
+Take it easy!
+
+-Al
+
+### Friday August 23, 2019
+
+Happy Friday! When I came in this morning, all three of my models finished running and here's a brief summary of the results:
+
+The Lycopodium/Selaginella results: The validation accuracy followed the training accuracy, but there was still a lot of fluctuation. In my next training, I increased batch size from 32 to 64 and increased epochs to 100. May as well since we have the weekend to run it. Before I left for the day, it finished training 2/10 folds and I noticed in the second fold, by the end neither training nor validation accuracy increased from 50%. This leads me to believe we shouldn't increase batch size much above 32.
+
+The Adiantum/Blechnum results: This run was mostly as a baseline to see whichout changing the model, what results did we get. Again, they were pretty similar to before: validation accuracy seemed to follow training accuracy but with a LOT more and larger fluctuations. In this next training session, I decreased the initial dropout layer from 50% to 40% to see if perhaps less measures against overfitting would help.
+
+The Frullania (coastal/rostrata) results: awful. I really didn't expect much but what we saw here in all the folds was a classic case of overfitting. The training accuracy kept increasing while validation accuracy remained fluctuating around 50%. To make this work, we would need to reconfigure the layers of the model to "detect" these certain features.
+
+On a more fun note, today our department had a large rpotluck! There were all sorts of food from Malaysian, Latin American, to Chinese! I brought carrots and hummus and a Chinese Eight Treasures Cake which got really good feedback! I ate literally so much food but it was absolutely amazing :)
+
+Have a great weekend in this beautiful weather!
+
+-Al

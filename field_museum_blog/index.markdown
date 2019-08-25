@@ -1,7 +1,7 @@
 ---
 title: "Field Museum Blog"
 category: field_museum_blog
-layout: addit_pages_layout
+layout: fm_home
 ---
 
 This past week I started my internship at the Field Museum in downtown Chicago. Two years ago, the summer after my junior year of high school, I did the Digital Learning Internship at the Field Museum where I collaborated with five other high school students to create a game, Seeds for Survival, in the museum's Plant Hall. This summer, I'll be working with Dr. Matt von Konrat and his team studying bryophytes in the Botany Department with some machine learning projects.
