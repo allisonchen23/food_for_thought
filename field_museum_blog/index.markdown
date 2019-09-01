@@ -21,3 +21,17 @@ The second part of the project utilizes Morphosnake, a software for plant image 
 The last part of the project is what I'm most excited for! There was a paper published from the Smithsonian that used a convolutional neural network (CNN) to classify two families of of specimen that look very similar to each other. We want to be able to accomplish this with our specimen collection at the Field Musuem, so the first step is almost trying to replicate the steps they took and then being able to apply a similar model on different family/specimen/etc. This will be a really good way for me to get some experience in machine learning and hopefully understand what's happening as well, not just mimicking the steps.
 
 I'm genuinely really excited for this summer! I love the idea of applying computer science into a field that hasn't really been exposed to it yet and seeing how much of an impact technology will be able to make. In addition to working at the Field Museum, I'll also be collaborating with CS professors and graduate students from North Eastern Illinois University (NEIU) for guidance! (which we all know I'll need a lot of)
+
+--- 
+
+### Post Internship Reflection
+
+August 30, 2019
+
+I'm writing this on my train ride home on my last day of my internship. Although I am a bit ready for a break, since I started working immediately after school ended, I'm really sad to be leaving. This summer, I met such a bright and truly wonderful group of people who will always have a special place in my heart. They made commuting three hours each day really worth it, and I always looked forward to what each day would bring. So Matt, Yarency, Zach, Mindy, Jessica, June, Nkosi, Jose, Isaac, Zlanpea, Kate, Kamila, Suey Yee, and everyone else I had the pleasure of working with this summer: thank you!
+
+Regarding my project, it was definitely challenging, but in the best way possible. Before this internship I barely knew anything about machine learning except what a buzz word it was in computer science. I learned a lot on my own about the technicalities and principles behind this concept as well as how to learn on my own. I didn't have someone always by my side guiding me to a laid out solution that I had to reach; *I* was responsible in finding that solution, scouring the internet and applying what I learned to my own situation. It didn't always work, and it wasn't always smooth, but I didn't give up and that made all the difference.
+
+I'm really excited to where this project will go in the future, and I'll definitely stay in touch with my crew :)
+
+I hope you enjoy reading about my experiences and my random thoughts throughout these 10 weeks. Thanks for checking out my blog!

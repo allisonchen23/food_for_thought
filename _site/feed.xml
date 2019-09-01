@@ -1,8 +1,108 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-08-25T15:24:22-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Thoughts for Food</title><subtitle>Welcome to my blog! I'll be posting basically random thoughts and updates on any current projects/work I'll be doing.</subtitle><entry><title type="html">All About Quinoa</title><link href="http://localhost:4000/food_in_food_for_thought/nutrition/2019/08/20/quinoa.html" rel="alternate" type="text/html" title="All About Quinoa" /><published>2019-08-20T00:00:00-05:00</published><updated>2019-08-20T00:00:00-05:00</updated><id>http://localhost:4000/food_in_food_for_thought/nutrition/2019/08/20/quinoa</id><content type="html" xml:base="http://localhost:4000/food_in_food_for_thought/nutrition/2019/08/20/quinoa.html">&lt;p&gt;Hi!&lt;/p&gt;</content><author><name></name></author><category term="nutrition" /><summary type="html">Hi!</summary></entry><entry><title type="html">Week 8: Implementing Cross Validation</title><link href="http://localhost:4000/FM-week-8/" rel="alternate" type="text/html" title="Week 8: Implementing Cross Validation" /><published>2019-08-19T08:25:40-05:00</published><updated>2019-08-19T08:25:40-05:00</updated><id>http://localhost:4000/week-8</id><content type="html" xml:base="http://localhost:4000/FM-week-8/">&lt;h3 id=&quot;monday-august-19-2019&quot;&gt;Monday August 19, 2019&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-08-27T17:14:37-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Thoughts for Food</title><subtitle>Welcome to my blog! I'll be posting basically random thoughts and updates on any current projects/work I'll be doing.</subtitle><entry><title type="html">Sure about sugar?</title><link href="http://localhost:4000/food_in_food_for_thought/nutrition/2019/08/27/sugar.html" rel="alternate" type="text/html" title="Sure about sugar?" /><published>2019-08-27T00:00:00-05:00</published><updated>2019-08-27T00:00:00-05:00</updated><id>http://localhost:4000/food_in_food_for_thought/nutrition/2019/08/27/sugar</id><content type="html" xml:base="http://localhost:4000/food_in_food_for_thought/nutrition/2019/08/27/sugar.html">&lt;h5 id=&quot;all-sugar-is-bad-right&quot;&gt;All sugar is bad right?&lt;/h5&gt;
+
+&lt;p&gt;Okay that’s a tough question. Sugar by itself is not necessarily bad; it’s a good source of quick energy for our bodies. &lt;em&gt;HOWEVER&lt;/em&gt;, too much sugar, especially in its most processed form can be pretty detrimental to our bodies and lead to weight gain as well as medical issues.&lt;/p&gt;
+
+&lt;h5 id=&quot;how-does-our-body-digest-sugar&quot;&gt;How does our body digest sugar?&lt;/h5&gt;
+
+&lt;p&gt;Basically, sugar will be broken down to glucose, which is the form of energy our cells require, and the glucose gets sent to one of three places:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Our cells, to give them energy&lt;/li&gt;
+  &lt;li&gt;Our liver, to store glucose for later in the form of glycogen (which you don’t need to worry about)&lt;/li&gt;
+  &lt;li&gt;Our adipose tissue as fat.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Our cells prefer to have sugar because they can quickly be broken down into glucose, but our cells can only take so much glucose at a time. Same with our liver. The first two have a capacity of how much glucose gets sent there, but adipose tissue &lt;span class=&quot;standOut&quot;&gt; can take as much glucose as it wants&lt;/span&gt;. That’s where the dangerous part is.&lt;/p&gt;
+
+&lt;p&gt;If our body breaks down too much sugar at once and has too much glucose for our cells and liver, it will send all the excess glucose to turn into fat, which will lead to weight gain.&lt;/p&gt;
+
+&lt;h5 id=&quot;so-we-should-avoid-all-sugar&quot;&gt;So we should avoid all sugar?&lt;/h5&gt;
+
+&lt;p&gt;Not necessarily! The main difference in sugar that is, for example, added in candy and sodas, and sugars in whole fruit is the magical thing called &lt;span class=&quot;standOut&quot;&gt; fiber&lt;/span&gt;. The sugars in fruit are all encased by a lot of fiber, which if you recall, slows down the digestion of food. This means that the sugar in fruit gets slowly broken down and transported to the appropriate location over a longer period of time. If you ate a candy bar, on the other hand, basically all that sugar gets broken down to glucose and taken to the appropriate destination all at once. Sugars in fruit are able to provide your &lt;em&gt;cells&lt;/em&gt; with a more constant form of energy, which also helps you feel fuller and maintain energy.&lt;/p&gt;
+
+&lt;p&gt;In fact, fiber is actually the main difference between white sugar and brown sugar. Although brown sugar is not the same as the sugar we get in whole fruits, it has more fiber compared to white sugar, and thus is marketed as healthier.&lt;/p&gt;
+
+&lt;h5 id=&quot;how-do-we-know-what-has-added-sugar&quot;&gt;How do we know what has added sugar?&lt;/h5&gt;
+
+&lt;p&gt;Ah yes this can be the tricky one. The first place I would check is the nutrition label. Under ‘sugar’, some labels have a row for ‘added sugar’ which is not very desirable. However, for a more thorough check, you must go to the ingredient list. &lt;span class=&quot;standOut&quot;&gt;But sugar is tricky.&lt;/span&gt; After people realized sugar was leading to weight gain and other health complications, many companies became sly about hiding sugar into their products by using different names for sugar but in reality, it just means ‘Added Sugar’. Some common ones to look out for are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The mono and disaccharides (dextrose, fructose, galactose, glucose, lactose, maltose, and sucrose)&lt;/li&gt;
+  &lt;li&gt;Cane sugar, evaporated cane juice&lt;/li&gt;
+  &lt;li&gt;High Fructose Corn Syrup&lt;/li&gt;
+  &lt;li&gt;Corn syrup solids&lt;/li&gt;
+  &lt;li&gt;Dextrin&lt;/li&gt;
+  &lt;li&gt;Glucose syrup solids&lt;/li&gt;
+  &lt;li&gt;Maltodextrin&lt;/li&gt;
+  &lt;li&gt;Agave Nectar/Syrup (very similar to honey)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;im-never-eating-sweets-again-right&quot;&gt;I’m never eating sweets again, right?&lt;/h5&gt;
+
+&lt;p&gt;I’d say enjoy in moderation! It’s very difficult to cut out something entirely from your diet because you’ll probably start to crave it even more, causing a binge eating session. It’s okay to enjoy that sweetness of a candy bar or ice cream once in a while, but be mindful of what’s happening inside your body after you eat it.&lt;/p&gt;</content><author><name></name></author><category term="nutrition" /><summary type="html">All sugar is bad right?</summary></entry><entry><title type="html">Week 9: Wrapping Things Up!</title><link href="http://localhost:4000/FM-week-9/" rel="alternate" type="text/html" title="Week 9: Wrapping Things Up!" /><published>2019-08-26T20:31:00-05:00</published><updated>2019-08-26T20:31:00-05:00</updated><id>http://localhost:4000/week-9</id><content type="html" xml:base="http://localhost:4000/FM-week-9/">&lt;h3 id=&quot;monday-august-26-2019&quot;&gt;Monday August 26, 2019&lt;/h3&gt;
+
+&lt;p&gt;Happy Monday! This past weekend was so relaxing! It was kind of hard to get up for work today haha. And I faced a bit of a surprise when I arrived at the museum because my badge didn’t work anymore! I was supposed to end the internship last week, but we extended it for one week and we didn’t let Access Control know… oopsies&lt;/p&gt;
+
+&lt;p&gt;It’s all fixed now, don’t worry :D&lt;/p&gt;
+
+&lt;p&gt;After that mini roadblock, I continued to examine the models and make changes to improve them. In my model training to find the differences between Lycopodium and Selaginella, some folds did really well and training accuracy reached 90% while validation accuracy lagged behind, but in other folds, the training &lt;em&gt;and&lt;/em&gt; validation accuracy both plummeted to around 50% by the 10-15 epoch and just couldn’t recoveer. In all epochs, however, loss was constantly decreasing. I’m not really sure what’s happening there and why it would happen on some folds and not others… maybe there’s a few images that are just really throwing the model off? Although I did look through them manually before. Perhaps it’s worth another look.&lt;/p&gt;
+
+&lt;p&gt;I first looked into doing image augmentation, but I originally thought that it would result in the model training on &lt;em&gt;more&lt;/em&gt; images than you have every epoch. Turns out, it just trains on a smaller sample, but each epoch it uses &lt;em&gt;randomly altered&lt;/em&gt; images that are different to the model. It may be useful in another application (like the frullania), but currently when we have so many images already, I don’t think we need it.&lt;/p&gt;
+
+&lt;p&gt;I tried playing around with the regularizers today in the Dense and Convolutional-2D (Conv2D) layers, but most combinations I tried resulted in the model overfitting very early and the training and validation accuracy would begin to decrease by the 6-7th epoch. (To see what changes I made, check out &lt;a href=&quot;https://docs.google.com/spreadsheets/d/15972K_rdv3zpnvnV--wSaTpiK0jnVDkBzhUWjre5BLg/edit?usp=sharing&amp;quot;&quot; target=&quot;_blank&quot; class=&quot;standOut&quot;&gt;this doc&lt;/a&gt;. The model started to learn again pretty well when I kept activity regularizers in the Dense layers, despite there not being an exact equivalent in the Smithsonian Methematica Model.&lt;/p&gt;
+
+&lt;p&gt;We’ll see what happens tomorrow morning!&lt;/p&gt;
+
+&lt;p&gt;-Al&lt;/p&gt;
+
+&lt;p&gt;PS, Matt wants me to try running the model again on the two frullania species again but the images being from farther away. I want to look into bootstrapping for this and hopefully synthetically expand our data set.&lt;/p&gt;
+
+&lt;h3 id=&quot;tuesday-august-28-2019&quot;&gt;Tuesday, August 28, 2019&lt;/h3&gt;
+
+&lt;p&gt;First thing this morning, I checked on the training of the model on Lycopodium and Selaginella. For the most part, it was okay; there was still a bit of overfitting, but the trend of validation accuracy seemed to follow training accuracy, like in the graph below.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/blog/fm/val_accuracy_1.png&quot; alt=&quot;Slightly overfit accuracy&quot; class=&quot;images half&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;However, on other folds, we got something disastrous like this:
+&lt;img src=&quot;/assets/images/blog/fm/val_accuracy_8.png&quot; alt=&quot;Dropped accuracy&quot; class=&quot;images half&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I’m not entirely sure why on most folds, the model seems to be training well, while on others, it’s completely unable to after a certain amount of time. I don’t think it’s overfitting because even the training accuracy decreased. Well, tomorrow, I’m meeting with Dr. Iacobelli, the computer science professor at Northeastern Illinois University, so hopefully he’ll be able to offer more insight.&lt;/p&gt;
+
+&lt;p&gt;Additionally, I received new images of the frullania species today. These ones are more zoomed in and hopefully will allow the model to pick up on more details in the differences between the two plants. I implemented some bootstrapping to train the model because we only had a little less than 300 images which I’m not sure is enough to be able to completely train the model on. I left it going overnight, so I’ll be able to check in on Thursday.&lt;/p&gt;
+
+&lt;p&gt;At this point, most of my big machine learning changes are wrapping up and I’ve been working on documentation, documentation, and documentation! Especially since I was pretty much the only one working on this project this summer, it’s &lt;strong&gt;extremely&lt;/strong&gt; important that someone could study my work for a bit and pick up where I left off.&lt;/p&gt;
+
+&lt;p&gt;Thanks for reading!&lt;/p&gt;
+
+&lt;p&gt;-Al&lt;/p&gt;</content><author><name></name></author><summary type="html">Monday August 26, 2019</summary></entry><entry><title type="html">Becoming Keen on Quinoa</title><link href="http://localhost:4000/food_in_food_for_thought/nutrition/2019/08/20/quinoa.html" rel="alternate" type="text/html" title="Becoming Keen on Quinoa" /><published>2019-08-20T00:00:00-05:00</published><updated>2019-08-20T00:00:00-05:00</updated><id>http://localhost:4000/food_in_food_for_thought/nutrition/2019/08/20/quinoa</id><content type="html" xml:base="http://localhost:4000/food_in_food_for_thought/nutrition/2019/08/20/quinoa.html">&lt;h5 id=&quot;sooo-what-is-quinoa&quot;&gt;Sooo what is quinoa?&lt;/h5&gt;
+
+&lt;p&gt;Quinoa (pronounced keen-wah) is a type of grain that is in my opinion both delicious and extremely nutritious. Uncooked, they look like little seeds, normally yellow or brown, but after boiling, they become soft and fluffy. In addition to being an excellent source of carbs and energy, they have a surprising amount of protein and are even&lt;span class=&quot;standOut&quot;&gt; a complete protein&lt;/span&gt;! Meaning quinoa contains &lt;strong&gt;all nine&lt;/strong&gt; essential amino acids.&lt;/p&gt;
+
+&lt;h5 id=&quot;but-why-is-it-better-for-me-than-flour-or-rice&quot;&gt;But why is it better for me than flour or rice?&lt;/h5&gt;
+
+&lt;p&gt;For a few reasons, actually. First quinoa is not as processed as flour and thus retains more of its vitamin and minerals as well as fiber. Compared to rice, quinoa’s glycemic index is significantly lower (53 compared to 73 of white rice) which means that it does not produce as big of an insulin spike. (Which is good! We don’t want to unnecessarily tire out our pancreas.) The main reason for this is &lt;span class=&quot;standOut&quot;&gt; fiber&lt;/span&gt;!!&lt;/p&gt;
+
+&lt;p&gt;Recall that fiber is essentially a food’s “protective barrier” to being digested. But of course, our digestive system always overcomes it. Fiber itself is undigestable and slows down our body’s ability to digest the food it encases. This may sounds bad, but it’s actually extremely good, especially for individuals who are wary of caloric intake. The fiber helps us eat the same number of calories, but feel fuller for longer, reducing the cravings we often feel after eating pasta or other refined grains.&lt;/p&gt;
+
+&lt;p&gt;If you take away anything from this blog post, I hope it’s that &lt;span class=&quot;standOut&quot;&gt; quinoa = fiber! &lt;/span&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;what-do-you-even-eat-it-with&quot;&gt;What do you even eat it with?&lt;/h5&gt;
+
+&lt;p&gt;I love quinoa as a rice/grain substitute! Maybe it’s the Asian side in me, but I’ll often have a bowl of quinoa with my dinner or lunch just instead of rice. Additionally, it’s really good in salads and or various types of bowls. It’s really quick and easy to cook a bunch of quinoa at once and refrigerate; it can probably last a good week or so!&lt;/p&gt;
+
+&lt;h5 id=&quot;im-a-broke-college-student-how-can-i-afford-this&quot;&gt;I’m a broke college student, how can I afford this?&lt;/h5&gt;
+
+&lt;p&gt;Admittedly, quinoa can be more expensive than some easier foods, such as pasta or rice. But remember, nutrition is about a long run investment. Although you may be spending a bit more now, you’re treating your body better (which in itself is priceless!) and maybe even saving money on future medical bills. Plus, a small bag of quinoa actually makes quite a lot, I think you’d be surprised :)&lt;/p&gt;
+
+&lt;h5 id=&quot;how-do-you-cook-quinoa&quot;&gt;How do you cook quinoa?&lt;/h5&gt;
+
+&lt;p&gt;Easy! Simply put about 1 cup of quinoa and 1 cup of water in a pot and bring to a boil. If you’re cooking less, I would put a little more water, about a 1:1.25 quinoa to water ratio. Once it starts to boil, turn down the heat and cover the pot, allowing the quinoa to simmer. Once most of the water is gone, I would check on it frequently and stir to prevent any quinoa from sticking to the bottom.&lt;/p&gt;
+
+&lt;p&gt;The quinoa is cooked if it looks almost “fluffy” and it shouldn’t be crunchy anymore.&lt;/p&gt;</content><author><name></name></author><category term="nutrition" /><summary type="html">Sooo what is quinoa?</summary></entry><entry><title type="html">Week 8: Implementing Cross Validation</title><link href="http://localhost:4000/FM-week-8/" rel="alternate" type="text/html" title="Week 8: Implementing Cross Validation" /><published>2019-08-19T08:25:40-05:00</published><updated>2019-08-19T08:25:40-05:00</updated><id>http://localhost:4000/week-8</id><content type="html" xml:base="http://localhost:4000/FM-week-8/">&lt;h3 id=&quot;monday-august-19-2019&quot;&gt;Monday August 19, 2019&lt;/h3&gt;
 
 &lt;p&gt;This morning, Beth came to the Field Museum to work with me on implementing stratified cross validation and ROC testing. Stratified cross validation essentially partitions the data into groups of approximately equal distributions of each class. ROC (stand for Receiving Operator Curve) is a type of graph that can help us quantify how “good” our model is. It uses the percentage of true positives and false positives and the closer the curve hugs the y-axis, the more confident it is. Take a look at the image below:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/blog/ROC_curve.png&quot; alt=&quot;ROC Curve&quot; class=&quot;images half&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/blog/fm/ROC_curve.png&quot; alt=&quot;ROC Curve&quot; class=&quot;images half&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The straight line represents if it were just up to chance, so if the ROC curve is close to that, it’s bad.&lt;/p&gt;
 
@@ -46,7 +146,7 @@
 
 &lt;p&gt;I came in this morning and good news, nothing crashed! The models are still chugging along doing their own thing. Something I noticed and continue to notice is that while training accuracy will rise somewhat consistently with each epoch, validation accuracy fluctuates a LOT more, like in the graph below:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/blog/8.14.19_12.30.png&quot; alt=&quot;Fluctuating Validation Accuracy&quot; class=&quot;images half&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/blog/fm/8.14.19_12.30.png&quot; alt=&quot;Fluctuating Validation Accuracy&quot; class=&quot;images half&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I’m going to look into this more, but after a quick Google search, it seems one issue may be too much dropout. So after this model is finished training, I’m going to look into making that change (which might end up having to be done tomorrow)!&lt;/p&gt;
 
@@ -74,7 +174,7 @@
 
 &lt;p&gt;-Al&lt;/p&gt;</content><author><name></name></author><summary type="html">Monday August 19, 2019</summary></entry><entry><title type="html">Week 7: Improving CNN Training</title><link href="http://localhost:4000/FM-week-7/" rel="alternate" type="text/html" title="Week 7: Improving CNN Training" /><published>2019-08-12T08:25:40-05:00</published><updated>2019-08-12T08:25:40-05:00</updated><id>http://localhost:4000/week-7</id><content type="html" xml:base="http://localhost:4000/FM-week-7/">&lt;h3 id=&quot;monday-august-12-2019&quot;&gt;Monday August 12, 2019&lt;/h3&gt;
 &lt;p&gt;Today was essentially spent just making changes to the architecture/regularizers of my model and training it to hopefully get better results. The main issues I’m facing now is that validation accuracy fluctuates a lot. It’ll grow steadily for a little then drop down to almost 50% and grow a little more (such as in the image below).
-&lt;img src=&quot;/assets/images/blog/8.13.19_13.47.png&quot; alt=&quot;Accuracy Graph&quot; class=&quot;images half&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/assets/images/blog/fm/8.13.19_13.47.png&quot; alt=&quot;Accuracy Graph&quot; class=&quot;images half&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Although it took all day because training the model currently takes around an hour, the main things I experimented with were changing the epsilon value (which prevents dividing by 0) and the regularizers. Regularizers essentially penalize larger weights, forcing the parameters to be small. I used L2 Regularization which adds a penalty term to the loss function that’s composed of the sum of the squares of the parameters.&lt;/p&gt;
 
@@ -211,7 +311,7 @@
 
 &lt;p&gt;Last week, I created scripts to do a lot of the initial image processing so all the pictures are the same size (256 pixels by 256 pixels) and have the same resolution (96 ppi). Today, I started creating my own ML model using tensorflow and keras to train a model, following the tutorial &lt;a href=&quot;https://towardsdatascience.com/all-the-steps-to-build-your-first-image-classifier-with-code-cf244b015799&quot; target=&quot;_blank&quot; class=&quot;standOut&quot;&gt;here&lt;/a&gt; (bless the people who make easy to follow tutorials like this one!) Before I started attempting to recreate the model from the Smithsonian paper, I just wanted to get something working with the model in the tutorial and I did! I only used 100 images from each family and 10 epochs (epoch = essentially a cycle) and the accuracy is pretty trash, as you can see below.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/blog/initial_model_accuracy.png&quot; alt=&quot;Graph of accuracy of training model from tutorial. It's pretty trash&quot; class=&quot;images half&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/blog/fm/initial_model_accuracy.png&quot; alt=&quot;Graph of accuracy of training model from tutorial. It's pretty trash&quot; class=&quot;images half&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Now that I have that, I plan to follow these steps:&lt;/p&gt;
 
@@ -237,7 +337,7 @@
 
 &lt;p&gt;With my first test, I used 100 images from each family (Lycopodiaceae and Selaginellaceae) to train/validate the model (10% of this batch are used for validation). The results of the accuracy are below:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/blog/training_100.png&quot; alt=&quot;Graphs of accuracy over epochs for model with training sample of 200 total images&quot; class=&quot;images half&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/blog/fm/training_100.png&quot; alt=&quot;Graphs of accuracy over epochs for model with training sample of 200 total images&quot; class=&quot;images half&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Although the training accuracy increased over time, we see that by the second epoch, the validation accuracy plateaued, which is not a good sign. Additionally, when tested on the same test data as above, all the images were labeled as Selaginellaceae, leading me to believe overfitting is happening, but I can look into this more tomorrow.&lt;/p&gt;
 
@@ -253,7 +353,7 @@
 
 &lt;p&gt;The majority of the afternoon was spent helping out some scientists and the high school Digital Learning Interns, but I did get to work on the CNN model a little bit. To combat the issues I faced yesterday, I decreased the learning rate of the model from the standard for Adam (0.001) to 0.0001 and that improved our accuracy for training and validation (see below).&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/blog/decreased_lr.png&quot; alt=&quot;Graph of accuracy over epochs with learning rate at 0.0001&quot; class=&quot;images half&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/blog/fm/decreased_lr.png&quot; alt=&quot;Graph of accuracy over epochs with learning rate at 0.0001&quot; class=&quot;images half&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;It looks nice, but I believe the model is still overfitting to the training data. This hypothesis was supported when I tested the model on some test data with 10 images from each family and all of them were labeled as Lycopodiaceae (the opposite from last time). Online says this may be due to imbalance of input data in training, but I don’t think that’s the case because we have 800 of each family. Maybe not enough data? I still believe overfitting is an issue here, so we need to see how we can reduce that. It may be time to consult some experts.&lt;/p&gt;
 
@@ -267,7 +367,7 @@
 
 &lt;p&gt;Happy Thursday! In the morning, we did a bit work with the ozone strips we prepped yesterday. We took them outside for a bit and tomorrow morning we can scan them to see the ozone levels found. It was nice to just walk outside around the museum and appreciate the gardens and all, like this nice picture below!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/blog/flower.jpg&quot; alt=&quot;Nice flower by museum&quot; class=&quot;images half&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/blog/fm/flower.jpg&quot; alt=&quot;Nice flower by museum&quot; class=&quot;images half&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;With the machine learning project, I noticed that overfitting was still occurring with our training model. Looking online, I found that Regularization could help. I did see &lt;span class=&quot;standOut&quot;&gt;L2 Regularization&lt;/span&gt; in the Smithsonian paper, but didn’t quite understand what was happening and didn’t implement it yet. The Smithsonian paper set the L2 Regularization to 5 which I found very odd because doing some research online, it seemed that regularization values were generally very small, less than 1. Additionally, in Mathematica, L2 Regularization is something set for the model as a whole, but in Keras, it’s done layer by layer. Keras also gives options for regularization in bias, activity, and kernel, so for now, I just created a new layer after the first Dense layer and set all the regularizers to 0.01.&lt;/p&gt;
 
@@ -314,13 +414,13 @@
 
 &lt;div class=&quot;row&quot;&gt;
     &lt;div class=&quot;column_3&quot;&gt;
-        &lt;img src=&quot;/assets/images/blog/subject_ids.png&quot; class=&quot;images full&quot; alt=&quot;Showing subject_ids column in raw measurement data&quot; /&gt;
+        &lt;img src=&quot;/assets/images/blog/fm/subject_ids.png&quot; class=&quot;images full&quot; alt=&quot;Showing subject_ids column in raw measurement data&quot; /&gt;
     &lt;/div&gt;
     &lt;div class=&quot;column_3&quot;&gt;
-        &lt;img src=&quot;/assets/images/blog/matching_ids.png&quot; class=&quot;images full&quot; alt=&quot;Showing MatchingIDs CSV with subjec_id and image name&quot; /&gt;
+        &lt;img src=&quot;/assets/images/blog/fm/matching_ids.png&quot; class=&quot;images full&quot; alt=&quot;Showing MatchingIDs CSV with subjec_id and image name&quot; /&gt;
     &lt;/div&gt;
     &lt;div class=&quot;column_3&quot;&gt;
-        &lt;img src=&quot;/assets/images/blog/voucher.png&quot; id=&quot;voucher&quot; class=&quot;images full&quot; alt=&quot;Showing the voucher CSV&quot; /&gt;
+        &lt;img src=&quot;/assets/images/blog/fm/voucher.png&quot; id=&quot;voucher&quot; class=&quot;images full&quot; alt=&quot;Showing the voucher CSV&quot; /&gt;
     &lt;/div&gt;
 &lt;/div&gt;
 
@@ -350,7 +450,7 @@
 
 &lt;p&gt;Today, a lot of the interns went to Lincoln Park Conservatory for a field trip, so it’s been a pretty quiet day. In the morning, I worked on my image download file to allow people to run it in the terminal while allowing for arguments. Currently, I’m allowing them to input the CSV file they want images downloaded from as well as the location of the image downloads. I looked into this earlier, but since I kept forgetting the “syntax” of calling the function with arguments, I’m including a picture below.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/blog/calling_w_argparse.png&quot; alt=&quot;terminal syntax to call function with argparse parameters&quot; class=&quot;images full&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/blog/fm/calling_w_argparse.png&quot; alt=&quot;terminal syntax to call function with argparse parameters&quot; class=&quot;images full&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Regarding the machine learning part of the project, I mentioned yesterday that I created a script to download the specimen images from an online database. Today, I worked on setting up Python and my script on the desktop computers at the museum because I was not about to download around 7000 images onto my personal computer. It took a while mostly because we needed admin permission, so I didn’t get to test yet, but tomorrow will be my day! The CSV file where I’m pulling hte imge URLs from has a column called ‘coreid’ that I was going to use to identify each picture with, but them I found that the coreid is a little bit arbitrary. Instead, each image also has a barcode that’s part of the museum’s specimen database that I would like to use instead. The only challenge is that it’s on yet another CSV that I can download and just need to link into my script. This additional CSV has both the coreid and the barcode number which I can create into a hash table (aka dictionary in Python) to so it won’t kill the programs efficiency.&lt;/p&gt;
 
@@ -378,16 +478,16 @@
 
 &lt;p&gt;Using my resources (aka the infamous Google), I found that Pillow is a relatively common Python package for image processing and initially, I used that. Just looking at the resulting images, they looked extremely distorted and any text was 300% impossible to read. I knew that by reducing the image size, we would lose a lot of clarity, but this seemed more distorted than expected. After resizing in GIMP, I could clearly see the GIMP software did a much better job of preserving clarity. I was about to just explore using GIMP to process all of the images, but then I remembered another image processing software,&lt;span class=&quot;standOut&quot;&gt; OpenCV&lt;/span&gt;, that I had heard about. I had to download packages for that (just Google ‘OpenCV Python’) and resized the image which produced a &lt;i&gt;much&lt;/i&gt; clearer image. Check out the comparisons below:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/blog/sela_5887.jpg&quot; class=&quot;images third&quot; alt=&quot;Example of original uncompressed image&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/blog/fm/sela_5887.jpg&quot; class=&quot;images third&quot; alt=&quot;Example of original uncompressed image&quot; /&gt;&lt;/p&gt;
 &lt;div class=&quot;row&quot;&gt;
     &lt;div class=&quot;column_3&quot;&gt;
-        &lt;img src=&quot;/assets/images/blog/sela_5887_pillow.jpg&quot; class=&quot;images full&quot; alt=&quot;Resized image using Pillow&quot; /&gt;
+        &lt;img src=&quot;/assets/images/blog/fm/sela_5887_pillow.jpg&quot; class=&quot;images full&quot; alt=&quot;Resized image using Pillow&quot; /&gt;
     &lt;/div&gt;
     &lt;div class=&quot;column_3&quot;&gt;
-        &lt;img src=&quot;/assets/images/blog/sela_5887_gimp.jpg&quot; class=&quot;images full&quot; alt=&quot;Resized image using GIMP&quot; /&gt;
+        &lt;img src=&quot;/assets/images/blog/fm/sela_5887_gimp.jpg&quot; class=&quot;images full&quot; alt=&quot;Resized image using GIMP&quot; /&gt;
     &lt;/div&gt;
     &lt;div class=&quot;column_3&quot;&gt;
-        &lt;img src=&quot;/assets/images/blog/sela_5887_openCV.jpg&quot; class=&quot;images full&quot; alt=&quot;Resized image using OpenCV&quot; /&gt;
+        &lt;img src=&quot;/assets/images/blog/fm/sela_5887_openCV.jpg&quot; class=&quot;images full&quot; alt=&quot;Resized image using OpenCV&quot; /&gt;
     &lt;/div&gt;
 &lt;/div&gt;
 
@@ -403,7 +503,7 @@
 
 &lt;p&gt;Hope everyone had a great July 4th weekend! Today, we were back on the grind, starting with analysis of the Microplants data that we previously cleaned. To jog your memory, recall that the purpose of us cleaning Microplants kiosk data and combining it with age data is to see if there is a difference in the accuracy of measurements (determined by the angle between the major and minor axis) between the different age groups. Today, I worked on learning how to use R and without even doing any statistical tests and just graphing the data, we can see that there in fact is a difference between groups, as shown below.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/blog/age_accuracy.PNG&quot; alt=&quot;Left is the counts of good and bad data by age group and right side has the percentage of good and bad data within the age group&quot; class=&quot;images three_fourths&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/blog/fm/age_accuracy.PNG&quot; alt=&quot;Left is the counts of good and bad data by age group and right side has the percentage of good and bad data within the age group&quot; class=&quot;images three_fourths&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The next task here is performing a linear regression model and chi square test to have a statistical measurement of how different the results are depending on age group and how much more likely one age group is to perform more accurate measurements than another age group.&lt;/p&gt;
 
@@ -435,10 +535,10 @@
 
 &lt;div class=&quot;row&quot;&gt;
     &lt;div class=&quot;column_2&quot;&gt;
-        &lt;img src=&quot;/assets/images/blog/rostrata.jpg&quot; class=&quot;images full&quot; alt=&quot;unedited image of f. rostrata&quot; /&gt;
+        &lt;img src=&quot;/assets/images/blog/fm/rostrata.jpg&quot; class=&quot;images full&quot; alt=&quot;unedited image of f. rostrata&quot; /&gt;
     &lt;/div&gt;
     &lt;div class=&quot;column_2&quot;&gt;
-        &lt;img src=&quot;/assets/images/blog/rostrata_skel.png&quot; class=&quot;images half&quot; alt=&quot;skeletonized image of f. rostrata&quot; /&gt;
+        &lt;img src=&quot;/assets/images/blog/fm/rostrata_skel.png&quot; class=&quot;images half&quot; alt=&quot;skeletonized image of f. rostrata&quot; /&gt;
     &lt;/div&gt;
 &lt;/div&gt;
 
@@ -460,13 +560,13 @@
 
 &lt;div class=&quot;row&quot;&gt;
     &lt;div class=&quot;column_3&quot;&gt;
-        &lt;img src=&quot;/assets/images/blog/f_rostrata.png&quot; class=&quot;images full&quot; alt=&quot;unedited image of f. rostrata&quot; /&gt;
+        &lt;img src=&quot;/assets/images/blog/fm/f_rostrata.png&quot; class=&quot;images full&quot; alt=&quot;unedited image of f. rostrata&quot; /&gt;
     &lt;/div&gt;
     &lt;div class=&quot;column_3&quot;&gt;
-        &lt;img src=&quot;/assets/images/blog/f_rostrata_skel.png&quot; class=&quot;images full&quot; alt=&quot;skeletonized image of f. rostrata&quot; /&gt;
+        &lt;img src=&quot;/assets/images/blog/fm/f_rostrata_skel.png&quot; class=&quot;images full&quot; alt=&quot;skeletonized image of f. rostrata&quot; /&gt;
     &lt;/div&gt;
     &lt;div class=&quot;column_3&quot;&gt;
-        &lt;img src=&quot;/assets/images/blog/f_rostrata_MS.png&quot; class=&quot;images full&quot; alt=&quot;skeletonized image of f. rostrata&quot; /&gt;
+        &lt;img src=&quot;/assets/images/blog/fm/f_rostrata_MS.png&quot; class=&quot;images full&quot; alt=&quot;skeletonized image of f. rostrata&quot; /&gt;
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;p class=&quot;caption&quot;&gt;Left: unedited image of frullania rostrata. Center: Skeletonized image of f. rostrata using paint tool on GIMP. Right: Skeletonized image used in MorphoSnake.&lt;/p&gt;
@@ -482,13 +582,13 @@
 
 &lt;div class=&quot;row&quot;&gt;
     &lt;div class=&quot;column_3&quot;&gt;
-        &lt;img src=&quot;/assets/images/blog/f_rostrata.png&quot; id=&quot;f_rostrata&quot; class=&quot;images full&quot; alt=&quot;unedited image of f. rostrata&quot; /&gt;
+        &lt;img src=&quot;/assets/images/blog/fm/f_rostrata.png&quot; id=&quot;f_rostrata&quot; class=&quot;images full&quot; alt=&quot;unedited image of f. rostrata&quot; /&gt;
     &lt;/div&gt;
     &lt;div class=&quot;column_3&quot;&gt;
-        &lt;img src=&quot;/assets/images/blog/f_rostrata2_blob.png&quot; id=&quot;f_rostrata2_blob&quot; class=&quot;images full&quot; alt=&quot;skeletonized image of f. rostrata&quot; /&gt;
+        &lt;img src=&quot;/assets/images/blog/fm/f_rostrata2_blob.png&quot; id=&quot;f_rostrata2_blob&quot; class=&quot;images full&quot; alt=&quot;skeletonized image of f. rostrata&quot; /&gt;
     &lt;/div&gt;
     &lt;div class=&quot;column_3&quot;&gt;
-        &lt;img src=&quot;/assets/images/blog/f_rostrata2_MS.png&quot; class=&quot;images full&quot; alt=&quot;skeletonized image of f. rostrata&quot; /&gt;
+        &lt;img src=&quot;/assets/images/blog/fm/f_rostrata2_MS.png&quot; class=&quot;images full&quot; alt=&quot;skeletonized image of f. rostrata&quot; /&gt;
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;p class=&quot;caption&quot;&gt;Left: unedited image of frullania rostrata. Center: Skeletonized image of f. rostrata using whole image editing on GIMP. Right: Skeletonized image used in MorphoSnake.&lt;/p&gt;
@@ -515,7 +615,7 @@
 
 &lt;p&gt;Upon further inspection, I found that our algorithm did not handle the case when the age data contained an “extra” timestamp that didn’t align closely with any of the measurement data. (In real people talk, this meant someone filled in their age group, but decided not to take any measurements). I fixed it with the following code where &lt;span class=&quot;standOut&quot;&gt;i&lt;/span&gt; is the row number in the age file and &lt;span class=&quot;standOut&quot;&gt; row_num &lt;/span&gt;is the row number of the raw measurement data from Zooniverse:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/blog/incrementing_rows.png&quot; alt=&quot;Code to increment rows appropriately&quot; class=&quot;images full&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/blog/fm/incrementing_rows.png&quot; alt=&quot;Code to increment rows appropriately&quot; class=&quot;images full&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Thanks for reading!&lt;/p&gt;
 
@@ -531,164 +631,4 @@
 
 &lt;p&gt;Happy fourth!&lt;/p&gt;
 
-&lt;p&gt;-Al&lt;/p&gt;</content><author><name></name></author><summary type="html">Tuesday July 2, 2019</summary></entry><entry><title type="html">Week 1: Microplants Data Cleansing</title><link href="http://localhost:4000/FM-week-1/" rel="alternate" type="text/html" title="Week 1: Microplants Data Cleansing" /><published>2019-06-24T08:25:40-05:00</published><updated>2019-06-24T08:25:40-05:00</updated><id>http://localhost:4000/week-1</id><content type="html" xml:base="http://localhost:4000/FM-week-1/">&lt;h3 id=&quot;monday-june-24-2019&quot;&gt;Monday June 24, 2019&lt;/h3&gt;
-&lt;p&gt;Today was the start of working on my project! Using the code from a fellow Field Museum employee, Victoria, that cleans some data to be usable, we will create a more thorough script that cleans data, converts measurements of pixels into microns, and pairs the raw data from kiosks with results of the age groups of the responders to make a connection between age and validity of data. (For example, if the measurements of the major and minor axes don’t cross, go off screen, or intersect too far from perpendicular, the data is unusable.)&lt;/p&gt;
-
-&lt;p&gt;The issue that we have to firstly solve is that the measurements from the Microplants kiosk is just that: measurements with a time stamp in UTC along with serial IDs. The surveys of what age group made the measurements is on a different CSV and it’s our task to match up the entries from the two sheets together. For clarity, I’ll call the former &lt;span class=&quot;standOut&quot;&gt;measurement data&lt;/span&gt; and the latter &lt;strong&gt;age data&lt;/strong&gt;. This doesn’t sound too bad, but we found that the measurement data contains more entries than the age data; after looking at the first few entries in age data, we found corresponding entries in measurement data (by matching up the timestamps manually which was a whole other process) and our next step is to write a python script that will match up the rest of entries (about a thousand).&lt;/p&gt;
-
-&lt;p&gt;Briefly going back to the timestamp matching, the timestamp in the two sheets are presented in a format different from each other. For the current purposes, we manually edited them (using Excel’s beautiful functions) so our script will be able to easily compare them and see if there are matches. In the future, we would like to have the script do this for us so a user would only need to press one button and &lt;em&gt;everything&lt;/em&gt; would be done for them.&lt;/p&gt;
-
-&lt;p&gt;Stay tuned for more updates!&lt;/p&gt;
-
-&lt;p&gt;-Al&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;tuesday-june-25-2019&quot;&gt;Tuesday June 25, 2019&lt;/h3&gt;
-&lt;p&gt;Today was spent adjusting the script from Victoria so that it would export a new sheet with the matches and with new columns that quantifies the data as useable or not and that specify the age demographic of that data reporter. This will allow us to see if there are any trends between certain age groups and the validity of the data they record.&lt;/p&gt;
-
-&lt;p&gt;A lot of the nitty gritty work was already implemented (such as syntax to create data frames using panda and reading CSV files), but we still ran into a few issues that may or may not be common; below I’ll go through them.&lt;/p&gt;
-
-&lt;p&gt;First, our script wasn’t recognizing the name of our first column when we imported the data frame as a CSV. When we printed out, the first row of the CSV, we would get some garbage characters in front of the first column (shown below)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/blog/EncodingError.png&quot; alt=&quot;Encoding Error&quot; class=&quot;images half&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;We tried renaming the first column using various functions from the pandas package, but nothing work. After some research, we found the error was most likely caused by an encoding issue. The CSV we were reading in was encoded as UTF-8, but we had to make that clear to the compiler (because as we all learned in any intro CS class, computers are stupid and will only do exactly what you tell it to :D ). In order to clarify to the compiler that the CSV’s are UTF-8, we added a little segment to the line that opens the file.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &lt;span class=&quot;n&quot;&gt;measurements_data&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;open&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;r'[path].csv'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;encoding&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'utf-8'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Our second main error dealt with the formatting of our age data in Excel. CSV’s can be conveniently opened in Excel and edited, but in order to match our age data to entries of the measurement data, we wanted to timestamp to be of a certain format. However, Excel has a mind of its own and would rearrange our timestamps to the default when we would open the age data in Notepad then again in Excel. Lesson? Don’t open in Excel! Or figure out a way to avoid the default date format first because this caused some issues that we didn’t realize.&lt;/p&gt;
-
-&lt;p&gt;Additionally, from Victoria’s code, we still had problems importing the python file that does the calculations, so for now, we copy pasted that code at the top of our current file and hardcoded the import of the age data. Once this is working, we want to make ALL of these variables so the user can simply upload the raw data for both the ages and measurements and the script will do the rest. Our current next steps will be exporting the data into a CSV and seeing how good (or unsuccessful) our script is!&lt;/p&gt;
-
-&lt;p&gt;Thanks for reading, see you next time!&lt;/p&gt;
-
-&lt;p&gt;-Al&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;wednesday-june-26-2019&quot;&gt;Wednesday June 26, 2019&lt;/h3&gt;
-
-&lt;p&gt;After I left yesterday, Jose continued working on our script and added a feature that exports our resultant data frame as a CSV file. From our first attempt, our output data can be found &lt;a href=&quot;https://drive.google.com/file/d/16teWUY5v29x06UAZQ8bME6A7WJJQIhiD/view?usp=sharing&quot; target=&quot;blank&quot; class=&quot;standOut&quot;&gt;here&lt;/a&gt;. After a quick glance, we can see this output has over 200 lines of data and most of the entries are labeled as bad, which reasonably doesn’t sounds right. After looking into it more, I realized the root of this issue was due to Jose and I not understanding how the function cleaned the data, specifically this line down here:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/blog/comboLine.png&quot; alt=&quot;Combo Line&quot; class=&quot;images full&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;In short, &lt;span class=&quot;standOut&quot;&gt;listed_vals&lt;/span&gt; contains lists of the segments drawn. Then the code above creates any and all combinations of two segments from each data entry in the measurement data (which very well could contain more than 2 segments since there could be multiple lobes in one picture for the user to measure) to then perform the calculations on. Thus, our current code appends every combination of 2 segments from each picture onto our exported CSV, causing the CSV to be hundreds of lines long. To fix it, we moved the if statements around to only append data if the combination of 2 segments intersected.&lt;/p&gt;
-
-&lt;p&gt;Additionally, we found that while the age data had completely unique timestamps, the measurement data sometimes had two entries with the same timestamp (down to the minute). Although they varied by the second, since the age data’s timestamps only included up to the nearest minute, we had to truncate the timestamps in measurement data. Thus sometimes we had one entry in age data potentially correspond with multiple entries in measurement data (based on the time stamps) as seen below:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/blog/twoForOne.PNG&quot; alt=&quot;Image showing two entries in measurement data corresponding with one enry in age data&quot; class=&quot;images three_fourths&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;We can assume that since the timestamps are very close together, that this data is probably from the same user and thus can use the age demographic entry for both the highlighted measurement entries. To reflect this in our code, we simply did not increment the row counter for the age data whenever we ran into two rows in measurement data that corresponded with the current row in age data.&lt;/p&gt;
-
-&lt;p&gt;We ended the day with a meeting at Northeastern Illinois University where I talked with Francisco, a professor in computer science, as well as Beth, a graduate student. Beth will be working with using machine learning to classify ferns (which is part of my third project of the summer) and I’ll be shadowing her project to learn about machine learning, both theoretically and practically, as well as learn how to apply it for my own uses.&lt;/p&gt;
-
-&lt;p&gt;Happy hump day! We’re over halfway through!&lt;/p&gt;
-
-&lt;p&gt;-Al&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;thursday-june-27-2019&quot;&gt;Thursday June 27, 2019&lt;/h3&gt;
-
-&lt;p&gt;Today started off with debugging! (Yay… my favorite) When we last left off, the cleaning script worked with a snippet of data from the kiosk measurements, but when we used the CSV with measurement data that corresponded with the date range from the age data sheet, we kept getting a JSON error. I personally had no idea what a JSON error, but after reading through a few Github threads and analyzing the problem, everything pointed to it being an issue with our data file. But this file was over 1000 lines long…luckily, using Excel’s CTRL + ‘down key’ we found a few blank rows. After removing them, the first issue of the day was solved and we were able to export the data for all of the measurements that matched with a timestamp on age data! Success!&lt;/p&gt;
-
-&lt;p&gt;But of course, we can’t ride on our successes for long. Currently, if there is an entry in measurement data whose timestamp does &lt;em&gt;not&lt;/em&gt; correspond with an entry from age data, it’s ignored. But after talking with Matt we realized this was wrong. Here’s why:&lt;/p&gt;
-
-&lt;p&gt;When people come up to use the kiosk, they’re first asked what age group they are. That’s where the time stamp for age data comes from. Then they’re shown pictures of the microplants where they make the measurements. Maybe they just do measurements on one image, maybe they do it on ten. Recall that each time they change images, an entry in measurement data is made. Thus all these measurements are associated with that one age data time stamp. Then when the user is done, they hit ‘Quit’ which resets the kiosk, allowing the next person to repeat the entire process.&lt;/p&gt;
-
-&lt;p&gt;For now, we need to treat all the entries in measurement data that do &lt;i&gt;not&lt;/i&gt; directly correspond to a timestamp in age data to correspond with the last occurring timestamp in age data. Although there will be cases where no one hit exit and an entry in measurement data will correspond with a timestamp that was perhaps a few hours ago, we need not worry about that yet. In the future, we will get to putting less weights on these entries, since they are less likely to actually be associated with the entry in age data. This change in the code is not difficult, but to do it most efficiently we decided not to change anything regarding the appending of the data frame, but changing how the algorithm loops through the data.&lt;/p&gt;
-
-&lt;p&gt;Thanks for reading!&lt;/p&gt;
-
-&lt;p&gt;-Al&lt;/p&gt;</content><author><name></name></author><summary type="html">Monday June 24, 2019 Today was the start of working on my project! Using the code from a fellow Field Museum employee, Victoria, that cleans some data to be usable, we will create a more thorough script that cleans data, converts measurements of pixels into microns, and pairs the raw data from kiosks with results of the age groups of the responders to make a connection between age and validity of data. (For example, if the measurements of the major and minor axes don’t cross, go off screen, or intersect too far from perpendicular, the data is unusable.)</summary></entry><entry><title type="html">Chia Seed Pudding</title><link href="http://localhost:4000/chia_seed_pudding/" rel="alternate" type="text/html" title="Chia Seed Pudding" /><published>2019-06-24T08:25:40-05:00</published><updated>2019-06-24T08:25:40-05:00</updated><id>http://localhost:4000/chia_seed_pudding</id><content type="html" xml:base="http://localhost:4000/chia_seed_pudding/">&lt;p&gt;Time: &amp;lt;5 minutes&lt;/p&gt;
-
-&lt;p&gt;Serves: 2-4&lt;/p&gt;
-
-&lt;p&gt;Difficulty: Mario Circuit from Mario Kart&lt;/p&gt;
-
-&lt;h3 id=&quot;ingredients&quot;&gt;Ingredients&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;Remember, these are all relative ish! Adapt as you wish!&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;3 TBSP chia seeds&lt;/li&gt;
-  &lt;li&gt;3/4-1 cup almond milk (you can also use regular milk, soy milk, coconut milk, etc. and even water if you want!)&lt;/li&gt;
-  &lt;li&gt;1 tsp honey (opt)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;instructions&quot;&gt;Instructions&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Scoop chia seeds into a cup and pour almond milk&lt;/li&gt;
-  &lt;li&gt;Stir well for about 1-2 minutes or until all chia seeds are coated and dispersed in milk&lt;/li&gt;
-  &lt;li&gt;Cover and refrigerate overnight (at least a few hours)&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Okay but that’s kinda boring, here are some &lt;span class=&quot;standOut&quot;&gt;variations&lt;/span&gt; to add some flavor! Add these before refrigerating&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h4 id=&quot;coconut-spice&quot;&gt;Coconut Spice&lt;/h4&gt;
-
-&lt;p&gt;Maybe an unconventional combination, but it’s really good!&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Mix in &lt;strong&gt;1 TBSP cinnamon, 1/2 TBSP nutmeg, and as much shredded coconut as you want&lt;/strong&gt;.&lt;/li&gt;
-  &lt;li&gt;Stir again, ensuring everything is mixed well&lt;/li&gt;
-  &lt;li&gt;Before eating, top with raspberries and almond butter&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;hr /&gt;
-
-&lt;h4 id=&quot;chocolate-strawberry&quot;&gt;Chocolate Strawberry&lt;/h4&gt;
-
-&lt;p&gt;Who &lt;em&gt;doesn’t&lt;/em&gt; love chocolate?!&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Mix in &lt;strong&gt;1/2 to 1 TBSP of cocoa powder&lt;/strong&gt; and &lt;strong&gt;sliced strawberries&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;Stir well!&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;hr /&gt;
-
-&lt;h4 id=&quot;make-your-own-combination&quot;&gt;Make your own combination!&lt;/h4&gt;
-
-&lt;p&gt;Experiment with the following “formulas”:&lt;/p&gt;
-
-&lt;p&gt;Before refrigerating, stir in some of the following:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;cocoa powder&lt;/li&gt;
-  &lt;li&gt;cinnamon &amp;amp; nutmeg&lt;/li&gt;
-  &lt;li&gt;vanilla exract&lt;/li&gt;
-  &lt;li&gt;shredded coconut&lt;/li&gt;
-  &lt;li&gt;nuts (almonds/pecans,etc)&lt;/li&gt;
-  &lt;li&gt;berries&lt;/li&gt;
-  &lt;li&gt;sliced bananas (if you put bananas, eat within 1-2 days of making it)&lt;/li&gt;
-  &lt;li&gt;flax seeds&lt;/li&gt;
-  &lt;li&gt;dark chocolate chips&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Right before eating, try topping it off with some of the following:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;nut butter&lt;/li&gt;
-  &lt;li&gt;more berries&lt;/li&gt;
-  &lt;li&gt;bananas&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h4 id=&quot;health-benefits&quot;&gt;Health benefits:&lt;/h4&gt;
-
-&lt;p&gt;Chia seeds are an &lt;em&gt;excellent&lt;/em&gt; source of fiber! They’re pretty low in calories, but adding a little bit to your breakfast can help keep you full for longer, especially useful if you’re working towards being in a calorie deficit without always feeling so hungry!&lt;/p&gt;
-
-&lt;p&gt;But sometimes the texture is unappealing; to be honest, the first time I had chia seed pudding, I did not like it at all but it’s grown on me, especially when you add in other ingredients. By itself, chia seed pudding tastes like almost nothing, but in a way that’s good becuase you get to start with a blank slate and flavor it any way you want!&lt;/p&gt;
-
-&lt;p&gt;Thanks for reading, and I’ll &lt;em&gt;chia&lt;/em&gt; later!&lt;/p&gt;
-
-&lt;p&gt;(Get it? Like &lt;em&gt;see ya&lt;/em&gt; later?)&lt;/p&gt;
-
-&lt;p&gt;Okay, I get it, I get it, I’m leaving now.&lt;/p&gt;
-
-&lt;p&gt;-Al&lt;/p&gt;</content><author><name></name></author><summary type="html">Time: &amp;lt;5 minutes</summary></entry></feed>
+&lt;p&gt;-Al&lt;/p&gt;</content><author><name></name></author><summary type="html">Tuesday July 2, 2019</summary></entry></feed>

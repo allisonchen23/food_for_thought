@@ -13,7 +13,7 @@ Once that was working, I ran the script on both complete files (which took a goo
 
 Upon further inspection, I found that our algorithm did not handle the case when the age data contained an "extra" timestamp that didn't align closely with any of the measurement data. (In real people talk, this meant someone filled in their age group, but decided not to take any measurements). I fixed it with the following code where <span class="standOut">i</span> is the row number in the age file and <span class="standOut"> row_num </span>is the row number of the raw measurement data from Zooniverse:
 
-![Code to increment rows appropriately](/assets/images/blog/incrementing_rows.png){:class="images full"}
+![Code to increment rows appropriately](/assets/images/blog/fm/incrementing_rows.png){:class="images full"}
 
 Thanks for reading!
 

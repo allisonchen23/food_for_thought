@@ -7,7 +7,7 @@ layout: post_layout
 ---
 ### Monday August 12, 2019
 Today was essentially spent just making changes to the architecture/regularizers of my model and training it to hopefully get better results. The main issues I'm facing now is that validation accuracy fluctuates a lot. It'll grow steadily for a little then drop down to almost 50% and grow a little more (such as in the image below).
-![Accuracy Graph](/assets/images/blog/8.13.19_13.47.png){:class="images half"}
+![Accuracy Graph](/assets/images/blog/fm/8.13.19_13.47.png){:class="images half"}
 
 Although it took all day because training the model currently takes around an hour, the main things I experimented with were changing the epsilon value (which prevents dividing by 0) and the regularizers. Regularizers essentially penalize larger weights, forcing the parameters to be small. I used L2 Regularization which adds a penalty term to the loss function that's composed of the sum of the squares of the parameters. 
 

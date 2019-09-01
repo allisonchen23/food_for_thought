@@ -25,7 +25,7 @@ A lot of the nitty gritty work was already implemented (such as syntax to create
 
 First, our script wasn't recognizing the name of our first column when we imported the data frame as a CSV. When we printed out, the first row of the CSV, we would get some garbage characters in front of the first column (shown below)
 
-![Encoding Error](/assets/images/blog/EncodingError.png){:class="images half"}
+![Encoding Error](/assets/images/blog/fm/EncodingError.png){:class="images half"}
 
 We tried renaming the first column using various functions from the pandas package, but nothing work. After some research, we found the error was most likely caused by an encoding issue. The CSV we were reading in was encoded as UTF-8, but we had to make that clear to the compiler (because as we all learned in any intro CS class, computers are stupid and will only do exactly what you tell it to :D ). In order to clarify to the compiler that the CSV's are UTF-8, we added a little segment to the line that opens the file.
 
@@ -47,13 +47,13 @@ Thanks for reading, see you next time!
 
 After I left yesterday, Jose continued working on our script and added a feature that exports our resultant data frame as a CSV file. From our first attempt, our output data can be found [here](https://drive.google.com/file/d/16teWUY5v29x06UAZQ8bME6A7WJJQIhiD/view?usp=sharing){:target="blank" class="standOut"}. After a quick glance, we can see this output has over 200 lines of data and most of the entries are labeled as bad, which reasonably doesn't sounds right. After looking into it more, I realized the root of this issue was due to Jose and I not understanding how the function cleaned the data, specifically this line down here:
 
-![Combo Line](/assets/images/blog/comboLine.png){:class="images full"}
+![Combo Line](/assets/images/blog/fm/comboLine.png){:class="images full"}
 
 In short, <span class="standOut">listed_vals</span> contains lists of the segments drawn. Then the code above creates any and all combinations of two segments from each data entry in the measurement data (which very well could contain more than 2 segments since there could be multiple lobes in one picture for the user to measure) to then perform the calculations on. Thus, our current code appends every combination of 2 segments from each picture onto our exported CSV, causing the CSV to be hundreds of lines long. To fix it, we moved the if statements around to only append data if the combination of 2 segments intersected.
 
 Additionally, we found that while the age data had completely unique timestamps, the measurement data sometimes had two entries with the same timestamp (down to the minute). Although they varied by the second, since the age data's timestamps only included up to the nearest minute, we had to truncate the timestamps in measurement data. Thus sometimes we had one entry in age data potentially correspond with multiple entries in measurement data (based on the time stamps) as seen below:
 
-![Image showing two entries in measurement data corresponding with one enry in age data](/assets/images/blog/twoForOne.PNG){:class="images three_fourths"}
+![Image showing two entries in measurement data corresponding with one enry in age data](/assets/images/blog/fm/twoForOne.PNG){:class="images three_fourths"}
 
 We can assume that since the timestamps are very close together, that this data is probably from the same user and thus can use the age demographic entry for both the highlighted measurement entries. To reflect this in our code, we simply did not increment the row counter for the age data whenever we ran into two rows in measurement data that corresponded with the current row in age data.
 

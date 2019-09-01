@@ -10,7 +10,7 @@ layout: post_layout
 
 Hope everyone had a great July 4th weekend! Today, we were back on the grind, starting with analysis of the Microplants data that we previously cleaned. To jog your memory, recall that the purpose of us cleaning Microplants kiosk data and combining it with age data is to see if there is a difference in the accuracy of measurements (determined by the angle between the major and minor axis) between the different age groups. Today, I worked on learning how to use R and without even doing any statistical tests and just graphing the data, we can see that there in fact is a difference between groups, as shown below.
 
-![Left is the counts of good and bad data by age group and right side has the percentage of good and bad data within the age group](/assets/images/blog/age_accuracy.PNG){:class="images three_fourths"}
+![Left is the counts of good and bad data by age group and right side has the percentage of good and bad data within the age group](/assets/images/blog/fm/age_accuracy.PNG){:class="images three_fourths"}
 
 The next task here is performing a linear regression model and chi square test to have a statistical measurement of how different the results are depending on age group and how much more likely one age group is to perform more accurate measurements than another age group.
 
@@ -42,10 +42,10 @@ Okay not gonna lie today was not super productive, but it's okay, we all have th
 
 <div class="row">
     <div class="column_2">
-        <img src="/assets/images/blog/rostrata.jpg" class="images full" alt="unedited image of f. rostrata">
+        <img src="/assets/images/blog/fm/rostrata.jpg" class="images full" alt="unedited image of f. rostrata">
     </div>
     <div class="column_2">
-        <img src="/assets/images/blog/rostrata_skel.png" class="images half" alt="skeletonized image of f. rostrata">
+        <img src="/assets/images/blog/fm/rostrata_skel.png" class="images half" alt="skeletonized image of f. rostrata">
     </div>
 </div>
 
@@ -67,13 +67,13 @@ In the afternoon, I worked on MorphoSnake stuff again. Using the paint tool in G
 
 <div class="row">
     <div class="column_3">
-        <img src="/assets/images/blog/f_rostrata.png" class="images full" alt="unedited image of f. rostrata">
+        <img src="/assets/images/blog/fm/f_rostrata.png" class="images full" alt="unedited image of f. rostrata">
     </div>
     <div class="column_3">
-        <img src="/assets/images/blog/f_rostrata_skel.png" class="images full" alt="skeletonized image of f. rostrata">
+        <img src="/assets/images/blog/fm/f_rostrata_skel.png" class="images full" alt="skeletonized image of f. rostrata">
     </div>
     <div class="column_3">
-        <img src="/assets/images/blog/f_rostrata_MS.png" class="images full" alt="skeletonized image of f. rostrata">
+        <img src="/assets/images/blog/fm/f_rostrata_MS.png" class="images full" alt="skeletonized image of f. rostrata">
     </div>
 </div>
 <p class="caption">Left: unedited image of frullania rostrata. Center: Skeletonized image of f. rostrata using paint tool on GIMP. Right: Skeletonized image used in MorphoSnake.</p>
@@ -87,13 +87,13 @@ Since the technique above may not be reasonable to get a computer to do, I explo
 
 <div class="row">
     <div class="column_3">
-        <img src="/assets/images/blog/f_rostrata.png" id="f_rostrata" class="images full" alt="unedited image of f. rostrata">
+        <img src="/assets/images/blog/fm/f_rostrata.png" id="f_rostrata" class="images full" alt="unedited image of f. rostrata">
     </div>
     <div class="column_3">
-        <img src="/assets/images/blog/f_rostrata2_blob.png" id="f_rostrata2_blob" class="images full" alt="skeletonized image of f. rostrata">
+        <img src="/assets/images/blog/fm/f_rostrata2_blob.png" id="f_rostrata2_blob" class="images full" alt="skeletonized image of f. rostrata">
     </div>
     <div class="column_3">
-        <img src="/assets/images/blog/f_rostrata2_MS.png" class="images full" alt="skeletonized image of f. rostrata">
+        <img src="/assets/images/blog/fm/f_rostrata2_MS.png" class="images full" alt="skeletonized image of f. rostrata">
     </div>
 </div>
 <p class="caption">Left: unedited image of frullania rostrata. Center: Skeletonized image of f. rostrata using whole image editing on GIMP. Right: Skeletonized image used in MorphoSnake.</p>
