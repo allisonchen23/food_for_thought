@@ -143,6 +143,7 @@ body
 	align-content: center;
 	width: 80%;
 	max-width: 800px;
+	min-height: 95vh;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom:25px;
@@ -259,10 +260,7 @@ body
 #footer 
 {
 	background: var(--paynes_gray) !important;
-	position: fixed;
-	left: 0px;
-	bottom: 0px;
-	width: 100%;
+
 }
 #footer h5
 {
