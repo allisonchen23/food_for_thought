@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-08-27T17:14:37-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Thoughts for Food</title><subtitle>Welcome to my blog! I'll be posting basically random thoughts and updates on any current projects/work I'll be doing.</subtitle><entry><title type="html">Sure about sugar?</title><link href="http://localhost:4000/food_in_food_for_thought/nutrition/2019/08/27/sugar.html" rel="alternate" type="text/html" title="Sure about sugar?" /><published>2019-08-27T00:00:00-05:00</published><updated>2019-08-27T00:00:00-05:00</updated><id>http://localhost:4000/food_in_food_for_thought/nutrition/2019/08/27/sugar</id><content type="html" xml:base="http://localhost:4000/food_in_food_for_thought/nutrition/2019/08/27/sugar.html">&lt;h5 id=&quot;all-sugar-is-bad-right&quot;&gt;All sugar is bad right?&lt;/h5&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-09-02T10:09:38-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Thoughts for Food</title><subtitle>Welcome to my blog! I'll be posting basically random thoughts and updates on any current projects/work I'll be doing.</subtitle><entry><title type="html">Sure about sugar?</title><link href="http://localhost:4000/food_in_food_for_thought/nutrition/2019/08/27/sugar.html" rel="alternate" type="text/html" title="Sure about sugar?" /><published>2019-08-27T00:00:00-05:00</published><updated>2019-08-27T00:00:00-05:00</updated><id>http://localhost:4000/food_in_food_for_thought/nutrition/2019/08/27/sugar</id><content type="html" xml:base="http://localhost:4000/food_in_food_for_thought/nutrition/2019/08/27/sugar.html">&lt;h5 id=&quot;all-sugar-is-bad-right&quot;&gt;All sugar is bad right?&lt;/h5&gt;
 
 &lt;p&gt;Okay that’s a tough question. Sugar by itself is not necessarily bad; it’s a good source of quick energy for our bodies. &lt;em&gt;HOWEVER&lt;/em&gt;, too much sugar, especially in its most processed form can be pretty detrimental to our bodies and lead to weight gain as well as medical issues.&lt;/p&gt;
 
@@ -57,6 +57,8 @@
 
 &lt;p&gt;PS, Matt wants me to try running the model again on the two frullania species again but the images being from farther away. I want to look into bootstrapping for this and hopefully synthetically expand our data set.&lt;/p&gt;
 
+&lt;hr /&gt;
+
 &lt;h3 id=&quot;tuesday-august-28-2019&quot;&gt;Tuesday, August 28, 2019&lt;/h3&gt;
 
 &lt;p&gt;First thing this morning, I checked on the training of the model on Lycopodium and Selaginella. For the most part, it was okay; there was still a bit of overfitting, but the trend of validation accuracy seemed to follow training accuracy, like in the graph below.&lt;/p&gt;
@@ -73,6 +75,59 @@
 &lt;p&gt;At this point, most of my big machine learning changes are wrapping up and I’ve been working on documentation, documentation, and documentation! Especially since I was pretty much the only one working on this project this summer, it’s &lt;strong&gt;extremely&lt;/strong&gt; important that someone could study my work for a bit and pick up where I left off.&lt;/p&gt;
 
 &lt;p&gt;Thanks for reading!&lt;/p&gt;
+
+&lt;p&gt;-Al&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;wednesday-august-28-2019&quot;&gt;Wednesday August 28, 2019&lt;/h3&gt;
+
+&lt;p&gt;This morning I met with Dr. Iacobelli, Beth, and Dr. Campbell (unfortunately Matt coudln’t make it) We updated Dr. Iacobelli and here are his responses/advice. Regarding the random dropped accuracy I wrote about yesterday, he recommends that we meticulously check the code first. There may a bug (such as divide by 0) that’s throwing everything off. Additionally, it simply may be lack of processing power in the computer causing a data overflow.&lt;/p&gt;
+
+&lt;p&gt;Another thing he noticed is that the images we’re using from the Field Musuem are &lt;em&gt;not&lt;/em&gt; consistent in the herbarium sheet layout. Some have labels in the upper right corner, some are lower left, some have specimen in the middle, some have specimen in the lower right corner. The inconsistencies in layout may be providing too much noise for the model, so he recommends that we try a smaller sample of images that have a more consistent layout an see if there is an improvement in performance.&lt;/p&gt;
+
+&lt;p&gt;Additionally, there is a computer at NEIU with 64 GB RAM that Beth is going to be trying our model with the Smithsonian images (which I didn’t know we had!) and we found out there is a computer at the museum with &lt;span class=&quot;standOut&quot;&gt; one terabyte of RAM. I repeat, of RAM. &lt;/span&gt; I almost fainted when I heard that.&lt;/p&gt;
+
+&lt;p&gt;Although I’m wrapping up this week, I’m excited for Beth to be able to try things out!&lt;/p&gt;
+
+&lt;p&gt;-Al&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;thursday-august-29-2019&quot;&gt;Thursday August 29, 2019&lt;/h3&gt;
+
+&lt;p&gt;When I came in this morning, the model that was training on images of the Adiantum and Blechnum genera finished training, so I created a script to test it. Since the model really consists of 10 trained models (given that we used 10 fold cross validation), I had to take that into account. One way to do this would be see which prediction output each model gave and the final prediction would be what the majority of the models output. However, this poses two possible issues:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;What if 5 models say class A and 5 say class B? There wouldn’t be an odd number in this case to be the tie breaker&lt;/li&gt;
+  &lt;li&gt;If one model is 99% sure that an image is class A but another model is only 50% sure that it’s class A, using the method described above would give each of these equal weights when it maybe shouldn’t.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;To overcome this, I decided to take a step back and look at the probability outcomes that are used to determine each model’s final answer. Basically, the final layer of the model outputs two numbers: the probability that an image is one class or another. So what I did was I kept track of each of these probabilities and for each image, added up all the models’ class A probability and class B probability separately. The final answer would be whichever summed probability is higher. This way, the “confidence” of each of the 10 models is taken into account.&lt;/p&gt;
+
+&lt;p&gt;Honestly, that didn’t take me very long today, so when I tested the Adiantum/Blechnum model, we got a whooping &lt;span class=&quot;standOut&quot;&gt;97.8% accuracy!!&lt;/span&gt; It was tested on 400 new images and this is the best I’ve ever gotten :)))&lt;/p&gt;
+
+&lt;p&gt;This is good news because it means the model can work! We just need to tweak values and perhaps look at cleaning our input images for Lycopodium and Selaginella.&lt;/p&gt;
+
+&lt;p&gt;The rest of the day was mainly spent documenting my work. I explained to Matt how my Google Drive was organized and how to use Github as well as documented within the Drive where everything is.&lt;/p&gt;
+
+&lt;p&gt;I did, however, forget to upload my final cross-validation testing file to Github, which is what I’ll do first thing tomorrow morning.&lt;/p&gt;
+
+&lt;p&gt;Last day tomorrow! What a melancholy feeling…&lt;/p&gt;
+
+&lt;p&gt;-Al&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;friday-august-30-2019&quot;&gt;Friday August 30, 2019&lt;/h3&gt;
+
+&lt;p&gt;Today was spent mainly double checking my documentation on Github and Google Drive. I called Beth and we went over each file in Github and she seems confident on where I’m leaving off, which is great! I’m so excited for her to continue this project and be able to run the model on a computer that has enough processing power.&lt;/p&gt;
+
+&lt;p&gt;Furthermore, Matt worked on getting the images contrasted a bit more yesterday; now the background of the images are very white compared to the specimen in focus and it helped get rid of some noise. We only have a little less than 150 of either group, but we ran the model for 50 epochs and we actually got some results! Although overfitting still occurred, the validation accuracy definitely grew as the number of epochs increased! This is a great sign! It means the machine is able to generalize what it’s learning on the training data onto new images.&lt;/p&gt;
+
+&lt;p&gt;Since we didn’t run for very long and we don’t have many images, we were able to start another run before the end of the day. Matt went through the images and deleted any that were actually the wrong specimen or weren’t sterile as this type of noise could be hurting the model’s performance. Then, before I left, I ran two models: one with the same exact specs as the last run, just with the new images, and one with the new images &lt;em&gt;and&lt;/em&gt; more epochs. Although I won’t be able to see the results, Matt will be able to check it out and report back!&lt;/p&gt;
+
+&lt;p&gt;And that’s a wrap :) although I’m leaving, I know this project is going to go far in the hands of Beth, Matt, and Dr. Iacobelli. I’m excited to see where they are able to take this application of computer science into botany and am truly grateful for this opportunity!&lt;/p&gt;
 
 &lt;p&gt;-Al&lt;/p&gt;</content><author><name></name></author><summary type="html">Monday August 26, 2019</summary></entry><entry><title type="html">Becoming Keen on Quinoa</title><link href="http://localhost:4000/food_in_food_for_thought/nutrition/2019/08/20/quinoa.html" rel="alternate" type="text/html" title="Becoming Keen on Quinoa" /><published>2019-08-20T00:00:00-05:00</published><updated>2019-08-20T00:00:00-05:00</updated><id>http://localhost:4000/food_in_food_for_thought/nutrition/2019/08/20/quinoa</id><content type="html" xml:base="http://localhost:4000/food_in_food_for_thought/nutrition/2019/08/20/quinoa.html">&lt;h5 id=&quot;sooo-what-is-quinoa&quot;&gt;Sooo what is quinoa?&lt;/h5&gt;
 
