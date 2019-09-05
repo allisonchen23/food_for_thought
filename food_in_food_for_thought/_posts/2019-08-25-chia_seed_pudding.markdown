@@ -22,7 +22,7 @@ Difficulty: Mario Circuit from Mario Kart
 
 ### Instructions
 
-1. Scoop chia seeds into a cup and pour almond milk
+1. Scoop the chia seeds into a cup and pour almond milk
 2. Stir well for about 1-2 minutes or until all chia seeds are coated and dispersed in milk
 3. Cover and refrigerate overnight (at least a few hours)
 

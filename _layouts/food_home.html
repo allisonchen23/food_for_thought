@@ -22,8 +22,12 @@
                     <ul class="list_posts">
                         {% for post in site.posts %}
                             {% if post.categories contains 'nutrition' %}
-                                <li class="list_item_food">
-                                    <a href = "{{ post.url}}" id="post_link">{{post.title}}</a>
+                                <li>
+                                    <a href = "{{ post.url}}" id="post_link">
+                                            <div class="list_item_food">
+                                                <div class="title_text">{{post.title}}</div>
+                                            </div>
+                                    </a>
                                 </li>
                             {% endif %}
                         {% endfor %}
@@ -34,8 +38,12 @@
                     <ul class="list_posts">
                         {% for post in site.posts %}
                             {% if post.categories contains 'recipe' %}
-                                <li class="list_item_food">
-                                    <a href = "{{ post.url}}" id="post_link">{{post.title}}</a>
+                                <li>
+                                    <a href = "{{ post.url}}" id="post_link">
+                                        <div class="list_item_food">
+                                            <div class="title_text">{{post.title}}</div>
+                                        </div>
+                                    </a>
                                 </li>
                             {% endif %}
                         {% endfor %}
