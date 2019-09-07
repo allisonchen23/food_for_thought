@@ -3,7 +3,7 @@ title: "Week 3: Statistical Analysis for Microplants, Image Editing, and Basic M
 date:   2019-07-08 08:25:40 -0500
 categories: field_museum_blog
 permalink: "/FM-week-3/"
-layout: post_layout
+layout: fm_post_layout
 ---
 
 ### Monday July 8, 2019

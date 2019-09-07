@@ -3,7 +3,7 @@ title:  "Week 4: Microplants Never Ends, Prep for ML Classification"
 date:   2019-07-15 08:25:40 -0500
 categories: field_museum_blog
 permalink: "/FM-week-4/"
-layout: post_layout
+layout: fm_post_layout
 ---
 ### Monday July 15, 2019
 

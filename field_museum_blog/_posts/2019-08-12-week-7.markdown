@@ -3,7 +3,7 @@ title:  "Week 7: Improving CNN Training"
 date:   2019-08-12 08:25:40 -0500
 categories: field_museum_blog
 permalink: "/FM-week-7/"
-layout: post_layout
+layout: fm_post_layout
 ---
 ### Monday August 12, 2019
 Today was essentially spent just making changes to the architecture/regularizers of my model and training it to hopefully get better results. The main issues I'm facing now is that validation accuracy fluctuates a lot. It'll grow steadily for a little then drop down to almost 50% and grow a little more (such as in the image below).

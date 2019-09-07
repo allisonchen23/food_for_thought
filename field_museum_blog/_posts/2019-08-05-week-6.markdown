@@ -3,7 +3,7 @@ title: "Week 6: Continuing Machine Learning Project"
 date: 2019-08-05 08:25:40 -0500
 categories: field_museum_blog
 permalink: "/FM-week-6/"
-layout: post_layout
+layout: fm_post_layout
 ---
 
 ### Monday August 5, 2019

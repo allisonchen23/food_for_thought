@@ -3,7 +3,7 @@ title: "Week 5: Machine Learning Ramps Up"
 date:   2019-07-22 08:25:40 -0500
 categories: field_museum_blog
 permalink: "/FM-week-5/"
-layout: post_layout
+layout: fm_post_layout
 ---
 
 ### Monday July 22, 2019

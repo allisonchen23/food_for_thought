@@ -3,7 +3,7 @@ title:  "Week 2: Microplants Data Cleansing & Starting MorphoSnake"
 date:   2019-07-02 08:25:40 -0500
 categories: field_museum_blog
 permalink: "/FM-week-2/"
-layout: post_layout
+layout: fm_post_layout
 ---
 ### Tuesday July 2, 2019
 

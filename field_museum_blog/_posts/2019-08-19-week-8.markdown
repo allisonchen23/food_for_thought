@@ -3,7 +3,7 @@ title: "Week 8: Implementing Cross Validation"
 date:   2019-08-19 08:25:40 -0500
 categories: field_museum_blog
 permalink: "/FM-week-8/"
-layout: post_layout
+layout: fm_post_layout
 ---
 
 ### Monday August 19, 2019

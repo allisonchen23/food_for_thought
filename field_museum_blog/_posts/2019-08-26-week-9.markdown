@@ -3,7 +3,7 @@ title: "Week 9: Wrapping Things Up!"
 date: 2019-08-26 20:31:00 -0500
 categories: "field_museum_blog"
 permalink: "/FM-week-9/"
-layout: post_layout
+layout: fm_post_layout
 ---
 
 ### Monday August 26, 2019
