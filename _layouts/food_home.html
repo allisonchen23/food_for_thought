@@ -23,7 +23,7 @@
                         {% for post in site.posts %}
                             {% if post.categories contains 'nutrition' %}
                                 <li>
-                                    <a href = "{{ post.url | relative url}}" id="post_link">
+                                    <a href = "{{ post.url | relative_url}}" id="post_link">
                                             <div class="list_item_food">
                                                 <div class="title_text">{{post.title}}</div>
                                             </div>
@@ -39,7 +39,7 @@
                         {% for post in site.posts %}
                             {% if post.categories contains 'recipe' %}
                                 <li>
-                                    <a href = "{{ post.url | relative url}}" id="post_link">
+                                    <a href = "{{ post.url | relative_url}}" id="post_link">
                                         <div class="list_item_food">
                                             <div class="title_text">{{post.title}}</div>
                                         </div>

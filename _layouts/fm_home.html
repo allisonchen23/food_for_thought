@@ -20,7 +20,7 @@
 				{% for post in site.posts %}
 					{% if post.categories contains 'field_museum_blog' %}
 						<li class="list_item">
-							<a href = "{{ post.url | relative url}}" id="post_link">{{post.title}}</a>
+							<a href = "{{ post.url | relative_url}}" id="post_link">{{post.title}}</a>
 						</li>
 						<hr>
 					{% endif %}
