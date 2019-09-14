@@ -13,4 +13,8 @@ Welcome to my blog! Thank you for taking the time to check it out. Food for Thou
 
 ---
 
+### [The 'Thoughts' in Food for Thought](thoughts_in_food_for_thought/index.html){:class="standOut"}
+
+---
+
 ### [Field Museum Summer 2019 Blog](field_museum_blog/index.html){:class="standOut"}
