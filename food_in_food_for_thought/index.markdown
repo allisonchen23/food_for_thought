@@ -1,5 +1,5 @@
 ---
-title: "Food in Food for Thought"
+title: "'Food' in Food for Thought"
 layout: "food_home"
 ---
 
