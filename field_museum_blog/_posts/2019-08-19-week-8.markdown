@@ -10,7 +10,7 @@ layout: fm_post_layout
 
 This morning, Beth came to the Field Museum to work with me on implementing stratified cross validation and ROC testing. Stratified cross validation essentially partitions the data into groups of approximately equal distributions of each class. ROC (stand for Receiving Operator Curve) is a type of graph that can help us quantify how "good" our model is. It uses the percentage of true positives and false positives and the closer the curve hugs the y-axis, the more confident it is. Take a look at the image below:
 
-![ROC Curve](/assets/images/blog/fm/ROC_curve.png){:class="images half"}
+![ROC Curve]({{site.baseurl}}/assets/images/blog/fm/ROC_curve.png){:class="images half"}
 
 The straight line represents if it were just up to chance, so if the ROC curve is close to that, it's bad.
 
@@ -54,7 +54,7 @@ I got in around 8:15 this morning and didn't leave till around 5:30, I'm going t
 
 I came in this morning and good news, nothing crashed! The models are still chugging along doing their own thing. Something I noticed and continue to notice is that while training accuracy will rise somewhat consistently with each epoch, validation accuracy fluctuates a LOT more, like in the graph below:
 
-![Fluctuating Validation Accuracy](/assets/images/blog/fm/8.14.19_12.30.png){:class="images half"}
+![Fluctuating Validation Accuracy]({{site.baseurl}}/assets/images/blog/fm/8.14.19_12.30.png){:class="images half"}
 
 I'm going to look into this more, but after a quick Google search, it seems one issue may be too much dropout. So after this model is finished training, I'm going to look into making that change (which might end up having to be done tomorrow)!
 

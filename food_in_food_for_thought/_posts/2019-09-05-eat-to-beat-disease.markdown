@@ -8,7 +8,7 @@ layout: post_layout
 
 The other day I was at the library, looking for a quick read before I head off to school in a week, and I spotted a thick book with color foods on the front titled *Eat to Beat Disease*. 'This sounds interesting!' I thought to myself, and as I was in a hurry to leave, I quickly checked it out. That night, I started reading after dinner and literally could not stop. This book is everything I've been looking for! And I'm not exaggerating.
 
-![Selfie with my favorite new book](/assets/images/blog/food/eat_to_beat.jpg){:class="images third"}
+![Selfie with my favorite new book]({{site.baseurl}}/assets/images/blog/food/eat_to_beat.jpg){:class="images third"}
 
 <p class="caption">Here it is! My favorite new read</p>
 

@@ -13,13 +13,13 @@ Happy Monday! Right now in Microplants, we are working on matching the species t
 
 <div class="row">
     <div class="column_3">
-        <img src="/assets/images/blog/fm/subject_ids.png" class="images full" alt="Showing subject_ids column in raw measurement data">
+        <img src="{{site.baseurl}}/assets/images/blog/fm/subject_ids.png" class="images full" alt="Showing subject_ids column in raw measurement data">
     </div>
     <div class="column_3">
-        <img src="/assets/images/blog/fm/matching_ids.png" class="images full" alt="Showing MatchingIDs CSV with subjec_id and image name">
+        <img src="{{site.baseurl}}/assets/images/blog/fm/matching_ids.png" class="images full" alt="Showing MatchingIDs CSV with subjec_id and image name">
     </div>
     <div class="column_3">
-        <img src="/assets/images/blog/fm/voucher.png" id="voucher" class="images full" alt="Showing the voucher CSV">
+        <img src="{{site.baseurl}}/assets/images/blog/fm/voucher.png" id="voucher" class="images full" alt="Showing the voucher CSV">
     </div>
 </div>
 
@@ -49,7 +49,7 @@ During this extremely hot part of the summer, stay cool!
 
 Today, a lot of the interns went to Lincoln Park Conservatory for a field trip, so it's been a pretty quiet day. In the morning, I worked on my image download file to allow people to run it in the terminal while allowing for arguments. Currently, I'm allowing them to input the CSV file they want images downloaded from as well as the location of the image downloads. I looked into this earlier, but since I kept forgetting the "syntax" of calling the function with arguments, I'm including a picture below.
 
-![terminal syntax to call function with argparse parameters](/assets/images/blog/fm/calling_w_argparse.png){:class="images full"}
+![terminal syntax to call function with argparse parameters]({{site.baseurl}}/assets/images/blog/fm/calling_w_argparse.png){:class="images full"}
 
 Regarding the machine learning part of the project, I mentioned yesterday that I created a script to download the specimen images from an online database. Today, I worked on setting up Python and my script on the desktop computers at the museum because I was not about to download around 7000 images onto my personal computer. It took a while mostly because we needed admin permission, so I didn't get to test yet, but tomorrow will be my day! The CSV file where I'm pulling hte imge URLs from has a column called 'coreid' that I was going to use to identify each picture with, but them I found that the coreid is a little bit arbitrary. Instead, each image also has a barcode that's part of the museum's specimen database that I would like to use instead. The only challenge is that it's on yet another CSV that I can download and just need to link into my script. This additional CSV has both the coreid and the barcode number which I can create into a hash table (aka dictionary in Python) to so it won't kill the programs efficiency.
 
@@ -77,16 +77,16 @@ This Friday was really quiet at the museum. Most of our intern take the day off,
 
 Using my resources (aka the infamous Google), I found that Pillow is a relatively common Python package for image processing and initially, I used that. Just looking at the resulting images, they looked extremely distorted and any text was 300% impossible to read. I knew that by reducing the image size, we would lose a lot of clarity, but this seemed more distorted than expected. After resizing in GIMP, I could clearly see the GIMP software did a much better job of preserving clarity. I was about to just explore using GIMP to process all of the images, but then I remembered another image processing software,<span class="standOut"> OpenCV</span>, that I had heard about. I had to download packages for that (just Google 'OpenCV Python') and resized the image which produced a <i>much</i> clearer image. Check out the comparisons below:
 
-<img src="/assets/images/blog/fm/sela_5887.jpg" class="images third" alt="Example of original uncompressed image">
+<img src="{{site.baseurl}}/assets/images/blog/fm/sela_5887.jpg" class="images third" alt="Example of original uncompressed image">
 <div class="row">
     <div class="column_3">
-        <img src="/assets/images/blog/fm/sela_5887_pillow.jpg" class="images full" alt="Resized image using Pillow">
+        <img src="{{site.baseurl}}/assets/images/blog/fm/sela_5887_pillow.jpg" class="images full" alt="Resized image using Pillow">
     </div>
     <div class="column_3">
-        <img src="/assets/images/blog/fm/sela_5887_gimp.jpg" class="images full" alt="Resized image using GIMP">
+        <img src="{{site.baseurl}}/assets/images/blog/fm/sela_5887_gimp.jpg" class="images full" alt="Resized image using GIMP">
     </div>
     <div class="column_3">
-        <img src="/assets/images/blog/fm/sela_5887_openCV.jpg" class="images full" alt="Resized image using OpenCV">
+        <img src="{{site.baseurl}}/assets/images/blog/fm/sela_5887_openCV.jpg" class="images full" alt="Resized image using OpenCV">
     </div>
 </div>
 
