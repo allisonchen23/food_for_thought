@@ -149,11 +149,13 @@ body
 	margin-bottom:25px;
 	margin-top: 70px;
 	padding: 10px;
-	background-color: #ffffff
-
+	// background-color: #ffffff;
+	background-color: rgba(255,255,255,0.45);
 }
 
-
+p{
+	text-align: justify;
+}
 .standOut
 {
 	color: #f88379;
