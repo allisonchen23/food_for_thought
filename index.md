@@ -20,21 +20,21 @@ Welcome to my blog! Thank you for taking the time to check it out. Food for Thou
 ### [Field Museum Summer 2019 Blog](field_museum_blog/index.html){:class="standOut"} -->
 
 <ul class="list_posts">
-    <li>
+    <li class="list_box">
         <a href = "food_in_food_for_thought/index.html" id="post_link">
                 <div class="list_item_food">
                     <div class="title_text">'Food' in Food for Thought</div>
                 </div>
         </a>
     </li>
-    <li>
+    <li class="list_box">
         <a href = "thoughts_in_food_for_thought/index.html" id="post_link">
                 <div class="list_item_food">
                     <div class="title_text">'Thoughts' in Food for Thought</div>
                 </div>
         </a>
     </li>
-    <li>
+    <li class="list_box">
         <a href = "field_museum_blog/index.html" id="post_link">
                 <div class="list_item_food">
                     <div class="title_text">Field Museum Blog</div>

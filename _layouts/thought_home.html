@@ -21,11 +21,14 @@
             <ul class="list_posts">
                 {% for post in site.posts %}
                     {% if post.categories contains 'thoughts' %}
-                        <li>
+                        <li class="list_box">
                             <a href = "{{ post.url | relative_url}}" id="post_link">
                                     <div class="list_item_food">
                                         <div class="title_text">{{post.title}}</div>
                                     </div>
+                                    <!-- <div class="list_item_date"> -->
+                                        <!-- <div class="date_text">{{post.date}}</div> -->
+                                    <!-- </div> -->
                             </a>
                         </li>
                     {% endif %}

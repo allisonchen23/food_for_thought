@@ -29,16 +29,30 @@
 	border-color: var(--coral);
 	border-style: solid;
 }
+// .list_box //take up whole width for thought blog posts
+// {
+// 	background: var(--light_light_blue);
+// 	margin-bottom: 2px;
+// 	padding: 12px 5px;
+// }
 .list_item
 {
 	padding: 5px;
 }
 .list_item_food
 {
-	background: var(--light_light_blue);
-	margin-bottom: 2px;
-	padding: 12px 5px;
+	// background: var(--light_light_blue);
+	// margin-bottom: 2px;
+	// padding: 12px 5px;
 	max-width: 400px
+}
+.list_item_date
+{
+	align-self: right;
+}
+.date_text
+{
+	text-align: right;
 }
 .title_text
 {

@@ -23,7 +23,7 @@
                     <ul class="list_posts">
                         {% for post in site.posts %}
                             {% if post.categories contains 'nutrition' %}
-                                <li>
+                                <li class="list_box">
                                     <a href = "{{ post.url | relative_url}}" id="post_link">
                                             <div class="list_item_food">
                                                 <div class="title_text">{{post.title}}</div>
@@ -37,9 +37,10 @@
                 <div class="column_2 left_border">
                     <h4 class="standOut centered_text underline_text list_title">Recipes</h4>
                     <ul class="list_posts">
-                        {% for post in site.posts %}
+                        {% assign sortedPosts = site.posts | sort: 'title' %}
+                        {% for post in sortedPosts %}
                             {% if post.categories contains 'recipe' %}
-                                <li>
+                                <li class="list_box">
                                     <a href = "{{ post.url | relative_url}}" id="post_link">
                                         <div class="list_item_food">
                                             <div class="title_text">{{post.title}}</div>
