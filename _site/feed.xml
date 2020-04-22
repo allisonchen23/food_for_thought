@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/food_for_thought/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/food_for_thought/" rel="alternate" type="text/html" /><updated>2020-04-14T18:11:58-05:00</updated><id>http://localhost:4000/food_for_thought/feed.xml</id><title type="html">Thoughts for Food</title><subtitle>Welcome to my blog! I'll be posting basically random thoughts and updates on any current projects/work I'll be doing.</subtitle><entry><title type="html">Granola</title><link href="http://localhost:4000/food_for_thought/granola/" rel="alternate" type="text/html" title="Granola" /><published>2020-03-20T20:28:40-05:00</published><updated>2020-03-20T20:28:40-05:00</updated><id>http://localhost:4000/food_for_thought/granola</id><content type="html" xml:base="http://localhost:4000/food_for_thought/granola/">&lt;p&gt;Prep Time: 5 minutes&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/food_for_thought/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/food_for_thought/" rel="alternate" type="text/html" /><updated>2020-04-21T21:29:18-05:00</updated><id>http://localhost:4000/food_for_thought/feed.xml</id><title type="html">Thoughts for Food</title><subtitle>Welcome to my blog! I'll be posting basically random thoughts and updates on any current projects/work I'll be doing.</subtitle><entry><title type="html">Granola</title><link href="http://localhost:4000/food_for_thought/granola/" rel="alternate" type="text/html" title="Granola" /><published>2020-03-20T20:28:40-05:00</published><updated>2020-03-20T20:28:40-05:00</updated><id>http://localhost:4000/food_for_thought/granola</id><content type="html" xml:base="http://localhost:4000/food_for_thought/granola/">&lt;p&gt;Prep Time: 5 minutes&lt;/p&gt;
 
 &lt;p&gt;Cook Time: 20 minutes&lt;/p&gt;
 
@@ -97,27 +97,30 @@
 
 &lt;p&gt;Al&lt;/p&gt;</content><author><name></name></author><summary type="html">This topic has been something that really interested me this summer. I talked to my mom a lot about it and from her, realized that working effectively with people is probably one of the hardest things we have to learn to do. It’s not something you can only read from a textbook and understand immediately; it takes many experiences and practice to learn how to work with people without offending or hurting anyone.</summary></entry><entry><title type="html">Banana Bread with Homemade Oat Flour</title><link href="http://localhost:4000/food_for_thought/banana_bread/" rel="alternate" type="text/html" title="Banana Bread with Homemade Oat Flour" /><published>2019-09-10T08:25:40-05:00</published><updated>2019-09-10T08:25:40-05:00</updated><id>http://localhost:4000/food_for_thought/banana_bread</id><content type="html" xml:base="http://localhost:4000/food_for_thought/banana_bread/">&lt;p&gt;Prep Time: 15 minutes&lt;/p&gt;
 
-&lt;p&gt;Cook Time: 45 minutes - 1 hour&lt;/p&gt;
+&lt;p&gt;Cook Time: 40 minutes - 55 minutes&lt;/p&gt;
 
-&lt;p&gt;Serves: a LOT (about 1 loaf of bread)&lt;/p&gt;
+&lt;p&gt;Serves: 1 loaf&lt;/p&gt;
 
-&lt;p&gt;Difficulty: Coconut Mall from Mario Kart&lt;/p&gt;
+&lt;p&gt;Difficulty (out of 5):  &lt;img src=&quot;/food_for_thought/assets/images/avocado.png&quot; alt=&quot;avocado icon&quot; height=&quot;30&quot; width=&quot;30&quot; margin-top=&quot;5&quot; /&gt;&lt;img src=&quot;/food_for_thought/assets/images/avocado.png&quot; alt=&quot;avocado icon&quot; height=&quot;30&quot; width=&quot;30&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;ingredients&quot;&gt;Ingredients&lt;/h3&gt;
 
-&lt;p&gt;&lt;strong&gt;Remember, these are all relative ish! Adapt as you wish!&lt;/strong&gt;&lt;/p&gt;
-
 &lt;ul&gt;
-  &lt;li&gt;1/2 cup extra virgin olive oil + extra for greasing the pan&lt;/li&gt;
-  &lt;li&gt;2/3 cup &lt;strong&gt;loose&lt;/strong&gt; brown sugar&lt;/li&gt;
-  &lt;li&gt;1 tsp vanilla&lt;/li&gt;
+  &lt;li&gt;3 ripe bananas&lt;/li&gt;
+  &lt;li&gt;1/2 cup plain greek yogurt&lt;/li&gt;
+  &lt;li&gt;1/2 cup honey (I usually do a little less)&lt;/li&gt;
+  &lt;li&gt;1 tsp vanilla extract&lt;/li&gt;
   &lt;li&gt;2 eggs&lt;/li&gt;
-  &lt;li&gt;3 mashed ripe bananas&lt;/li&gt;
-  &lt;li&gt;1/4 cup milk (or any milk substitute, or even water)&lt;/li&gt;
-  &lt;li&gt;2.5 cups oats&lt;/li&gt;
-  &lt;li&gt;1/2 tsp salt&lt;/li&gt;
-  &lt;li&gt;1/2 tsp baking soda&lt;/li&gt;
-  &lt;li&gt;Add ins; my favorites are walnut and dark chocolate chips! But any type of nut, dried fruit, shredded coconut, etc will be fantastic&lt;/li&gt;
+  &lt;li&gt;1 1/2 cups flour
+    &lt;ul&gt;
+      &lt;li&gt;if making oat flour (&lt;strong&gt;see instructions below&lt;/strong&gt;), use 1.25 * 1.5 cups ~ 1.875 cups of oats&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;1 tsp baking soda&lt;/li&gt;
+  &lt;li&gt;1 tsp baking powder&lt;/li&gt;
+  &lt;li&gt;1/4 tsp cinnamon&lt;/li&gt;
+  &lt;li&gt;1/4 tsp salt&lt;/li&gt;
+  &lt;li&gt;Add ins; my favorites are walnuts and dark chocolate chips! But any type of nut, dried fruit, shredded coconut, etc will be fantastic&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;instructions&quot;&gt;Instructions&lt;/h3&gt;
@@ -136,18 +139,13 @@
 &lt;h4 id=&quot;rest-of-instructions&quot;&gt;Rest of Instructions&lt;/h4&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;Preheat the oven to 350F&lt;/li&gt;
-  &lt;li&gt;Using an electric beater (or whisk and a really strong arm), cream together the oil and brown sugar&lt;/li&gt;
-  &lt;li&gt;Add vanilla and eggs and beat until consistent&lt;/li&gt;
-  &lt;li&gt;In a separate bowl, combine the dry ingredients&lt;/li&gt;
-  &lt;li&gt;Alternate adding the dry ingredients with adding the mashed bananas and milk into the liquids. You can use a rubber spatula to mix at this point&lt;/li&gt;
-  &lt;li&gt;Grease your breadpan using just a little bit of olive oil (just enough to cover the inside surfaces)&lt;/li&gt;
-  &lt;li&gt;Pour your batter and place in the oven for around 45 minutes to an hour. I’ll generally set an initial timer to 35 minutes and check on it periodically.
-    &lt;ul&gt;
-      &lt;li&gt;Note: if you’re using a pan with a wider base, I would check on it more often.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Let it cool for around 20 minutes, and if you aren’t serving it right away, cover with alumnium foil to avoid the bread from drying out.&lt;/li&gt;
+  &lt;li&gt;Preheat the oven to 350F and lightly grease a loaf pan with olive oil&lt;/li&gt;
+  &lt;li&gt;In a large mixing bowl, mash banans with a fork&lt;/li&gt;
+  &lt;li&gt;Whisk in the greek yogurt, honey, and vanilla&lt;/li&gt;
+  &lt;li&gt;Beat in the eggs&lt;/li&gt;
+  &lt;li&gt;In a separate bowl, combine the flour, baking soda, baking powder, cinnamon, and salt&lt;/li&gt;
+  &lt;li&gt;Gradually pour and mix the dry ingredients into the banana mixture&lt;/li&gt;
+  &lt;li&gt;Pour the batter into the loaf pan and bake for approximately 40-55 minutes (until a toothpick stuck in the middle comes out clean)&lt;/li&gt;
   &lt;li&gt;Enjoy! :D&lt;/li&gt;
 &lt;/ol&gt;
 

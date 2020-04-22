@@ -8,26 +8,27 @@ layout: post_layout
 
 Prep Time: 15 minutes
 
-Cook Time: 45 minutes - 1 hour
+Cook Time: 40 minutes - 55 minutes
 
-Serves: a LOT (about 1 loaf of bread)
+Serves: 1 loaf 
 
-Difficulty: Coconut Mall from Mario Kart
+Difficulty (out of 5):  <img src="{{site.baseurl}}/assets/images/avocado.png" alt="avocado icon" height="30" width="30" margin-top="5"><img src="{{site.baseurl}}/assets/images/avocado.png" alt="avocado icon" height="30" width="30">
+
 
 ### Ingredients
 
-**Remember, these are all relative ish! Adapt as you wish!**
-
-* 1/2 cup extra virgin olive oil + extra for greasing the pan
-* 2/3 cup **loose** brown sugar
-* 1 tsp vanilla
+* 3 ripe bananas
+* 1/2 cup plain greek yogurt
+* 1/2 cup honey (I usually do a little less)
+* 1 tsp vanilla extract
 * 2 eggs
-* 3 mashed ripe bananas
-* 1/4 cup milk (or any milk substitute, or even water)
-* 2.5 cups oats
-* 1/2 tsp salt
-* 1/2 tsp baking soda
-* Add ins; my favorites are walnut and dark chocolate chips! But any type of nut, dried fruit, shredded coconut, etc will be fantastic
+* 1 1/2 cups flour
+    * if making oat flour (**see instructions below**), use 1.25 * 1.5 cups ~ 1.875 cups of oats
+* 1 tsp baking soda
+* 1 tsp baking powder
+* 1/4 tsp cinnamon
+* 1/4 tsp salt
+* Add ins; my favorites are walnuts and dark chocolate chips! But any type of nut, dried fruit, shredded coconut, etc will be fantastic
 
 ### Instructions
 
@@ -42,15 +43,13 @@ As a general rule of thumb, oat flour can substitute regular flour! Just be care
 
 #### Rest of Instructions
 
-1. Preheat the oven to 350F
-2. Using an electric beater (or whisk and a really strong arm), cream together the oil and brown sugar
-2. Add vanilla and eggs and beat until consistent
-3. In a separate bowl, combine the dry ingredients
-4. Alternate adding the dry ingredients with adding the mashed bananas and milk into the liquids. You can use a rubber spatula to mix at this point
-5. Grease your breadpan using just a little bit of olive oil (just enough to cover the inside surfaces)
-6. Pour your batter and place in the oven for around 45 minutes to an hour. I'll generally set an initial timer to 35 minutes and check on it periodically.
-* Note: if you're using a pan with a wider base, I would check on it more often.
-7. Let it cool for around 20 minutes, and if you aren't serving it right away, cover with alumnium foil to avoid the bread from drying out. 
+1. Preheat the oven to 350F and lightly grease a loaf pan with olive oil
+2. In a large mixing bowl, mash banans with a fork
+3. Whisk in the greek yogurt, honey, and vanilla
+4. Beat in the eggs
+5. In a separate bowl, combine the flour, baking soda, baking powder, cinnamon, and salt
+6. Gradually pour and mix the dry ingredients into the banana mixture
+7. Pour the batter into the loaf pan and bake for approximately 40-55 minutes (until a toothpick stuck in the middle comes out clean)
 8. Enjoy! :D
 
 ---
