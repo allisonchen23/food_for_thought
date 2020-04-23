@@ -1,1 +1,7 @@
 .standOut { color: #f88379; font-weight: bold; /*color: #dcae1d;*/ }
+
+#difficulty { display: flex; flex-direction: row; align-items: center; flex-wrap: wrap; }
+
+p.difficulty_item { margin: 0px 8px 0px 16px; }
+
+img.difficulty_item { margin: 0px 2px; height: 22px; width: 22px; }

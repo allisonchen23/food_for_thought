@@ -12,7 +12,11 @@ Cook Time: 40 minutes - 55 minutes
 
 Serves: 1 loaf 
 
-Difficulty (out of 5):  <img src="{{site.baseurl}}/assets/images/avocado.png" alt="avocado icon" height="30" width="30" margin-top="5"><img src="{{site.baseurl}}/assets/images/avocado.png" alt="avocado icon" height="30" width="30">
+<div id="difficulty">
+    <p class="difficulty_item">Difficulty (out of 5):</p>  
+    <img src="{{site.baseurl}}/assets/images/avocado.png" alt="avocado icon" class="difficulty_item">
+    <img src="{{site.baseurl}}/assets/images/avocado.png" alt="avocado icon" class="difficulty_item">
+</div>
 
 
 ### Ingredients

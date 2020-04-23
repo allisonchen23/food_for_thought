@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/food_for_thought/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/food_for_thought/" rel="alternate" type="text/html" /><updated>2020-04-21T21:29:18-05:00</updated><id>http://localhost:4000/food_for_thought/feed.xml</id><title type="html">Thoughts for Food</title><subtitle>Welcome to my blog! I'll be posting basically random thoughts and updates on any current projects/work I'll be doing.</subtitle><entry><title type="html">Granola</title><link href="http://localhost:4000/food_for_thought/granola/" rel="alternate" type="text/html" title="Granola" /><published>2020-03-20T20:28:40-05:00</published><updated>2020-03-20T20:28:40-05:00</updated><id>http://localhost:4000/food_for_thought/granola</id><content type="html" xml:base="http://localhost:4000/food_for_thought/granola/">&lt;p&gt;Prep Time: 5 minutes&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/food_for_thought/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/food_for_thought/" rel="alternate" type="text/html" /><updated>2020-04-22T22:11:49-05:00</updated><id>http://localhost:4000/food_for_thought/feed.xml</id><title type="html">Thoughts for Food</title><subtitle>Welcome to my blog! I'll be posting basically random thoughts and updates on any current projects/work I'll be doing.</subtitle><entry><title type="html">Granola</title><link href="http://localhost:4000/food_for_thought/granola/" rel="alternate" type="text/html" title="Granola" /><published>2020-03-20T20:28:40-05:00</published><updated>2020-03-20T20:28:40-05:00</updated><id>http://localhost:4000/food_for_thought/granola</id><content type="html" xml:base="http://localhost:4000/food_for_thought/granola/">&lt;p&gt;Prep Time: 5 minutes&lt;/p&gt;
 
 &lt;p&gt;Cook Time: 20 minutes&lt;/p&gt;
 
@@ -101,7 +101,11 @@
 
 &lt;p&gt;Serves: 1 loaf&lt;/p&gt;
 
-&lt;p&gt;Difficulty (out of 5):  &lt;img src=&quot;/food_for_thought/assets/images/avocado.png&quot; alt=&quot;avocado icon&quot; height=&quot;30&quot; width=&quot;30&quot; margin-top=&quot;5&quot; /&gt;&lt;img src=&quot;/food_for_thought/assets/images/avocado.png&quot; alt=&quot;avocado icon&quot; height=&quot;30&quot; width=&quot;30&quot; /&gt;&lt;/p&gt;
+&lt;div id=&quot;difficulty&quot;&gt;
+    &lt;p class=&quot;difficulty_item&quot;&gt;Difficulty (out of 5):&lt;/p&gt;  
+    &lt;img src=&quot;/food_for_thought/assets/images/avocado.png&quot; alt=&quot;avocado icon&quot; class=&quot;difficulty_item&quot; /&gt;
+    &lt;img src=&quot;/food_for_thought/assets/images/avocado.png&quot; alt=&quot;avocado icon&quot; class=&quot;difficulty_item&quot; /&gt;
+&lt;/div&gt;
 
 &lt;h3 id=&quot;ingredients&quot;&gt;Ingredients&lt;/h3&gt;
 
