@@ -39,6 +39,7 @@ h2, h3, h4
 	top: 0px; /*keep navbar at top of page*/
 	background-color: var(--paynes_gray);
 	width: 100%;
+	z-index: 9999;
 }
 #Navigation_UL
 {
@@ -245,6 +246,16 @@ p{
 .three_fourths
 {
 	width: 75%;
+}
+.main_img
+{
+	transition: transform .4s ease;
+	border-radius: 10px;
+	padding: 5px;
+}
+.main_img:hover
+{
+	transform: scale(1.08);
 }
 /*--------------Footer----------------*/
 #footer 

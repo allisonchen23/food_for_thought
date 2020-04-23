@@ -8,7 +8,7 @@ p { font-size: 16px; margin: 16px; }
 h2, h3, h4 { font-family: var(--header_font); }
 
 /*-----For Navigation Bar------*/
-#Navigation { overflow: hidden; position: fixed; /*keep navbar at top of page*/ top: 0px; /*keep navbar at top of page*/ background-color: var(--paynes_gray); width: 100%; }
+#Navigation { overflow: hidden; position: fixed; /*keep navbar at top of page*/ top: 0px; /*keep navbar at top of page*/ background-color: var(--paynes_gray); width: 100%; z-index: 9999; }
 
 #Navigation_UL { list-style-type: none; display: flex; padding: 15px; margin: 0px; width: 100%; font-family: 'Merriweather', serif; }
 
@@ -71,6 +71,10 @@ p { text-align: justify; }
 .third { width: 33%; }
 
 .three_fourths { width: 75%; }
+
+.main_img { transition: transform .4s ease; border-radius: 10px; padding: 5px; }
+
+.main_img:hover { transform: scale(1.08); }
 
 /*--------------Footer----------------*/
 #footer { background: var(--paynes_gray) !important; }

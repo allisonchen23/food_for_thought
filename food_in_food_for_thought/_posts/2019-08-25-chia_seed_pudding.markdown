@@ -10,7 +10,7 @@ Time: <5 minutes
 
 Serves: 2-4
 
-Difficulty: Mario Circuit from Mario Kart
+{% include difficulty.html difficulty_level=1 %}
 
 ### Ingredients
 
