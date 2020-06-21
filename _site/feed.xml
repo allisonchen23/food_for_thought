@@ -1,4 +1,303 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/food_for_thought/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/food_for_thought/" rel="alternate" type="text/html" /><updated>2020-04-29T14:45:27-05:00</updated><id>http://localhost:4000/food_for_thought/feed.xml</id><title type="html">Thoughts for Food</title><subtitle>Welcome to my blog! I'll be posting basically random thoughts and updates on any current projects/work I'll be doing.</subtitle><entry><title type="html">Breakfast Wrap</title><link href="http://localhost:4000/food_for_thought/breakfast_wrap/" rel="alternate" type="text/html" title="Breakfast Wrap" /><published>2020-04-26T20:28:40-05:00</published><updated>2020-04-26T20:28:40-05:00</updated><id>http://localhost:4000/food_for_thought/breakfast_wrap</id><content type="html" xml:base="http://localhost:4000/food_for_thought/breakfast_wrap/">&lt;p&gt;Prep Time: 5 minutes&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/food_for_thought/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/food_for_thought/" rel="alternate" type="text/html" /><updated>2020-06-21T17:34:29-05:00</updated><id>http://localhost:4000/food_for_thought/feed.xml</id><title type="html">Thoughts for Food</title><subtitle>Welcome to my blog! I'll be posting basically random thoughts and updates on any current projects/work I'll be doing.</subtitle><entry><title type="html">Roasted… Everything!</title><link href="http://localhost:4000/food_for_thought/roasted_everything/" rel="alternate" type="text/html" title="Roasted... Everything!" /><published>2020-06-15T20:28:40-05:00</published><updated>2020-06-15T20:28:40-05:00</updated><id>http://localhost:4000/food_for_thought/roasted_everything</id><content type="html" xml:base="http://localhost:4000/food_for_thought/roasted_everything/">&lt;p&gt;Prep Time: 5 minutes&lt;/p&gt;
+
+&lt;p&gt;Cook Time: 8 to 25, depending on what we’re roasting&lt;/p&gt;
+
+&lt;p&gt;Serves: 3-4&lt;/p&gt;
+
+&lt;p&gt;Includes instructions for:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Almonds&lt;/li&gt;
+  &lt;li&gt;Pecans&lt;/li&gt;
+  &lt;li&gt;Walnuts&lt;/li&gt;
+  &lt;li&gt;Butternut squash&lt;/li&gt;
+  &lt;li&gt;Zucchini &amp;amp; summer squash&lt;/li&gt;
+  &lt;li&gt;Broccoli &amp;amp; cauliflower&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div id=&quot;difficulty&quot;&gt;
+    &lt;p class=&quot;difficulty_item&quot;&gt;Difficulty (out of 5):&lt;/p&gt;
+      
+        &lt;img src=&quot;/food_for_thought/assets/images/avocado.png&quot; alt=&quot;avocado icon&quot; class=&quot;difficulty_item&quot; /&gt;
+    
+&lt;/div&gt;
+
+&lt;!-- ![Roasted Everything](/food_for_thought/assets/images/blog/food/recipes/breakfast_wrap/header_photo.jpg){:class=&quot;images half main_img&quot;} --&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;ingredients&quot;&gt;Ingredients&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Whatever you’re roasting (the base)&lt;/li&gt;
+  &lt;li&gt;Olive oil&lt;/li&gt;
+  &lt;li&gt;Optional spices (salt &amp;amp; pepper, for example)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;instructions&quot;&gt;Instructions&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;Toss your base with the olive oil and spices in a bowl until the base is just covered.&lt;/li&gt;
+  &lt;li&gt;On a baking sheet, place down some parchment paper or aluminum foil and spread out your base&lt;/li&gt;
+  &lt;li&gt;Place in oven at specified temperature for [time interval 1], then mix it around a bit and leave it in the oven for [time interval 2]&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Refer to the tables below for proportions, oven temperatures, and durations&lt;/p&gt;
+&lt;h4 id=&quot;nuts&quot;&gt;Nuts&lt;/h4&gt;
+
+&lt;p&gt;I always do approximately 2 cups of nuts with 1 TBSP of olive oil, no spices.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Nut&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Temperature (F)&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Time Interval 1 (minutes)&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Time Interval 2 (minutes)&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Almonds&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;350&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;8&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;4&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Pecans&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;325&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;5-6&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;3&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Walnuts&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;350&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;6&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;4&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h4 id=&quot;vegetables&quot;&gt;Vegetables&lt;/h4&gt;
+
+&lt;p&gt;I’d do approximately 3-4 cups of veggies with 1.5 TBSP olive oil, with salt and pepper.
+With roasting veggies, the rule of thumb is higher temperature for vegetables with more water!&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Veggie&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Temperature (F)&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Time Interval 1 (minutes)&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Time Interval 2 (minutes)&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Butternut Squash&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;400&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;10-12&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;10-12&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Zucchini &amp;amp; Summer Squash&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;450&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;10-12&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;10-12&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Broccoli &amp;amp; Cauliflower&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;425&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;10-12&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;10-12&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;images&quot;&gt;Images&lt;/h4&gt;
+
+&lt;div id=&quot;photo_gal&quot;&gt;
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      
+        
+        
+        
+        &lt;!--  --&gt;
+        &lt;!--  --&gt;
+        
+            
+    
+            &lt;div class=&quot;pic_and_cap&quot;&gt;
+                &lt;img src=&quot;/food_for_thought//assets/images/blog/food/recipes/roasted_everything/1-Roasted_pecans.jpg&quot; alt=&quot;1-Roasted_pecans&quot; class=&quot;pic&quot; /&gt;
+                &lt;div class=&quot;cap&quot;&gt;
+                    &lt;p class=&quot;caption&quot;&gt;Roasted pecans&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        
+      
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  &lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;nutrition-discussion&quot;&gt;Nutrition Discussion&lt;/h4&gt;
+
+&lt;p&gt;Roasted nuts for me are a perfect snack and addition for when I make my homemade granola! Feel free to find your own spice recipes and play around with it.&lt;/p&gt;
+
+&lt;p&gt;Roasted veggies are perfect for meal prepping! It’s very little effort to make, and while they’re roasting, you can do literally whatever you need to. They’re a perfect addition to quinoa bowls, salads, and rice bowls!&lt;/p&gt;
+
+&lt;p&gt;-Al&lt;/p&gt;</content><author><name></name></author><summary type="html">Prep Time: 5 minutes</summary></entry><entry><title type="html">Breakfast Wrap</title><link href="http://localhost:4000/food_for_thought/breakfast_wrap/" rel="alternate" type="text/html" title="Breakfast Wrap" /><published>2020-04-26T20:28:40-05:00</published><updated>2020-04-26T20:28:40-05:00</updated><id>http://localhost:4000/food_for_thought/breakfast_wrap</id><content type="html" xml:base="http://localhost:4000/food_for_thought/breakfast_wrap/">&lt;p&gt;Prep Time: 5 minutes&lt;/p&gt;
 
 &lt;p&gt;Cook Time: None&lt;/p&gt;
 
@@ -193,6 +492,8 @@
         &lt;!--  --&gt;
         
       
+    
+  
     
   
     
@@ -555,6 +856,8 @@
   
     
   
+    
+  
   &lt;/div&gt;
 
 &lt;hr /&gt;
@@ -843,28 +1146,4 @@
 
 &lt;p&gt;And that’s a wrap :) although I’m leaving, I know this project is going to go far in the hands of Beth, Matt, and Dr. Iacobelli. I’m excited to see where they are able to take this application of computer science into botany and am truly grateful for this opportunity!&lt;/p&gt;
 
-&lt;p&gt;-Al&lt;/p&gt;</content><author><name></name></author><summary type="html">Monday August 26, 2019</summary></entry><entry><title type="html">Becoming Keen on Quinoa</title><link href="http://localhost:4000/food_for_thought/food_in_food_for_thought/nutrition/2019/08/20/quinoa.html" rel="alternate" type="text/html" title="Becoming Keen on Quinoa" /><published>2019-08-20T00:00:00-05:00</published><updated>2019-08-20T00:00:00-05:00</updated><id>http://localhost:4000/food_for_thought/food_in_food_for_thought/nutrition/2019/08/20/quinoa</id><content type="html" xml:base="http://localhost:4000/food_for_thought/food_in_food_for_thought/nutrition/2019/08/20/quinoa.html">&lt;h5 id=&quot;sooo-what-is-quinoa&quot;&gt;Sooo what is quinoa?&lt;/h5&gt;
-
-&lt;p&gt;Quinoa (pronounced keen-wah) is a type of grain that is in my opinion both delicious and extremely nutritious. Uncooked, they look like little seeds, normally yellow or brown, but after boiling, they become soft and fluffy. In addition to being an excellent source of carbs and energy, they have a surprising amount of protein and are even&lt;span class=&quot;standOut&quot;&gt; a complete protein&lt;/span&gt;! Meaning quinoa contains &lt;strong&gt;all nine&lt;/strong&gt; essential amino acids.&lt;/p&gt;
-
-&lt;h5 id=&quot;but-why-is-it-better-for-me-than-flour-or-rice&quot;&gt;But why is it better for me than flour or rice?&lt;/h5&gt;
-
-&lt;p&gt;For a few reasons, actually. First quinoa is not as processed as flour and thus retains more of its vitamin and minerals as well as fiber. Compared to rice, quinoa’s glycemic index is significantly lower (53 compared to 73 of white rice) which means that it does not produce as big of an insulin spike. (Which is good! We don’t want to unnecessarily tire out our pancreas.) The main reason for this is &lt;span class=&quot;standOut&quot;&gt; fiber&lt;/span&gt;!!&lt;/p&gt;
-
-&lt;p&gt;Recall that fiber is essentially a food’s “protective barrier” to being digested. But of course, our digestive system always overcomes it. Fiber itself is undigestable and slows down our body’s ability to digest the food it encases. This may sounds bad, but it’s actually extremely good, especially for individuals who are wary of caloric intake. The fiber helps us eat the same number of calories, but feel fuller for longer, reducing the cravings we often feel after eating pasta or other refined grains.&lt;/p&gt;
-
-&lt;p&gt;If you take away anything from this blog post, I hope it’s that &lt;span class=&quot;standOut&quot;&gt; quinoa = fiber! &lt;/span&gt;&lt;/p&gt;
-
-&lt;h5 id=&quot;what-do-you-even-eat-it-with&quot;&gt;What do you even eat it with?&lt;/h5&gt;
-
-&lt;p&gt;I love quinoa as a rice/grain substitute! Maybe it’s the Asian side in me, but I’ll often have a bowl of quinoa with my dinner or lunch just instead of rice. Additionally, it’s really good in salads and or various types of bowls. It’s really quick and easy to cook a bunch of quinoa at once and refrigerate; it can probably last a good week or so!&lt;/p&gt;
-
-&lt;h5 id=&quot;im-a-broke-college-student-how-can-i-afford-this&quot;&gt;I’m a broke college student, how can I afford this?&lt;/h5&gt;
-
-&lt;p&gt;Admittedly, quinoa can be more expensive than some easier foods, such as pasta or rice. But remember, nutrition is about a long run investment. Although you may be spending a bit more now, you’re treating your body better (which in itself is priceless!) and maybe even saving money on future medical bills. Plus, a small bag of quinoa actually makes quite a lot, I think you’d be surprised :)&lt;/p&gt;
-
-&lt;h5 id=&quot;how-do-you-cook-quinoa&quot;&gt;How do you cook quinoa?&lt;/h5&gt;
-
-&lt;p&gt;Easy! Simply put about 1 cup of quinoa and 1 cup of water in a pot and bring to a boil. If you’re cooking less, I would put a little more water, about a 1:1.25 quinoa to water ratio. Once it starts to boil, turn down the heat and cover the pot, allowing the quinoa to simmer. Once most of the water is gone, I would check on it frequently and stir to prevent any quinoa from sticking to the bottom.&lt;/p&gt;
-
-&lt;p&gt;The quinoa is cooked if it looks almost “fluffy” and it shouldn’t be crunchy anymore.&lt;/p&gt;</content><author><name></name></author><category term="nutrition" /><summary type="html">Sooo what is quinoa?</summary></entry></feed>
+&lt;p&gt;-Al&lt;/p&gt;</content><author><name></name></author><summary type="html">Monday August 26, 2019</summary></entry></feed>
