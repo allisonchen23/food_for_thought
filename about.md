@@ -1,6 +1,6 @@
 ---
 title: 
-layout: default
+layout: site_default
 ---
 
 <div id="aboutMe">
