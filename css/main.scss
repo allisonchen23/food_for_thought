@@ -257,6 +257,20 @@ p{
 {
 	transform: scale(1.08);
 }
+#profile-image
+{
+	display:block;
+	border-color: #f88379;
+	border-width: 3px;
+	max-width: 95%;
+	height: auto;
+	object-fit: cover;	
+	margin-top:10px;
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: center;
+	border-radius: 	10px;
+}
 /*--------------Footer----------------*/
 #footer 
 {
