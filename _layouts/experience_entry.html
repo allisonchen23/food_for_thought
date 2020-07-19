@@ -2,14 +2,12 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>Allison Chen</title>
-    	<link href= "{{ '/css/main.css' | relative_url }}" rel="stylesheet" type="text/css">
+		<title>{{ page.title }}</title>
+		<link rel="stylesheet" type="text/css" href="{{ '/css/main.css' | relative_url }}">
+		<link rel="stylesheet" type="text/css" href="{{ 'css/experience_entry.css' | relative_url}}">
+		<!-- <link rel="stylesheet" type="text/css" href="{{ 'css/photo_gallery.css' | relative_url}}"> -->
 		<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-		{% if page.url == '/experience.html' %}
-			<link href= "{{ '/css/experience.css' | relative_url }}" rel="stylesheet" type="text/css">
-		{% endif %}
-		<!-- <link rel="stylesheet" type="text/css" href="{{ '/css/blog_homes.css' | relative_url }}"> -->
     	<script src="https://use.fontawesome.com/a8517c4d4c.js"></script>
 	</head>
 
@@ -17,11 +15,15 @@
 		{% include navigation.html %}
         <div id="notNavigation">
             <div id="intro">
+				<!-- {% include back_button.html %} -->
 				<h2 class="blogpost title standOut">{{ page.title }}</h2>
-				<!-- <p>{{page.url}}</p> -->
+                <h4>{{page.start_date}} to {{page.end_date}}</h4>
+                <h4>{{page.org}}</h4>
+                <hr>
 			</div>
 			{{ content }}
+			
 		</div>
-		{%include footer.html %}
+		{% include footer.html %}
 	</body>
 </html>
