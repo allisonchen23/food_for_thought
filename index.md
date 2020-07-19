@@ -1,6 +1,7 @@
 ---
 title: Welcome to Food for Thought!
 layout: blog_default
+nav_category: blog
 ---
 
 Welcome to my blog! Thank you for taking the time to check it out. Food for Thought is still a growing blog, developing its own personality on the way! As food and nutrition is something I've become really passionate about, I've dedicated one blog to just that, complete with informative posts about various nutrition topics and some of my favorite easy recipes. Additionally, this blog is a place for me to record work that I do and just express some of my random thoughts. Enjoy!

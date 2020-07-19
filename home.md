@@ -1,6 +1,7 @@
 ---
 title: 
 layout: site_default
+nav_category: home
 ---
 
 <div id="aboutMe">

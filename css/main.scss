@@ -211,6 +211,11 @@ p{
 {
 	display:flex;
 }
+.centered_row 
+{
+	display: flex;
+	justify-content: center;
+}
 .left_border
 {
 	border-left-color: var(--paynes_gray);

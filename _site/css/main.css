@@ -57,6 +57,8 @@ p { text-align: justify; }
 
 .row { display: flex; }
 
+.centered_row { display: flex; justify-content: center; }
+
 .left_border { border-left-color: var(--paynes_gray); border-left-style: solid; border-left-width: 2px; }
 
 /*-------------Images------------------*/
