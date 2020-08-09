@@ -3,8 +3,8 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Week 8: Implementing Cross Validation</title>
-		<link rel="stylesheet" type="text/css" href="/food_for_thought/css/main.css">
-		<link rel="stylesheet" type="text/css" href="/food_for_thought/css/blog_posts.css">
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
+		<link rel="stylesheet" type="text/css" href="/css/blog_posts.css">
 		<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     	<script src="https://use.fontawesome.com/a8517c4d4c.js"></script>
@@ -16,31 +16,31 @@
     <ul id="Navigation_UL">
         <div id="links">
             <!-- <li class="hover_parent"><a class="hover_child" href="https://allisonchen23.github.io">Allison Chen</a></li>
-            <li class="hover_parent"><a class="hover_child" href="/food_for_thought/home.html">Allison Chen</a></li>
+            <li class="hover_parent"><a class="hover_child" href="/index.html">Allison Chen</a></li>
             <li class="hover_parent"><a class="hover_child" href="https://allisonchen23.github.io/education.html">Education</a></li>
             <li class="hover_parent"><a class="hover_child" href="https://allisonchen23.github.io/experience.html">Experience</a></li>
-            <li class="hover_parent"><a class="hover_child" href="/food_for_thought/experience.html">Experience</a></li>
+            <li class="hover_parent"><a class="hover_child" href="/experience.html">Experience</a></li>
             <li class="hover_parent"><a class="hover_child" href="https://allisonchen23.github.io/arts.html">Arts</a></li>
-            <li class="hover_parent active"><a class="hover_child active_child" href="/food_for_thought/index.html">Blog</a></li> -->
+            <li class="hover_parent active"><a class="hover_child active_child" href="/blog.html">Blog</a></li> -->
             
                 
-                    <li class="hover_parent"><a class="hover_child" href="/food_for_thought/home">Allison Chen</a></li>
-                
-            
-                
-                    <li class="hover_parent"><a class="hover_child" href="/food_for_thought/education">Education</a></li>
+                    <li class="hover_parent"><a class="hover_child" href="/">Allison Chen</a></li>
                 
             
                 
-                    <li class="hover_parent"><a class="hover_child" href="/food_for_thought/experience">Experience</a></li>
+                    <li class="hover_parent"><a class="hover_child" href="/education">Education</a></li>
                 
             
                 
-                    <li class="hover_parent"><a class="hover_child" href="/food_for_thought/arts">Arts</a></li>
+                    <li class="hover_parent"><a class="hover_child" href="/experience">Experience</a></li>
                 
             
                 
-                    <li class="hover_parent"><a class="hover_child" href="/food_for_thought/">Blog</a></li>
+                    <li class="hover_parent"><a class="hover_child" href="/arts">Arts</a></li>
+                
+            
+                
+                    <li class="hover_parent"><a class="hover_child" href="/blog">Blog</a></li>
                 
             
         </div>
@@ -73,7 +73,7 @@
 
 <p>This morning, Beth came to the Field Museum to work with me on implementing stratified cross validation and ROC testing. Stratified cross validation essentially partitions the data into groups of approximately equal distributions of each class. ROC (stand for Receiving Operator Curve) is a type of graph that can help us quantify how “good” our model is. It uses the percentage of true positives and false positives and the closer the curve hugs the y-axis, the more confident it is. Take a look at the image below:</p>
 
-<p><img src="/food_for_thought/assets/images/blog/fm/ROC_curve.png" alt="ROC Curve" class="images half" /></p>
+<p><img src="/assets/images/blog/fm/ROC_curve.png" alt="ROC Curve" class="images half" /></p>
 
 <p>The straight line represents if it were just up to chance, so if the ROC curve is close to that, it’s bad.</p>
 
@@ -117,7 +117,7 @@
 
 <p>I came in this morning and good news, nothing crashed! The models are still chugging along doing their own thing. Something I noticed and continue to notice is that while training accuracy will rise somewhat consistently with each epoch, validation accuracy fluctuates a LOT more, like in the graph below:</p>
 
-<p><img src="/food_for_thought/assets/images/blog/fm/8.14.19_12.30.png" alt="Fluctuating Validation Accuracy" class="images half" /></p>
+<p><img src="/assets/images/blog/fm/8.14.19_12.30.png" alt="Fluctuating Validation Accuracy" class="images half" /></p>
 
 <p>I’m going to look into this more, but after a quick Google search, it seems one issue may be too much dropout. So after this model is finished training, I’m going to look into making that change (which might end up having to be done tomorrow)!</p>
 

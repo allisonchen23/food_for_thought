@@ -1,5 +1,5 @@
 - title: Allison Chen
-  url: /home
+  url: /
   nav_category: home
 
 - title: Education
@@ -14,5 +14,5 @@
   nav_category: arts
 
 - title: Blog
-  url: /
+  url: /blog
   nav_category: blog

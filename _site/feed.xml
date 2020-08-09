@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/food_for_thought/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/food_for_thought/" rel="alternate" type="text/html" /><updated>2020-07-19T17:03:57-05:00</updated><id>http://localhost:4000/food_for_thought/feed.xml</id><title type="html">Thoughts for Food</title><subtitle>Welcome to my blog! I'll be posting basically random thoughts and updates on any current projects/work I'll be doing.</subtitle><entry><title type="html">Roasted… Everything!</title><link href="http://localhost:4000/food_for_thought/roasted_everything/" rel="alternate" type="text/html" title="Roasted... Everything!" /><published>2020-06-15T20:28:40-05:00</published><updated>2020-06-15T20:28:40-05:00</updated><id>http://localhost:4000/food_for_thought/roasted_everything</id><content type="html" xml:base="http://localhost:4000/food_for_thought/roasted_everything/">&lt;p&gt;Prep Time: 5 minutes&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-09T10:24:03-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Thoughts for Food</title><subtitle>Welcome to my blog! I'll be posting basically random thoughts and updates on any current projects/work I'll be doing.</subtitle><entry><title type="html">Roasted… Everything!</title><link href="http://localhost:4000/roasted_everything/" rel="alternate" type="text/html" title="Roasted... Everything!" /><published>2020-06-15T20:28:40-05:00</published><updated>2020-06-15T20:28:40-05:00</updated><id>http://localhost:4000/roasted_everything</id><content type="html" xml:base="http://localhost:4000/roasted_everything/">&lt;p&gt;Prep Time: 5 minutes&lt;/p&gt;
 
 &lt;p&gt;Cook Time: 8 to 25, depending on what we’re roasting&lt;/p&gt;
 
@@ -17,11 +17,11 @@
 &lt;div id=&quot;difficulty&quot;&gt;
     &lt;p class=&quot;difficulty_item&quot;&gt;Difficulty (out of 5):&lt;/p&gt;
       
-        &lt;img src=&quot;/food_for_thought/assets/images/avocado.png&quot; alt=&quot;avocado icon&quot; class=&quot;difficulty_item&quot; /&gt;
+        &lt;img src=&quot;/assets/images/avocado.png&quot; alt=&quot;avocado icon&quot; class=&quot;difficulty_item&quot; /&gt;
     
 &lt;/div&gt;
 
-&lt;!-- ![Roasted Everything](/food_for_thought/assets/images/blog/food/recipes/breakfast_wrap/header_photo.jpg){:class=&quot;images half main_img&quot;} --&gt;
+&lt;!-- ![Roasted Everything](/assets/images/blog/food/recipes/breakfast_wrap/header_photo.jpg){:class=&quot;images half main_img&quot;} --&gt;
 
 &lt;hr /&gt;
 
@@ -260,7 +260,7 @@ With roasting veggies, the rule of thumb is higher temperature for vegetables wi
             
     
             &lt;div class=&quot;pic_and_cap&quot;&gt;
-                &lt;img src=&quot;/food_for_thought//assets/images/blog/food/recipes/roasted_everything/1-Roasted_pecans.jpg&quot; alt=&quot;1-Roasted_pecans&quot; class=&quot;pic&quot; /&gt;
+                &lt;img src=&quot;//assets/images/blog/food/recipes/roasted_everything/1-Roasted_pecans.jpg&quot; alt=&quot;1-Roasted_pecans&quot; class=&quot;pic&quot; /&gt;
                 &lt;div class=&quot;cap&quot;&gt;
                     &lt;p class=&quot;caption&quot;&gt;Roasted pecans&lt;/p&gt;
                 &lt;/div&gt;
@@ -359,7 +359,7 @@ With roasting veggies, the rule of thumb is higher temperature for vegetables wi
 
 &lt;p&gt;Roasted veggies are perfect for meal prepping! It’s very little effort to make, and while they’re roasting, you can do literally whatever you need to. They’re a perfect addition to quinoa bowls, salads, and rice bowls!&lt;/p&gt;
 
-&lt;p&gt;-Al&lt;/p&gt;</content><author><name></name></author><summary type="html">Prep Time: 5 minutes</summary></entry><entry><title type="html">Breakfast Wrap</title><link href="http://localhost:4000/food_for_thought/breakfast_wrap/" rel="alternate" type="text/html" title="Breakfast Wrap" /><published>2020-04-26T20:28:40-05:00</published><updated>2020-04-26T20:28:40-05:00</updated><id>http://localhost:4000/food_for_thought/breakfast_wrap</id><content type="html" xml:base="http://localhost:4000/food_for_thought/breakfast_wrap/">&lt;p&gt;Prep Time: 5 minutes&lt;/p&gt;
+&lt;p&gt;-Al&lt;/p&gt;</content><author><name></name></author><summary type="html">Prep Time: 5 minutes</summary></entry><entry><title type="html">Breakfast Wrap</title><link href="http://localhost:4000/breakfast_wrap/" rel="alternate" type="text/html" title="Breakfast Wrap" /><published>2020-04-26T20:28:40-05:00</published><updated>2020-04-26T20:28:40-05:00</updated><id>http://localhost:4000/breakfast_wrap</id><content type="html" xml:base="http://localhost:4000/breakfast_wrap/">&lt;p&gt;Prep Time: 5 minutes&lt;/p&gt;
 
 &lt;p&gt;Cook Time: None&lt;/p&gt;
 
@@ -368,11 +368,11 @@ With roasting veggies, the rule of thumb is higher temperature for vegetables wi
 &lt;div id=&quot;difficulty&quot;&gt;
     &lt;p class=&quot;difficulty_item&quot;&gt;Difficulty (out of 5):&lt;/p&gt;
       
-        &lt;img src=&quot;/food_for_thought/assets/images/avocado.png&quot; alt=&quot;avocado icon&quot; class=&quot;difficulty_item&quot; /&gt;
+        &lt;img src=&quot;/assets/images/avocado.png&quot; alt=&quot;avocado icon&quot; class=&quot;difficulty_item&quot; /&gt;
     
 &lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;/food_for_thought/assets/images/blog/food/recipes/breakfast_wrap/header_photo.jpg&quot; alt=&quot;Breakfast Wrap&quot; class=&quot;images half main_img&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/blog/food/recipes/breakfast_wrap/header_photo.jpg&quot; alt=&quot;Breakfast Wrap&quot; class=&quot;images half main_img&quot; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -540,7 +540,7 @@ With roasting veggies, the rule of thumb is higher temperature for vegetables wi
             
     
             &lt;div class=&quot;pic_and_cap&quot;&gt;
-                &lt;img src=&quot;/food_for_thought//assets/images/blog/food/recipes/breakfast_wrap/1-Wrap_with_boiled_egg.jpg&quot; alt=&quot;1-Wrap_with_boiled_egg&quot; class=&quot;pic&quot; /&gt;
+                &lt;img src=&quot;//assets/images/blog/food/recipes/breakfast_wrap/1-Wrap_with_boiled_egg.jpg&quot; alt=&quot;1-Wrap_with_boiled_egg&quot; class=&quot;pic&quot; /&gt;
                 &lt;div class=&quot;cap&quot;&gt;
                     &lt;p class=&quot;caption&quot;&gt;Wrap with boiled egg&lt;/p&gt;
                 &lt;/div&gt;
@@ -560,7 +560,7 @@ With roasting veggies, the rule of thumb is higher temperature for vegetables wi
             
     
             &lt;div class=&quot;pic_and_cap&quot;&gt;
-                &lt;img src=&quot;/food_for_thought//assets/images/blog/food/recipes/breakfast_wrap/2-Wrap_with_smoked_salmon.jpg&quot; alt=&quot;2-Wrap_with_smoked_salmon&quot; class=&quot;pic&quot; /&gt;
+                &lt;img src=&quot;//assets/images/blog/food/recipes/breakfast_wrap/2-Wrap_with_smoked_salmon.jpg&quot; alt=&quot;2-Wrap_with_smoked_salmon&quot; class=&quot;pic&quot; /&gt;
                 &lt;div class=&quot;cap&quot;&gt;
                     &lt;p class=&quot;caption&quot;&gt;Wrap with smoked salmon&lt;/p&gt;
                 &lt;/div&gt;
@@ -688,7 +688,7 @@ With roasting veggies, the rule of thumb is higher temperature for vegetables wi
 
 &lt;p&gt;Enjoy!&lt;/p&gt;
 
-&lt;p&gt;-Al&lt;/p&gt;</content><author><name></name></author><summary type="html">Prep Time: 5 minutes</summary></entry><entry><title type="html">Granola</title><link href="http://localhost:4000/food_for_thought/granola/" rel="alternate" type="text/html" title="Granola" /><published>2020-03-20T20:28:40-05:00</published><updated>2020-03-20T20:28:40-05:00</updated><id>http://localhost:4000/food_for_thought/granola</id><content type="html" xml:base="http://localhost:4000/food_for_thought/granola/">&lt;p&gt;Prep Time: 5 minutes&lt;/p&gt;
+&lt;p&gt;-Al&lt;/p&gt;</content><author><name></name></author><summary type="html">Prep Time: 5 minutes</summary></entry><entry><title type="html">Granola</title><link href="http://localhost:4000/granola/" rel="alternate" type="text/html" title="Granola" /><published>2020-03-20T20:28:40-05:00</published><updated>2020-03-20T20:28:40-05:00</updated><id>http://localhost:4000/granola</id><content type="html" xml:base="http://localhost:4000/granola/">&lt;p&gt;Prep Time: 5 minutes&lt;/p&gt;
 
 &lt;p&gt;Cook Time: 20 minutes&lt;/p&gt;
 
@@ -697,13 +697,13 @@ With roasting veggies, the rule of thumb is higher temperature for vegetables wi
 &lt;div id=&quot;difficulty&quot;&gt;
     &lt;p class=&quot;difficulty_item&quot;&gt;Difficulty (out of 5):&lt;/p&gt;
       
-        &lt;img src=&quot;/food_for_thought/assets/images/avocado.png&quot; alt=&quot;avocado icon&quot; class=&quot;difficulty_item&quot; /&gt;
+        &lt;img src=&quot;/assets/images/avocado.png&quot; alt=&quot;avocado icon&quot; class=&quot;difficulty_item&quot; /&gt;
       
-        &lt;img src=&quot;/food_for_thought/assets/images/avocado.png&quot; alt=&quot;avocado icon&quot; class=&quot;difficulty_item&quot; /&gt;
+        &lt;img src=&quot;/assets/images/avocado.png&quot; alt=&quot;avocado icon&quot; class=&quot;difficulty_item&quot; /&gt;
     
 &lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;/food_for_thought/assets/images/blog/food/recipes/granola/header_photo.jpg&quot; alt=&quot;Granola&quot; class=&quot;images half main_img&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/blog/food/recipes/granola/header_photo.jpg&quot; alt=&quot;Granola&quot; class=&quot;images half main_img&quot; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -871,7 +871,7 @@ With roasting veggies, the rule of thumb is higher temperature for vegetables wi
             
     
             &lt;div class=&quot;pic_and_cap&quot;&gt;
-                &lt;img src=&quot;/food_for_thought//assets/images/blog/food/recipes/granola/1-Dry_ingredients.jpg&quot; alt=&quot;1-Dry_ingredients&quot; class=&quot;pic&quot; /&gt;
+                &lt;img src=&quot;//assets/images/blog/food/recipes/granola/1-Dry_ingredients.jpg&quot; alt=&quot;1-Dry_ingredients&quot; class=&quot;pic&quot; /&gt;
                 &lt;div class=&quot;cap&quot;&gt;
                     &lt;p class=&quot;caption&quot;&gt;Dry ingredients&lt;/p&gt;
                 &lt;/div&gt;
@@ -891,7 +891,7 @@ With roasting veggies, the rule of thumb is higher temperature for vegetables wi
             
     
             &lt;div class=&quot;pic_and_cap&quot;&gt;
-                &lt;img src=&quot;/food_for_thought//assets/images/blog/food/recipes/granola/2-Honey_and_nut_butter_before_microwaving.jpg&quot; alt=&quot;2-Honey_and_nut_butter_before_microwaving&quot; class=&quot;pic&quot; /&gt;
+                &lt;img src=&quot;//assets/images/blog/food/recipes/granola/2-Honey_and_nut_butter_before_microwaving.jpg&quot; alt=&quot;2-Honey_and_nut_butter_before_microwaving&quot; class=&quot;pic&quot; /&gt;
                 &lt;div class=&quot;cap&quot;&gt;
                     &lt;p class=&quot;caption&quot;&gt;Honey and nut butter before microwaving&lt;/p&gt;
                 &lt;/div&gt;
@@ -911,7 +911,7 @@ With roasting veggies, the rule of thumb is higher temperature for vegetables wi
             
     
             &lt;div class=&quot;pic_and_cap&quot;&gt;
-                &lt;img src=&quot;/food_for_thought//assets/images/blog/food/recipes/granola/3-Before_baking.jpg&quot; alt=&quot;3-Before_baking&quot; class=&quot;pic&quot; /&gt;
+                &lt;img src=&quot;//assets/images/blog/food/recipes/granola/3-Before_baking.jpg&quot; alt=&quot;3-Before_baking&quot; class=&quot;pic&quot; /&gt;
                 &lt;div class=&quot;cap&quot;&gt;
                     &lt;p class=&quot;caption&quot;&gt;Before baking&lt;/p&gt;
                 &lt;/div&gt;
@@ -931,7 +931,7 @@ With roasting veggies, the rule of thumb is higher temperature for vegetables wi
             
     
             &lt;div class=&quot;pic_and_cap&quot;&gt;
-                &lt;img src=&quot;/food_for_thought//assets/images/blog/food/recipes/granola/4-Break_into_chunks_after_it_cools.jpg&quot; alt=&quot;4-Break_into_chunks_after_it_cools&quot; class=&quot;pic&quot; /&gt;
+                &lt;img src=&quot;//assets/images/blog/food/recipes/granola/4-Break_into_chunks_after_it_cools.jpg&quot; alt=&quot;4-Break_into_chunks_after_it_cools&quot; class=&quot;pic&quot; /&gt;
                 &lt;div class=&quot;cap&quot;&gt;
                     &lt;p class=&quot;caption&quot;&gt;Break into chunks after it cools&lt;/p&gt;
                 &lt;/div&gt;
@@ -1054,7 +1054,7 @@ With roasting veggies, the rule of thumb is higher temperature for vegetables wi
 
 &lt;p&gt;Enjoy!&lt;/p&gt;
 
-&lt;p&gt;-Al&lt;/p&gt;</content><author><name></name></author><summary type="html">Prep Time: 5 minutes</summary></entry><entry><title type="html">Talk to Your Uber Driver</title><link href="http://localhost:4000/food_for_thought/talk-to-your-uber-driver/" rel="alternate" type="text/html" title="Talk to Your Uber Driver" /><published>2019-12-12T09:01:00-06:00</published><updated>2019-12-12T09:01:00-06:00</updated><id>http://localhost:4000/food_for_thought/talk_to_your_uber_driver</id><content type="html" xml:base="http://localhost:4000/food_for_thought/talk-to-your-uber-driver/">&lt;p&gt;Okay hello! It’s been a &lt;em&gt;really&lt;/em&gt; long time since I’ve updated this, so I think we can safely say it’s been a busy quarter. I finished my finals yesterday (woo! freedom!) and today as I was on my way to LAX to fly back to Chicago, I was inspired to write a blog post about this after having a wonderful conversation with my Lyft driver. I know the title of this post is ‘Talk to Your Uber Driver’, but ‘Talk to Your Ride Share Driver’ just didn’t have the same ring.&lt;/p&gt;
+&lt;p&gt;-Al&lt;/p&gt;</content><author><name></name></author><summary type="html">Prep Time: 5 minutes</summary></entry><entry><title type="html">Talk to Your Uber Driver</title><link href="http://localhost:4000/talk-to-your-uber-driver/" rel="alternate" type="text/html" title="Talk to Your Uber Driver" /><published>2019-12-12T09:01:00-06:00</published><updated>2019-12-12T09:01:00-06:00</updated><id>http://localhost:4000/talk_to_your_uber_driver</id><content type="html" xml:base="http://localhost:4000/talk-to-your-uber-driver/">&lt;p&gt;Okay hello! It’s been a &lt;em&gt;really&lt;/em&gt; long time since I’ve updated this, so I think we can safely say it’s been a busy quarter. I finished my finals yesterday (woo! freedom!) and today as I was on my way to LAX to fly back to Chicago, I was inspired to write a blog post about this after having a wonderful conversation with my Lyft driver. I know the title of this post is ‘Talk to Your Uber Driver’, but ‘Talk to Your Ride Share Driver’ just didn’t have the same ring.&lt;/p&gt;
 
 &lt;p&gt;Somehow at school, I’m known to be relatively outgoing, and I tend to find it less difficult to strike up a conversation in the dining halls or elevator. (I really don’t mean for this to sound like a flex or anything, I promise this is relevant), and when some people ask my how I developed this skill, my honest answer is &lt;strong&gt;talk to your Uber driver&lt;/strong&gt;.&lt;/p&gt;
 
@@ -1074,7 +1074,7 @@ With roasting veggies, the rule of thumb is higher temperature for vegetables wi
 
 &lt;p&gt;Wishing you all the best and happy holidays!&lt;/p&gt;
 
-&lt;p&gt;-Al&lt;/p&gt;</content><author><name></name></author><summary type="html">Okay hello! It’s been a really long time since I’ve updated this, so I think we can safely say it’s been a busy quarter. I finished my finals yesterday (woo! freedom!) and today as I was on my way to LAX to fly back to Chicago, I was inspired to write a blog post about this after having a wonderful conversation with my Lyft driver. I know the title of this post is ‘Talk to Your Uber Driver’, but ‘Talk to Your Ride Share Driver’ just didn’t have the same ring.</summary></entry><entry><title type="html">Best of Both Worlds</title><link href="http://localhost:4000/food_for_thought/best_of_both_worlds/" rel="alternate" type="text/html" title="Best of Both Worlds" /><published>2019-10-10T10:01:00-05:00</published><updated>2019-10-10T10:01:00-05:00</updated><id>http://localhost:4000/food_for_thought/best_of_both_worlds</id><content type="html" xml:base="http://localhost:4000/food_for_thought/best_of_both_worlds/">&lt;p&gt;Something I realized this year and last year when coming to college, I feel like there’s such a divide between my UCLA life and home life. I’m not sure if it’s because the environment is just completely different or because I myself am a different person too.&lt;/p&gt;
+&lt;p&gt;-Al&lt;/p&gt;</content><author><name></name></author><summary type="html">Okay hello! It’s been a really long time since I’ve updated this, so I think we can safely say it’s been a busy quarter. I finished my finals yesterday (woo! freedom!) and today as I was on my way to LAX to fly back to Chicago, I was inspired to write a blog post about this after having a wonderful conversation with my Lyft driver. I know the title of this post is ‘Talk to Your Uber Driver’, but ‘Talk to Your Ride Share Driver’ just didn’t have the same ring.</summary></entry><entry><title type="html">Best of Both Worlds</title><link href="http://localhost:4000/best_of_both_worlds/" rel="alternate" type="text/html" title="Best of Both Worlds" /><published>2019-10-10T10:01:00-05:00</published><updated>2019-10-10T10:01:00-05:00</updated><id>http://localhost:4000/best_of_both_worlds</id><content type="html" xml:base="http://localhost:4000/best_of_both_worlds/">&lt;p&gt;Something I realized this year and last year when coming to college, I feel like there’s such a divide between my UCLA life and home life. I’m not sure if it’s because the environment is just completely different or because I myself am a different person too.&lt;/p&gt;
 
 &lt;p&gt;When I come to UCLA, I tend to lose contact with people from home, even my family, which I know is definitely not right. I want to keep in touch and all, but I tend to get so caught up in the moment with academics and living in the present that it tends to slip my mind.&lt;/p&gt;
 
@@ -1082,7 +1082,7 @@ With roasting veggies, the rule of thumb is higher temperature for vegetables wi
 
 &lt;p&gt;Can anyone else relate?&lt;/p&gt;
 
-&lt;p&gt;-Al&lt;/p&gt;</content><author><name></name></author><summary type="html">Something I realized this year and last year when coming to college, I feel like there’s such a divide between my UCLA life and home life. I’m not sure if it’s because the environment is just completely different or because I myself am a different person too.</summary></entry><entry><title type="html">Understanding People (well, trying to)</title><link href="http://localhost:4000/food_for_thought/understanding_people/" rel="alternate" type="text/html" title="Understanding People (well, trying to)" /><published>2019-09-12T06:00:40-05:00</published><updated>2019-09-12T06:00:40-05:00</updated><id>http://localhost:4000/food_for_thought/understanding_people</id><content type="html" xml:base="http://localhost:4000/food_for_thought/understanding_people/">&lt;p&gt;This topic has been something that really interested me this summer. I talked to my mom a lot about it and from her, realized that working effectively with people is probably one of the hardest things we have to learn to do. It’s not something you can only read from a textbook and understand immediately; it takes many experiences and practice to learn how to work with people without offending or hurting anyone.&lt;/p&gt;
+&lt;p&gt;-Al&lt;/p&gt;</content><author><name></name></author><summary type="html">Something I realized this year and last year when coming to college, I feel like there’s such a divide between my UCLA life and home life. I’m not sure if it’s because the environment is just completely different or because I myself am a different person too.</summary></entry><entry><title type="html">Understanding People (well, trying to)</title><link href="http://localhost:4000/understanding_people/" rel="alternate" type="text/html" title="Understanding People (well, trying to)" /><published>2019-09-12T06:00:40-05:00</published><updated>2019-09-12T06:00:40-05:00</updated><id>http://localhost:4000/understanding_people</id><content type="html" xml:base="http://localhost:4000/understanding_people/">&lt;p&gt;This topic has been something that really interested me this summer. I talked to my mom a lot about it and from her, realized that working effectively with people is probably one of the hardest things we have to learn to do. It’s not something you can only read from a textbook and understand immediately; it takes many experiences and practice to learn how to work with people without offending or hurting anyone.&lt;/p&gt;
 
 &lt;p&gt;For example, we’ve all been in a situation where a disagreement arises, but we &lt;em&gt;know&lt;/em&gt; we’re right. How can we lead the other person to reach our conclusion? From experience, you probably know that fighting and arguing usually leads to nowhere, but too often, we let our emotions get the best of us. We don’t always do what’s rational or expected, which is part of what makes us human! Going back to the question, however, how can we guide people to our point of view?&lt;/p&gt;
 
@@ -1108,7 +1108,7 @@ With roasting veggies, the rule of thumb is higher temperature for vegetables wi
 
 &lt;p&gt;Best wishes,&lt;/p&gt;
 
-&lt;p&gt;Al&lt;/p&gt;</content><author><name></name></author><summary type="html">This topic has been something that really interested me this summer. I talked to my mom a lot about it and from her, realized that working effectively with people is probably one of the hardest things we have to learn to do. It’s not something you can only read from a textbook and understand immediately; it takes many experiences and practice to learn how to work with people without offending or hurting anyone.</summary></entry><entry><title type="html">Banana Bread with Homemade Oat Flour</title><link href="http://localhost:4000/food_for_thought/banana_bread/" rel="alternate" type="text/html" title="Banana Bread with Homemade Oat Flour" /><published>2019-09-10T08:25:40-05:00</published><updated>2019-09-10T08:25:40-05:00</updated><id>http://localhost:4000/food_for_thought/banana_bread</id><content type="html" xml:base="http://localhost:4000/food_for_thought/banana_bread/">&lt;p&gt;Prep Time: 15 minutes&lt;/p&gt;
+&lt;p&gt;Al&lt;/p&gt;</content><author><name></name></author><summary type="html">This topic has been something that really interested me this summer. I talked to my mom a lot about it and from her, realized that working effectively with people is probably one of the hardest things we have to learn to do. It’s not something you can only read from a textbook and understand immediately; it takes many experiences and practice to learn how to work with people without offending or hurting anyone.</summary></entry><entry><title type="html">Banana Bread with Homemade Oat Flour</title><link href="http://localhost:4000/banana_bread/" rel="alternate" type="text/html" title="Banana Bread with Homemade Oat Flour" /><published>2019-09-10T08:25:40-05:00</published><updated>2019-09-10T08:25:40-05:00</updated><id>http://localhost:4000/banana_bread</id><content type="html" xml:base="http://localhost:4000/banana_bread/">&lt;p&gt;Prep Time: 15 minutes&lt;/p&gt;
 
 &lt;p&gt;Cook Time: 40 minutes - 55 minutes&lt;/p&gt;
 
@@ -1117,7 +1117,7 @@ With roasting veggies, the rule of thumb is higher temperature for vegetables wi
 &lt;div id=&quot;difficulty&quot;&gt;
     &lt;p class=&quot;difficulty_item&quot;&gt;Difficulty (out of 5):&lt;/p&gt;
       
-        &lt;img src=&quot;/food_for_thought/assets/images/avocado.png&quot; alt=&quot;avocado icon&quot; class=&quot;difficulty_item&quot; /&gt;
+        &lt;img src=&quot;/assets/images/avocado.png&quot; alt=&quot;avocado icon&quot; class=&quot;difficulty_item&quot; /&gt;
     
 &lt;/div&gt;
 
@@ -1171,9 +1171,9 @@ With roasting veggies, the rule of thumb is higher temperature for vegetables wi
 
 &lt;h4 id=&quot;so-why-oat-flour&quot;&gt;So Why Oat Flour?&lt;/h4&gt;
 
-&lt;p&gt;The reason I prefer to use oat flour boils down to how the grain is processed to make regular flour. The grain in all purpose flour is processed in a way that it loses most of its nutrients and fiber. Oats, on the other hand, are considered a whole grain which means it goes through less processing and holds onto most of its fiber and nutrients. This not only provides important nutrients to your body, but also can help keep you full for longer! Whole wheat flour has similar properties to making oat flour, but it tends to be a little more expensive. Using just a blender or food processor, you can ensure you’re giving your body the nutrients you need without spending too much!&lt;/p&gt;</content><author><name></name></author><summary type="html">Prep Time: 15 minutes</summary></entry><entry><title type="html">Eat to Beat Disease: a MUST READ</title><link href="http://localhost:4000/food_for_thought/eat-to-beat-disease/" rel="alternate" type="text/html" title="Eat to Beat Disease: a MUST READ" /><published>2019-09-05T08:25:40-05:00</published><updated>2019-09-05T08:25:40-05:00</updated><id>http://localhost:4000/food_for_thought/eat-to-beat-disease</id><content type="html" xml:base="http://localhost:4000/food_for_thought/eat-to-beat-disease/">&lt;p&gt;The other day I was at the library, looking for a quick read before I head off to school in a week, and I spotted a thick book with color foods on the front titled &lt;em&gt;Eat to Beat Disease&lt;/em&gt;. ‘This sounds interesting!’ I thought to myself, and as I was in a hurry to leave, I quickly checked it out. That night, I started reading after dinner and literally could not stop. This book is everything I’ve been looking for! And I’m not exaggerating.&lt;/p&gt;
+&lt;p&gt;The reason I prefer to use oat flour boils down to how the grain is processed to make regular flour. The grain in all purpose flour is processed in a way that it loses most of its nutrients and fiber. Oats, on the other hand, are considered a whole grain which means it goes through less processing and holds onto most of its fiber and nutrients. This not only provides important nutrients to your body, but also can help keep you full for longer! Whole wheat flour has similar properties to making oat flour, but it tends to be a little more expensive. Using just a blender or food processor, you can ensure you’re giving your body the nutrients you need without spending too much!&lt;/p&gt;</content><author><name></name></author><summary type="html">Prep Time: 15 minutes</summary></entry><entry><title type="html">Eat to Beat Disease: a MUST READ</title><link href="http://localhost:4000/eat-to-beat-disease/" rel="alternate" type="text/html" title="Eat to Beat Disease: a MUST READ" /><published>2019-09-05T08:25:40-05:00</published><updated>2019-09-05T08:25:40-05:00</updated><id>http://localhost:4000/eat-to-beat-disease</id><content type="html" xml:base="http://localhost:4000/eat-to-beat-disease/">&lt;p&gt;The other day I was at the library, looking for a quick read before I head off to school in a week, and I spotted a thick book with color foods on the front titled &lt;em&gt;Eat to Beat Disease&lt;/em&gt;. ‘This sounds interesting!’ I thought to myself, and as I was in a hurry to leave, I quickly checked it out. That night, I started reading after dinner and literally could not stop. This book is everything I’ve been looking for! And I’m not exaggerating.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/food_for_thought/assets/images/blog/food/eat_to_beat.jpg&quot; alt=&quot;Selfie with my favorite new book&quot; class=&quot;images third&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/blog/food/eat_to_beat.jpg&quot; alt=&quot;Selfie with my favorite new book&quot; class=&quot;images third&quot; /&gt;&lt;/p&gt;
 
 &lt;p class=&quot;caption&quot;&gt;Here it is! My favorite new read&lt;/p&gt;
 
@@ -1201,7 +1201,7 @@ With roasting veggies, the rule of thumb is higher temperature for vegetables wi
 
 &lt;p&gt;Enjoy!&lt;/p&gt;
 
-&lt;p&gt;-Al&lt;/p&gt;</content><author><name></name></author><summary type="html">The other day I was at the library, looking for a quick read before I head off to school in a week, and I spotted a thick book with color foods on the front titled Eat to Beat Disease. ‘This sounds interesting!’ I thought to myself, and as I was in a hurry to leave, I quickly checked it out. That night, I started reading after dinner and literally could not stop. This book is everything I’ve been looking for! And I’m not exaggerating.</summary></entry><entry><title type="html">Sure about sugar?</title><link href="http://localhost:4000/food_for_thought/food_in_food_for_thought/nutrition/2019/08/27/sugar.html" rel="alternate" type="text/html" title="Sure about sugar?" /><published>2019-08-27T00:00:00-05:00</published><updated>2019-08-27T00:00:00-05:00</updated><id>http://localhost:4000/food_for_thought/food_in_food_for_thought/nutrition/2019/08/27/sugar</id><content type="html" xml:base="http://localhost:4000/food_for_thought/food_in_food_for_thought/nutrition/2019/08/27/sugar.html">&lt;h5 id=&quot;all-sugar-is-bad-right&quot;&gt;All sugar is bad right?&lt;/h5&gt;
+&lt;p&gt;-Al&lt;/p&gt;</content><author><name></name></author><summary type="html">The other day I was at the library, looking for a quick read before I head off to school in a week, and I spotted a thick book with color foods on the front titled Eat to Beat Disease. ‘This sounds interesting!’ I thought to myself, and as I was in a hurry to leave, I quickly checked it out. That night, I started reading after dinner and literally could not stop. This book is everything I’ve been looking for! And I’m not exaggerating.</summary></entry><entry><title type="html">Sure about sugar?</title><link href="http://localhost:4000/food_in_food_for_thought/nutrition/2019/08/27/sugar.html" rel="alternate" type="text/html" title="Sure about sugar?" /><published>2019-08-27T00:00:00-05:00</published><updated>2019-08-27T00:00:00-05:00</updated><id>http://localhost:4000/food_in_food_for_thought/nutrition/2019/08/27/sugar</id><content type="html" xml:base="http://localhost:4000/food_in_food_for_thought/nutrition/2019/08/27/sugar.html">&lt;h5 id=&quot;all-sugar-is-bad-right&quot;&gt;All sugar is bad right?&lt;/h5&gt;
 
 &lt;p&gt;Okay that’s a tough question. Sugar by itself is not necessarily bad; it’s a good source of quick energy for our bodies. &lt;em&gt;HOWEVER&lt;/em&gt;, too much sugar, especially in its most processed form can be pretty detrimental to our bodies and lead to weight gain as well as medical issues.&lt;/p&gt;
 
@@ -1242,7 +1242,7 @@ With roasting veggies, the rule of thumb is higher temperature for vegetables wi
 
 &lt;h5 id=&quot;im-never-eating-sweets-again-right&quot;&gt;I’m never eating sweets again, right?&lt;/h5&gt;
 
-&lt;p&gt;I’d say enjoy in moderation! It’s very difficult to cut out something entirely from your diet because you’ll probably start to crave it even more, causing a binge eating session. It’s okay to enjoy that sweetness of a candy bar or ice cream once in a while, but be mindful of what’s happening inside your body after you eat it.&lt;/p&gt;</content><author><name></name></author><category term="nutrition" /><summary type="html">All sugar is bad right?</summary></entry><entry><title type="html">Week 9: Wrapping Things Up!</title><link href="http://localhost:4000/food_for_thought/FM-week-9/" rel="alternate" type="text/html" title="Week 9: Wrapping Things Up!" /><published>2019-08-26T20:31:00-05:00</published><updated>2019-08-26T20:31:00-05:00</updated><id>http://localhost:4000/food_for_thought/week-9</id><content type="html" xml:base="http://localhost:4000/food_for_thought/FM-week-9/">&lt;h3 id=&quot;monday-august-26-2019&quot;&gt;Monday August 26, 2019&lt;/h3&gt;
+&lt;p&gt;I’d say enjoy in moderation! It’s very difficult to cut out something entirely from your diet because you’ll probably start to crave it even more, causing a binge eating session. It’s okay to enjoy that sweetness of a candy bar or ice cream once in a while, but be mindful of what’s happening inside your body after you eat it.&lt;/p&gt;</content><author><name></name></author><category term="nutrition" /><summary type="html">All sugar is bad right?</summary></entry><entry><title type="html">Week 9: Wrapping Things Up!</title><link href="http://localhost:4000/FM-week-9/" rel="alternate" type="text/html" title="Week 9: Wrapping Things Up!" /><published>2019-08-26T20:31:00-05:00</published><updated>2019-08-26T20:31:00-05:00</updated><id>http://localhost:4000/week-9</id><content type="html" xml:base="http://localhost:4000/FM-week-9/">&lt;h3 id=&quot;monday-august-26-2019&quot;&gt;Monday August 26, 2019&lt;/h3&gt;
 
 &lt;p&gt;Happy Monday! This past weekend was so relaxing! It was kind of hard to get up for work today haha. And I faced a bit of a surprise when I arrived at the museum because my badge didn’t work anymore! I was supposed to end the internship last week, but we extended it for one week and we didn’t let Access Control know… oopsies&lt;/p&gt;
 
@@ -1266,10 +1266,10 @@ With roasting veggies, the rule of thumb is higher temperature for vegetables wi
 
 &lt;p&gt;First thing this morning, I checked on the training of the model on Lycopodium and Selaginella. For the most part, it was okay; there was still a bit of overfitting, but the trend of validation accuracy seemed to follow training accuracy, like in the graph below.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/food_for_thought/assets/images/blog/fm/val_accuracy_1.png&quot; alt=&quot;Slightly overfit accuracy&quot; class=&quot;images half&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/blog/fm/val_accuracy_1.png&quot; alt=&quot;Slightly overfit accuracy&quot; class=&quot;images half&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;However, on other folds, we got something disastrous like this:
-&lt;img src=&quot;/food_for_thought/assets/images/blog/fm/val_accuracy_8.png&quot; alt=&quot;Dropped accuracy&quot; class=&quot;images half&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/assets/images/blog/fm/val_accuracy_8.png&quot; alt=&quot;Dropped accuracy&quot; class=&quot;images half&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I’m not entirely sure why on most folds, the model seems to be training well, while on others, it’s completely unable to after a certain amount of time. I don’t think it’s overfitting because even the training accuracy decreased. Well, tomorrow, I’m meeting with Dr. Iacobelli, the computer science professor at Northeastern Illinois University, so hopefully he’ll be able to offer more insight.&lt;/p&gt;
 

@@ -3,8 +3,8 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Week 1: Microplants Data Cleansing</title>
-		<link rel="stylesheet" type="text/css" href="/food_for_thought/css/main.css">
-		<link rel="stylesheet" type="text/css" href="/food_for_thought/css/blog_posts.css">
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
+		<link rel="stylesheet" type="text/css" href="/css/blog_posts.css">
 		<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     	<script src="https://use.fontawesome.com/a8517c4d4c.js"></script>
@@ -16,31 +16,31 @@
     <ul id="Navigation_UL">
         <div id="links">
             <!-- <li class="hover_parent"><a class="hover_child" href="https://allisonchen23.github.io">Allison Chen</a></li>
-            <li class="hover_parent"><a class="hover_child" href="/food_for_thought/home.html">Allison Chen</a></li>
+            <li class="hover_parent"><a class="hover_child" href="/index.html">Allison Chen</a></li>
             <li class="hover_parent"><a class="hover_child" href="https://allisonchen23.github.io/education.html">Education</a></li>
             <li class="hover_parent"><a class="hover_child" href="https://allisonchen23.github.io/experience.html">Experience</a></li>
-            <li class="hover_parent"><a class="hover_child" href="/food_for_thought/experience.html">Experience</a></li>
+            <li class="hover_parent"><a class="hover_child" href="/experience.html">Experience</a></li>
             <li class="hover_parent"><a class="hover_child" href="https://allisonchen23.github.io/arts.html">Arts</a></li>
-            <li class="hover_parent active"><a class="hover_child active_child" href="/food_for_thought/index.html">Blog</a></li> -->
+            <li class="hover_parent active"><a class="hover_child active_child" href="/blog.html">Blog</a></li> -->
             
                 
-                    <li class="hover_parent"><a class="hover_child" href="/food_for_thought/home">Allison Chen</a></li>
-                
-            
-                
-                    <li class="hover_parent"><a class="hover_child" href="/food_for_thought/education">Education</a></li>
+                    <li class="hover_parent"><a class="hover_child" href="/">Allison Chen</a></li>
                 
             
                 
-                    <li class="hover_parent"><a class="hover_child" href="/food_for_thought/experience">Experience</a></li>
+                    <li class="hover_parent"><a class="hover_child" href="/education">Education</a></li>
                 
             
                 
-                    <li class="hover_parent"><a class="hover_child" href="/food_for_thought/arts">Arts</a></li>
+                    <li class="hover_parent"><a class="hover_child" href="/experience">Experience</a></li>
                 
             
                 
-                    <li class="hover_parent"><a class="hover_child" href="/food_for_thought/">Blog</a></li>
+                    <li class="hover_parent"><a class="hover_child" href="/arts">Arts</a></li>
+                
+            
+                
+                    <li class="hover_parent"><a class="hover_child" href="/blog">Blog</a></li>
                 
             
         </div>
@@ -89,7 +89,7 @@
 
 <p>First, our script wasn’t recognizing the name of our first column when we imported the data frame as a CSV. When we printed out, the first row of the CSV, we would get some garbage characters in front of the first column (shown below)</p>
 
-<p><img src="/food_for_thought/assets/images/blog/fm/EncodingError.png" alt="Encoding Error" class="images half" /></p>
+<p><img src="/assets/images/blog/fm/EncodingError.png" alt="Encoding Error" class="images half" /></p>
 
 <p>We tried renaming the first column using various functions from the pandas package, but nothing work. After some research, we found the error was most likely caused by an encoding issue. The CSV we were reading in was encoded as UTF-8, but we had to make that clear to the compiler (because as we all learned in any intro CS class, computers are stupid and will only do exactly what you tell it to :D ). In order to clarify to the compiler that the CSV’s are UTF-8, we added a little segment to the line that opens the file.</p>
 
@@ -110,13 +110,13 @@
 
 <p>After I left yesterday, Jose continued working on our script and added a feature that exports our resultant data frame as a CSV file. From our first attempt, our output data can be found <a href="https://drive.google.com/file/d/16teWUY5v29x06UAZQ8bME6A7WJJQIhiD/view?usp=sharing" target="blank" class="standOut">here</a>. After a quick glance, we can see this output has over 200 lines of data and most of the entries are labeled as bad, which reasonably doesn’t sounds right. After looking into it more, I realized the root of this issue was due to Jose and I not understanding how the function cleaned the data, specifically this line down here:</p>
 
-<p><img src="/food_for_thought/assets/images/blog/fm/comboLine.png" alt="Combo Line" class="images full" /></p>
+<p><img src="/assets/images/blog/fm/comboLine.png" alt="Combo Line" class="images full" /></p>
 
 <p>In short, <span class="standOut">listed_vals</span> contains lists of the segments drawn. Then the code above creates any and all combinations of two segments from each data entry in the measurement data (which very well could contain more than 2 segments since there could be multiple lobes in one picture for the user to measure) to then perform the calculations on. Thus, our current code appends every combination of 2 segments from each picture onto our exported CSV, causing the CSV to be hundreds of lines long. To fix it, we moved the if statements around to only append data if the combination of 2 segments intersected.</p>
 
 <p>Additionally, we found that while the age data had completely unique timestamps, the measurement data sometimes had two entries with the same timestamp (down to the minute). Although they varied by the second, since the age data’s timestamps only included up to the nearest minute, we had to truncate the timestamps in measurement data. Thus sometimes we had one entry in age data potentially correspond with multiple entries in measurement data (based on the time stamps) as seen below:</p>
 
-<p><img src="/food_for_thought/assets/images/blog/fm/twoForOne.PNG" alt="Image showing two entries in measurement data corresponding with one enry in age data" class="images three_fourths" /></p>
+<p><img src="/assets/images/blog/fm/twoForOne.PNG" alt="Image showing two entries in measurement data corresponding with one enry in age data" class="images three_fourths" /></p>
 
 <p>We can assume that since the timestamps are very close together, that this data is probably from the same user and thus can use the age demographic entry for both the highlighted measurement entries. To reflect this in our code, we simply did not increment the row counter for the age data whenever we ran into two rows in measurement data that corresponded with the current row in age data.</p>
 
